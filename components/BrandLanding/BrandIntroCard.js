@@ -6,7 +6,7 @@ export default function BrandIntroCard({ paragraphs = [], extra = [] }) {
   const [open, setOpen] = useState(false);
 
   return (
-    <section className="relative z-10 mx-auto -mt-16 w-full max-w-3xl px-5 md:-mt-24 md:max-w-6xl md:px-8 lg:-mt-10  lg:px-10">
+    <section className="relative z-10 mx-auto -mt-16 w-full max-w-3xl px-5 md:-mt-24 md:max-w-6xl md:px-8 lg:-mt-20 lg:px-10">
       <div className="rounded-2xl bg-white px-6 py-8 shadow-[0_12px_40px_rgba(7,71,96,0.1)] md:px-12 md:py-10 lg:px-16 lg:py-12">
         <div className="space-y-4 text-center text-[14px] leading-[1.75] text-navy/80 md:text-[16px] lg:text-[17px]">
           {paragraphs.map((text) => (

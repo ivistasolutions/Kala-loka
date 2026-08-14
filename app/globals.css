@@ -11,7 +11,7 @@
   --color-peach: #f6e1df;
   --color-coral: #ee5a3c;
   --color-navy: #074760;
-  --font-sans: var(--font-source-sans);
+  --font-sans: var(--font-merriweather);
   --font-serif: var(--font-merriweather);
 }
 

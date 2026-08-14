@@ -1,26 +1,35 @@
 import Image from "next/image";
 import Link from "next/link";
+import Breadcrumb from "@/components/Breadcrumb";
+import JsonLd from "@/components/JsonLd";
+import { breadcrumbJsonLd } from "@/utils/seo";
 
 const desktopCornerImages = [
   {
-    src: "/images/corner-top-right.svg",
+    src: "/images/our-story-top.png",
     width: 653,
     height: 489,
     className:
-      "pointer-events-none absolute top-0 right-0 z-0 hidden h-auto w-[38vw] max-w-3xl select-none md:block",
+      "pointer-events-none absolute top-0 right-0 z-0 hidden h-auto w-[28vw] max-w-xl select-none md:block",
   },
   {
-    src: "/images/corner-bottom-left.svg",
+    src: "/images/our-story-bottom.svg",
     width: 654,
     height: 243,
     className:
-      "pointer-events-none absolute bottom-0 left-0 z-0 hidden h-auto w-[36vw] max-w-2xl select-none md:block",
+      "pointer-events-none absolute bottom-0 left-0 z-0 hidden h-auto w-[28vw] max-w-xl select-none md:block",
   },
 ];
 
 export default function OurStoryContent() {
   return (
-    <main className="relative min-h-screen overflow-x-hidden bg-peach font-serif md:h-screen md:overflow-hidden">
+    <main id="main-content" className="relative min-h-screen overflow-x-hidden bg-peach font-serif md:h-screen md:overflow-hidden">
+      <JsonLd
+        data={breadcrumbJsonLd([
+          { name: "Home", href: "/" },
+          { name: "Our Story", href: "/our-story" },
+        ])}
+      />
       {desktopCornerImages.map((image) => (
         <Image
           key={image.src}
@@ -35,7 +44,7 @@ export default function OurStoryContent() {
       ))}
 
       <Image
-        src="/images/mobile-bottom.svg"
+        src="/images/our-story-bottom.svg"
         alt=""
         aria-hidden={true}
         width={654}
@@ -45,19 +54,16 @@ export default function OurStoryContent() {
       />
 
       <div className="relative z-10 mx-auto flex min-h-screen w-full max-w-7xl flex-col px-5 md:h-full md:min-h-0 md:max-w-full md:px-8 lg:px-10">
-        <nav
-          aria-label="Breadcrumb"
-          className="shrink-0 pt-6 pb-2 text-[13px] text-navy/60 md:pt-8 md:pb-4 md:text-[14px]"
-        >
-          <Link href="/" className="transition-colors hover:text-navy">
-            Home
-          </Link>
-          <span>/</span>
-          <span className="text-navy">Our Story</span>
-        </nav>
+        <Breadcrumb
+          className="shrink-0 pt-6 pb-2 md:pt-8 md:pb-4"
+          items={[
+            { name: "Home", href: "/" },
+            { name: "Our Story", href: "/our-story" },
+          ]}
+        />
 
         <section className="mx-auto flex max-w-3xl flex-col items-center pb-16 pt-4 text-center md:max-w-4xl md:flex-1 md:justify-center md:pb-8 md:pt-0 lg:max-w-5xl">
-          <div className="mb-3 flex flex-col items-center gap-2 md:mb-4">
+          <div className="mb-3 flex flex-col items-center ">
             <Image
               src="/images/story-crown.svg"
               alt=""

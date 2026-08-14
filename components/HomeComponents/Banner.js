@@ -14,19 +14,19 @@ export default function Banner() {
       width: 653,
       height: 489,
       className:
-        "pointer-events-none absolute top-0 right-0 z-0 hidden h-auto w-[38vw] max-w-3xl select-none md:block",
+       "pointer-events-none absolute top-0 right-0 z-0 hidden h-auto w-[28vw] max-w-xl select-none md:block",
     },
     {
       src: "/images/corner-bottom-left.svg",
       width: 654,
       height: 243,
       className:
-        "pointer-events-none absolute bottom-0 left-0 z-0 hidden h-auto w-[36vw] max-w-2xl select-none md:block",
+        "pointer-events-none absolute bottom-0 left-0 z-0 hidden h-auto w-[32vw] max-w-2xl select-none md:block",
     },
   ];
 
   return (
-    <main className="relative md:min-h-screen min-h-[600px] md:overflow-hidden bg-peach font-serif">
+    <main id="main-content" className="relative min-h-[600px] bg-peach font-serif md:min-h-screen md:overflow-hidden">
       {desktopCornerImages.map((image) => (
         <Image
           key={image.src}
@@ -56,6 +56,8 @@ export default function Banner() {
         width={578}
         height={413}
         preload
+        sizes="(min-width: 768px) 320px, 240px"
+        quality={75}
         className="pointer-events-none absolute top-0 left-1/2 z-10 h-auto w-60 -translate-x-1/2 md:w-80 lg:w-80"
       />
 

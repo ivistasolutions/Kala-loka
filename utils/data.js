@@ -145,44 +145,88 @@ export const brandPages = {
   "karnataka-handicrafts": {
     slug: "karnataka-handicrafts",
     title: "Karnataka Handicrafts",
-    tagline: "GI heritage crafts, from Bidriware to Channapatna toys",
-    heroImage: "/images/brands/karnataka-handicrafts-hero.png",
+    tagline: "500 years of silver inlay, kept alive under the Cauvery name.",
+    heroImage: "/brands/karnataka-handicrafts.jpeg",
+    heroVariant: "centered",
     intro: {
       paragraphs: [
-        "Karnataka's craft traditions are among the oldest living practices in India. From the inlaid metalwork of Bidriware to the lacquered Channapatna toys, each object is made by hand and protected by a Geographical Indication.",
-        "Kala Loka brings these workshops into one catalog — rosewood inlay from Mysuru, bronze from Nagamangala, and painted wood from Channapatna — each with its maker and place of origin.",
+        "Karnataka's handicraft traditions are among the oldest living practices in India. From the silver-inlaid metalwork of Bidar to the lacquered toys of Channapatna, each object is made by hand in its place of origin.",
+        "These crafts are preserved and promoted by the Karnataka State Handicrafts Development Corporation Ltd (KSHDCL). Under the brand name Cauvery, the corporation brings GI-tagged artisan work from across the state into one catalog.",
+        "Kala Loka presents that catalog — Bidriware, Channapatna toys, rosewood inlay, Kasuti embroidery, Mysore paintings, and more — each with its maker, its town, and its Geographical Indication.",
       ],
       extra: [
-        "Every piece in this collection is sourced from GI-tagged artisan clusters across the state, keeping the craft and the community together.",
+        "Every piece is sourced from artisan clusters that still practise the original techniques. Buying here keeps the craft and the community together.",
       ],
     },
     productSections: [
       {
-        id: "heritage-crafts",
-        title: "Heritage Crafts",
-        subtitle: "GI-tagged artisan collections",
+        id: "categories",
+        title: "Categories",
+        subtitle: "GI-tagged artisan collections from across Karnataka",
+        layout: "categories",
         products: [
           {
-            id: "channapatna-set",
-            name: "Channapatna Toy Set",
+            id: "bidriware",
+            name: "Bidriware",
             description:
-              "Hand-turned lacquerware toys from Channapatna, GI-tagged.",
-            price: "2,400",
-            images: ["/images/brands/products/handicrafts-1.png"],
+              "Silver inlay on zinc alloy from Bidar — a 500-year craft of Persian origin, still made by hand.",
+            image: "/brands/karnataka-handicrafts.jpeg",
           },
           {
-            id: "bidri-bowl",
-            name: "Bidriware Bowl",
-            description: "Silver-inlaid zinc alloy bowl from Bidar.",
-            price: "4,800",
-            images: ["/images/brands/products/handicrafts-2.png"],
+            id: "channapatna-toys",
+            name: "Channapatna Toys & Dolls",
+            description:
+              "Lacquered wooden toys turned on a lathe in Channapatna, GI-tagged and painted in vegetable dyes.",
+            image: "/brands/karnataka-handicrafts.jpeg",
           },
           {
             id: "rosewood-inlay",
-            name: "Rosewood Inlay Box",
-            description: "Mysuru rosewood inlay jewellery box.",
-            price: "3,200",
-            images: ["/images/brands/products/handicrafts-3.png"],
+            name: "Mysore Rosewood Inlay",
+            description:
+              "Intricate inlay on rosewood from Mysuru — furniture, boxes, and panels worked by master craftsmen.",
+            image: "/brands/karnataka-handicrafts.jpeg",
+          },
+          {
+            id: "kasuti-embroidery",
+            name: "Kasuti Embroidery",
+            description:
+              "Geometric hand embroidery from North Karnataka, traditionally stitched on Ilkal sarees without knots.",
+            image: "/brands/karnataka-handicrafts.jpeg",
+          },
+          {
+            id: "mysore-paintings",
+            name: "Mysore Traditional Paintings",
+            description:
+              "Gesso and gold-leaf paintings of the Mysore school — deities, court scenes, and temple motifs.",
+            image: "/brands/karnataka-handicrafts.jpeg",
+          },
+          {
+            id: "kinhal-craft",
+            name: "Kinhal Craft",
+            description:
+              "Painted wooden toys and temple craft from Kinhal, Koppal — lightweight, brightly coloured, GI-tagged.",
+            image: "/brands/karnataka-handicrafts.jpeg",
+          },
+          {
+            id: "bronze-icons",
+            name: "Bronze Icons",
+            description:
+              "Lost-wax bronze from Nagamangala and surrounding towns — temple icons cast in the traditional method.",
+            image: "/brands/karnataka-handicrafts.jpeg",
+          },
+          {
+            id: "sandalwood-carving",
+            name: "Sandalwood Carving",
+            description:
+              "Hand-carved sandalwood from Karnataka's craft clusters — figurines, boxes, and temple work.",
+            image: "/brands/karnataka-handicrafts.jpeg",
+          },
+          {
+            id: "lambani-embroidery",
+            name: "Lambani Embroidery",
+            description:
+              "Mirror-work, coins, and dense stitch of the Lambani community — a living textile tradition of the Deccan.",
+            image: "/brands/karnataka-handicrafts.jpeg",
           },
         ],
       },
@@ -192,7 +236,7 @@ export const brandPages = {
     slug: "mysore-silk",
     title: "Mysore Silk",
     tagline: "KSIC heritage weaves. 100% pure silk, GI-11.",
-    heroImage: "/images/brands/mysore-silk-hero.png",
+    heroImage: "/brands/mysore-silk.jpeg",
     intro: {
       paragraphs: [
         "Mysore Silk is woven by the Karnataka Silk Industries Corporation, founded in 1912. Pure mulberry silk, real zari, and a drape that has dressed Karnataka for over a century.",
@@ -237,7 +281,7 @@ export const brandPages = {
     slug: "mysore-sandal-products",
     title: "Mysore Sandal Products",
     tagline: "Mysore Sandal Soap & Oil, GI No. 30 & GI No. 29.",
-    heroImage: "/images/brands/mysore-sandal-products-hero.png",
+    heroImage: "/brands/mysore-sandal-product.jpeg",
     intro: {
       paragraphs: [
         "Mysore Sandal is one of India's most recognised GI products. The soap and the oil are made from sandalwood grown and distilled in Karnataka — a fragrance the state has protected for generations.",
@@ -282,7 +326,7 @@ export const brandPages = {
     slug: "karnataka-handlooms",
     title: "Karnataka Handlooms",
     tagline: "Ilkal, Molakalmuru, Udupi & Melkote weaves, several GI-tagged.",
-    heroImage: "/images/brands/karnataka-handlooms-hero.png",
+    heroImage: "/brands/karnataka-handlooms.jpeg",
     intro: {
       paragraphs: [
         "Across Karnataka, handloom clusters still weave on pit looms and frame looms — Ilkal's tope teni joining, Molakalmuru's fine silk, Udupi's temple cottons, Melkote's bordered weaves.",
@@ -327,7 +371,7 @@ export const brandPages = {
     slug: "karnataka-leathers",
     title: "Karnataka Leathers",
     tagline: "Kolhapuri GI chappals & handcrafted leather bags.",
-    heroImage: "/images/brands/karnataka-leathers-hero.png",
+    heroImage: "/brands/karnataka-leathers.jpeg",
     intro: {
       paragraphs: [
         "Leather craft in Karnataka is still a hand process — vegetable tanning, hand-stitching, and the open-toe Kolhapuri chappal that carries a GI.",

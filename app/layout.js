@@ -1,31 +1,90 @@
-import { Merriweather, Source_Sans_3 } from "next/font/google";
+import { Merriweather } from "next/font/google";
+import SkipLink from "@/components/SkipLink";
+import JsonLd from "@/components/JsonLd";
+import { organizationJsonLd } from "@/utils/seo";
+import { SITE_DESCRIPTION, SITE_NAME, SITE_TAGLINE, getSiteUrl } from "@/utils/site";
 import "./globals.css";
 
 const merriweather = Merriweather({
   subsets: ["latin"],
   variable: "--font-merriweather",
   display: "swap",
-});
-
-const sourceSans = Source_Sans_3({
-  subsets: ["latin"],
-  variable: "--font-source-sans",
-  display: "swap",
+  preload: true,
 });
 
 export const metadata = {
-  title: "Kala Loka | Treasures of Karnataka",
-  description:
-    "A living catalog of Karnataka’s finest GI-tagged treasures. Six legacy government brands of coffee, handicrafts, silk, sandal, handlooms and leather.",
+  metadataBase: new URL(getSiteUrl()),
+  title: {
+    default: `${SITE_NAME} | ${SITE_TAGLINE}`,
+    template: `%s | ${SITE_NAME}`,
+  },
+  description: SITE_DESCRIPTION,
+  applicationName: SITE_NAME,
+  keywords: [
+    "Kala Loka",
+    "Karnataka",
+    "GI tagged",
+    "Mysore Silk",
+    "Mysore Sandal",
+    "Channapatna toys",
+    "Bidriware",
+    "Karnataka coffee",
+    "handlooms",
+    "handicrafts",
+  ],
+  authors: [{ name: SITE_NAME }],
+  creator: SITE_NAME,
+  publisher: SITE_NAME,
+  category: "shopping",
+  alternates: {
+    canonical: "/",
+  },
+  openGraph: {
+    type: "website",
+    locale: "en_IN",
+    siteName: SITE_NAME,
+    title: `${SITE_NAME} | ${SITE_TAGLINE}`,
+    description: SITE_DESCRIPTION,
+    url: "/",
+  },
+  twitter: {
+    card: "summary_large_image",
+    title: `${SITE_NAME} | ${SITE_TAGLINE}`,
+    description: SITE_DESCRIPTION,
+  },
+  robots: {
+    index: true,
+    follow: true,
+    googleBot: {
+      index: true,
+      follow: true,
+      "max-image-preview": "large",
+      "max-snippet": -1,
+      "max-video-preview": -1,
+    },
+  },
+  formatDetection: {
+    email: false,
+    address: false,
+    telephone: false,
+  },
+};
+
+export const viewport = {
+  themeColor: "#f6e1df",
+  width: "device-width",
+  initialScale: 1,
 };
 
 export default function RootLayout({ children }) {
   return (
     <html
-      lang="en"
-      className={`${merriweather.variable} ${sourceSans.variable} h-full antialiased`}
+      lang="en-IN"
+      className={`${merriweather.variable} h-full antialiased`}
     >
-      <body className="min-h-full bg-peach font-serif text-navy">
+      <body className={`${merriweather.className} min-h-full bg-peach font-serif text-navy`}>
+        <JsonLd data={organizationJsonLd()} />
+        <SkipLink />
         {children}
       </body>
     </html>
