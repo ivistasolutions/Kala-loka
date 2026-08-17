@@ -43,16 +43,17 @@ export default function BrandsContent() {
             >
               <Link
                 href={`/our-brands/${brand.slug}`}
-                className="relative aspect-[4/3] w-full bg-navy/5"
+                className="block w-full overflow-hidden bg-[#f3eee8]"
               >
                 <Image
                   src={brand.image}
                   alt={brand.title}
-                  fill
+                  width={800}
+                  height={500}
                   sizes="(min-width: 1024px) 33vw, (min-width: 768px) 50vw, 100vw"
                   quality={75}
                   preload={index === 0}
-                  className="object-cover"
+                  className="h-auto w-full"
                 />
               </Link>
               <div className="flex flex-1 flex-col items-center px-6 pt-6 pb-8 text-center md:px-8 md:pt-7 md:pb-9">

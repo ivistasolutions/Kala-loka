@@ -21,7 +21,7 @@ export default function MobileNav({ navItems, activePage }) {
         aria-expanded={open}
         aria-controls="mobile-nav"
         onClick={() => setOpen((value) => !value)}
-        className="flex h-10 w-10 items-center justify-center justify-self-start text-navy md:hidden"
+        className="flex h-10 w-10 items-center justify-center justify-self-end text-navy md:hidden"
       >
         {open ? (
           <span className="relative block h-4 w-5">

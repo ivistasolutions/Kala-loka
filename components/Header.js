@@ -13,7 +13,7 @@ export default function Header({ activePage = "home" }) {
   return (
     <header className="relative sticky top-0 z-30 w-full bg-white">
       <div className="mx-auto grid w-full max-w-7xl grid-cols-3 items-center px-5 py-4 md:flex md:justify-between md:px-8 md:py-5 lg:px-10">
-        <MobileNav navItems={navItems} activePage={activePage} />
+        <span className="md:hidden" aria-hidden="true" />
 
         <Link
           href="/"
@@ -29,7 +29,7 @@ export default function Header({ activePage = "home" }) {
           />
         </Link>
 
-        <span className="md:hidden" aria-hidden="true" />
+        <MobileNav navItems={navItems} activePage={activePage} />
 
         <nav aria-label="Primary" className="hidden items-center gap-3 md:flex">
           {navItems.map((item) => (

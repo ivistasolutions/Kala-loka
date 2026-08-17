@@ -4,39 +4,39 @@ export const brands = [
     title: "Coffees of Karnataka",
     description:
       "GI-tagged single-estate Arabica & Robusta from the Western Ghats.",
-    image: "/brands/coffees-of-karnataka.jpeg",
+    image: "/brands/coffees-of-karnataka.png",
   },
   {
     slug: "karnataka-handicrafts",
     title: "Karnataka Handicrafts",
     description:
       "Bidriware, Channapatna toys, rosewood inlay — GI heritage crafts.",
-    image: "/brands/karnataka-handicrafts.jpeg",
+    image: "/brands/karnataka-handicrafts.png",
   },
   {
     slug: "mysore-silk",
     title: "Mysore Silk",
     description: "KSIC heritage weaves. 100% pure silk, GI-11.",
-    image: "/brands/mysore-silk.jpeg",
+    image: "/brands/mysore-silk.png",
   },
   {
     slug: "mysore-sandal-products",
     title: "Mysore Sandal Products",
     description: "Mysore Sandal Soap & Oil, GI No. 30 & GI No. 29.",
-    image: "/brands/mysore-sandal-product.jpeg",
+    image: "/brands/mysore-sandal-products.png",
   },
   {
     slug: "karnataka-handlooms",
     title: "Karnataka Handlooms",
     description:
       "Ilkal, Molakalmuru, Udupi & Melkote weaves, several GI-tagged.",
-    image: "/brands/karnataka-handlooms.jpeg",
+    image: "/brands/karnataka-handlooms.png",
   },
   {
     slug: "karnataka-leathers",
     title: "Karnataka Leathers",
     description: "Kolhapuri GI chappals & handcrafted leather bags.",
-    image: "/brands/karnataka-leathers.jpeg",
+    image: "/brands/karnataka-leathers.png",
   },
 ];
 
@@ -63,7 +63,7 @@ export const brandPages = {
         products: [
           {
             id: "classic-mountain-purple",
-            name: "Classic Mountain",
+            name: "Classic Afterhours",
             description:
               "100% Pure Arabica Gourmet Coffee, Quantity: 200g. Grown in the high ranges of Chikkamagaluru.",
             price: "1,100",
@@ -74,7 +74,7 @@ export const brandPages = {
           },
           {
             id: "classic-mountain-gold",
-            name: "Classic Mountain",
+            name: "Classic Blaze",
             description:
               "100% Pure Arabica Gourmet Coffee, Quantity: 200g. A brighter roast with citrus notes.",
             price: "1,100",
@@ -85,7 +85,7 @@ export const brandPages = {
           },
           {
             id: "classic-mountain-red",
-            name: "Classic Mountain",
+            name: "Classic Matinee",
             description:
               "100% Pure Arabica Gourmet Coffee, Quantity: 200g. Full-bodied estate blend.",
             price: "1,100",
@@ -146,16 +146,15 @@ export const brandPages = {
     slug: "karnataka-handicrafts",
     title: "Karnataka Handicrafts",
     tagline: "500 years of silver inlay, kept alive under the Cauvery name.",
-    heroImage: "/brands/karnataka-handicrafts.jpeg",
+    heroImage: "/brands/karnataka-handicrafts/Banner.png",
     heroVariant: "centered",
     intro: {
       paragraphs: [
-        "Karnataka's handicraft traditions are among the oldest living practices in India. From the silver-inlaid metalwork of Bidar to the lacquered toys of Channapatna, each object is made by hand in its place of origin.",
-        "These crafts are preserved and promoted by the Karnataka State Handicrafts Development Corporation Ltd (KSHDCL). Under the brand name Cauvery, the corporation brings GI-tagged artisan work from across the state into one catalog.",
-        "Kala Loka presents that catalog — Bidriware, Channapatna toys, rosewood inlay, Kasuti embroidery, Mysore paintings, and more — each with its maker, its town, and its Geographical Indication.",
+        "Karnataka is known for its handicraft industry and its unique, traditional masterpieces made from a variety of materials using intricate motifs and time-tested as well as modern techniques. The sandalwood and rosewood grown in abundance in Karnataka have led to a legacy of exquisite sandalwood carvings and intricate rosewood inlay work, kept alive by passing skills from generation to generation.",
+        "To preserve, develop and promote this craftsmanship, the Government of Karnataka established the Karnataka State Handicrafts Development Corporation Ltd (KSHDCL) in 1964. KSHDCL markets the beautiful GI-tagged handicrafts of Karnataka — Channapatna Toys & Dolls, Bidriware, Mysore Rosewood Inlay, Kasuti Embroidery, Sandalwood and more — under the brand name 'Cauvery', through 12 Craft Complexes and showrooms across the country.",
       ],
       extra: [
-        "Every piece is sourced from artisan clusters that still practise the original techniques. Buying here keeps the craft and the community together.",
+        "Brought from Iran in the 13th century, Bidriware is a 500-year-old Bidar craft featuring pure silver inlay on a black zinc-copper alloy. It carries Karnataka GI-20, registered since 2005.",
       ],
     },
     productSections: [
@@ -166,67 +165,69 @@ export const brandPages = {
         layout: "categories",
         products: [
           {
+            id: "karnataka-bronzeware",
+            name: "Karnataka Bronzeware",
+            description:
+              "Brought from Iran in the 13th century, Bidriware is a 500-year-old Bidar craft featuring pure silver inlay on black zinc-copper alloy. Karnataka GI-20 since 2005.",
+            image: "/brands/karnataka-handicrafts/craft-4.png",
+            href: "/our-brands/karnataka-handicrafts/karnataka-bronzeware",
+          },
+          {
             id: "bidriware",
             name: "Bidriware",
             description:
-              "Silver inlay on zinc alloy from Bidar — a 500-year craft of Persian origin, still made by hand.",
-            image: "/brands/karnataka-handicrafts.jpeg",
+              "Brought from Iran in the 13th century, Bidriware is a 500-year-old Bidar craft featuring pure silver inlay on black zinc-copper alloy. Karnataka GI-20 since 2005.",
+            image: "/brands/karnataka-handicrafts/craft-1.png",
           },
           {
             id: "channapatna-toys",
             name: "Channapatna Toys & Dolls",
             description:
-              "Lacquered wooden toys turned on a lathe in Channapatna, GI-tagged and painted in vegetable dyes.",
-            image: "/brands/karnataka-handicrafts.jpeg",
+              "Brought from Iran in the 13th century, Bidriware is a 500-year-old Bidar craft featuring pure silver inlay on black zinc-copper alloy. Karnataka GI-20 since 2005.",
+            image: "/brands/karnataka-handicrafts/craft-2.png",
           },
           {
-            id: "rosewood-inlay",
+            id: "designer-products",
+            name: "Designer Products",
+            description:
+              "Brought from Iran in the 13th century, Bidriware is a 500-year-old Bidar craft featuring pure silver inlay on black zinc-copper alloy. Karnataka GI-20 since 2005.",
+            image: "/brands/karnataka-handicrafts/craft-3.png",
+          },
+        
+          {
+            id: "kasuthi-embroidery",
+            name: "Kasuthi Embroidery",
+            description:
+              "Brought from Iran in the 13th century, Bidriware is a 500-year-old Bidar craft featuring pure silver inlay on black zinc-copper alloy. Karnataka GI-20 since 2005.",
+            image: "/brands/karnataka-handicrafts/craft-5.png",
+          },
+          {
+            id: "mysore-rosewood-inlay",
             name: "Mysore Rosewood Inlay",
             description:
-              "Intricate inlay on rosewood from Mysuru — furniture, boxes, and panels worked by master craftsmen.",
-            image: "/brands/karnataka-handicrafts.jpeg",
+              "Brought from Iran in the 13th century, Bidriware is a 500-year-old Bidar craft featuring pure silver inlay on black zinc-copper alloy. Karnataka GI-20 since 2005.",
+            image: "/brands/karnataka-handicrafts/craft-6.png",
           },
           {
-            id: "kasuti-embroidery",
-            name: "Kasuti Embroidery",
+            id: "mysore-traditional-paintings",
+            name: "Mysore Traditional Paintings & Ganjifa Cards of Mysore",
             description:
-              "Geometric hand embroidery from North Karnataka, traditionally stitched on Ilkal sarees without knots.",
-            image: "/brands/karnataka-handicrafts.jpeg",
+              "Brought from Iran in the 13th century, Bidriware is a 500-year-old Bidar craft featuring pure silver inlay on black zinc-copper alloy. Karnataka GI-20 since 2005.",
+            image: "/brands/karnataka-handicrafts/craft-7.png",
           },
           {
-            id: "mysore-paintings",
-            name: "Mysore Traditional Paintings",
+            id: "navalgund-dhurries",
+            name: "Navalgund Dhurries",
             description:
-              "Gesso and gold-leaf paintings of the Mysore school — deities, court scenes, and temple motifs.",
-            image: "/brands/karnataka-handicrafts.jpeg",
+              "Brought from Iran in the 13th century, Bidriware is a 500-year-old Bidar craft featuring pure silver inlay on black zinc-copper alloy. Karnataka GI-20 since 2005.",
+            image: "/brands/karnataka-handicrafts/craft-8.png",
           },
           {
-            id: "kinhal-craft",
-            name: "Kinhal Craft",
+            id: "sandalwood-carvings",
+            name: "Sandalwood Carvings",
             description:
-              "Painted wooden toys and temple craft from Kinhal, Koppal — lightweight, brightly coloured, GI-tagged.",
-            image: "/brands/karnataka-handicrafts.jpeg",
-          },
-          {
-            id: "bronze-icons",
-            name: "Bronze Icons",
-            description:
-              "Lost-wax bronze from Nagamangala and surrounding towns — temple icons cast in the traditional method.",
-            image: "/brands/karnataka-handicrafts.jpeg",
-          },
-          {
-            id: "sandalwood-carving",
-            name: "Sandalwood Carving",
-            description:
-              "Hand-carved sandalwood from Karnataka's craft clusters — figurines, boxes, and temple work.",
-            image: "/brands/karnataka-handicrafts.jpeg",
-          },
-          {
-            id: "lambani-embroidery",
-            name: "Lambani Embroidery",
-            description:
-              "Mirror-work, coins, and dense stitch of the Lambani community — a living textile tradition of the Deccan.",
-            image: "/brands/karnataka-handicrafts.jpeg",
+              "Brought from Iran in the 13th century, Bidriware is a 500-year-old Bidar craft featuring pure silver inlay on black zinc-copper alloy. Karnataka GI-20 since 2005.",
+            image: "/brands/karnataka-handicrafts/craft-9.png",
           },
         ],
       },
@@ -414,10 +415,139 @@ export const brandPages = {
   },
 };
 
+export const craftCategoryPages = {
+  "karnataka-bronzeware": {
+    slug: "karnataka-bronzeware",
+    parentSlug: "karnataka-handicrafts",
+    parentTitle: "Karnataka Handicrafts",
+    title: "Karnataka Bronzeware",
+    tagline:
+      "Karnataka Bronzeware is a traditional metal craft using the ancient 'lost wax' (cire perdue) casting technique. Protected by a Geographical Indication (GI) tag,",
+    heroImage: "/brands/karnataka-handicrafts/bronzeware/banner.png",
+    products: [
+      {
+        id: "br-dancing-ganapathy",
+        name: "BrDancingGanapathy",
+        description:
+          "Handcrafted brass idol features Lord Ganesha in a dynamic dancing pose (Nritya Ganesha), symbolizing joy, grace, and auspicious beginnings.",
+        price: "1,100",
+        images: [
+          "/brands/karnataka-handicrafts/bronzeware/bronzeware-1.png",
+          "/brands/karnataka-handicrafts/bronzeware/bronzeware-1.png",
+        ],
+      },
+      {
+        id: "br-darpanasundari",
+        name: "BrDarpanasundari",
+        description:
+          "Handcrafted brass idol features Lord Ganesha in a dynamic dancing pose (Nritya Ganesha), symbolizing joy, grace, and auspicious beginnings.",
+        price: "1,100",
+        images: [
+          "/brands/karnataka-handicrafts/bronzeware/bronzeware-2.png",
+          "/brands/karnataka-handicrafts/bronzeware/bronzeware-2.png",
+        ],
+      },
+      {
+        id: "br-hamsa",
+        name: "BrHamsa",
+        description:
+          "Handcrafted brass idol features Lord Ganesha in a dynamic dancing pose (Nritya Ganesha), symbolizing joy, grace, and auspicious beginnings.",
+        price: "1,100",
+        images: [
+          "/brands/karnataka-handicrafts/bronzeware/bronzeware-3.png",
+          "/brands/karnataka-handicrafts/bronzeware/bronzeware-3.png",
+        ],
+      },
+      {
+        id: "br-krishna",
+        name: "BrKrishna",
+        description:
+          "Handcrafted brass idol features Lord Ganesha in a dynamic dancing pose (Nritya Ganesha), symbolizing joy, grace, and auspicious beginnings.",
+        price: "1,100",
+        images: [
+          "/brands/karnataka-handicrafts/bronzeware/bronzeware-4.png",
+          "/brands/karnataka-handicrafts/bronzeware/bronzeware-4.png",
+        ],
+      },
+      {
+        id: "br-lakshmi",
+        name: "BrLakshmi",
+        description:
+          "Handcrafted brass idol features Lord Ganesha in a dynamic dancing pose (Nritya Ganesha), symbolizing joy, grace, and auspicious beginnings.",
+        price: "1,100",
+        images: [
+          "/brands/karnataka-handicrafts/bronzeware/bronzeware-5.png",
+          "/brands/karnataka-handicrafts/bronzeware/bronzeware-5.png",
+        ],
+      },
+      {
+        id: "br-mahisasuramardini",
+        name: "BrMahisasuramardini",
+        description:
+          "Handcrafted brass idol features Lord Ganesha in a dynamic dancing pose (Nritya Ganesha), symbolizing joy, grace, and auspicious beginnings.",
+        price: "1,100",
+        images: [
+          "/brands/karnataka-handicrafts/bronzeware/bronzeware-6.png",
+          "/brands/karnataka-handicrafts/bronzeware/bronzeware-6.png",
+        ],
+      },
+      {
+        id: "br-manatapa-jhulaganesha",
+        name: "BrManatapaJhulaganesha",
+        description:
+          "Handcrafted brass idol features Lord Ganesha in a dynamic dancing pose (Nritya Ganesha), symbolizing joy, grace, and auspicious beginnings.",
+        price: "1,100",
+        images: [
+          "/brands/karnataka-handicrafts/bronzeware/bronzeware-7.png",
+          "/brands/karnataka-handicrafts/bronzeware/bronzeware-7.png",
+        ],
+      },
+      {
+        id: "br-nandi",
+        name: "BrNandi",
+        description:
+          "Handcrafted brass idol features Lord Ganesha in a dynamic dancing pose (Nritya Ganesha), symbolizing joy, grace, and auspicious beginnings.",
+        price: "1,100",
+        images: [
+          "/brands/karnataka-handicrafts/bronzeware/bronzeware-8.png",
+          "/brands/karnataka-handicrafts/bronzeware/bronzeware-8.png",
+        ],
+      },
+      {
+        id: "br-nataraja",
+        name: "BrNataraja",
+        description:
+          "Handcrafted brass idol features Lord Ganesha in a dynamic dancing pose (Nritya Ganesha), symbolizing joy, grace, and auspicious beginnings.",
+        price: "1,100",
+        images: [
+          "/brands/karnataka-handicrafts/bronzeware/bronzeware-9.png",
+          "/brands/karnataka-handicrafts/bronzeware/bronzeware-9.png",
+        ],
+      },
+    ],
+  },
+};
+
 export function getBrandBySlug(slug) {
   return brandPages[slug] ?? null;
 }
 
 export function getBrandSlugs() {
   return Object.keys(brandPages);
+}
+
+export function getBrandCategoryItems(slug) {
+  const section = brandPages[slug]?.productSections?.find(
+    (item) => item.layout === "categories",
+  );
+
+  return section?.products ?? [];
+}
+
+export function getCraftCategoryBySlug(slug) {
+  return craftCategoryPages[slug] ?? null;
+}
+
+export function getCraftCategorySlugs() {
+  return Object.keys(craftCategoryPages);
 }

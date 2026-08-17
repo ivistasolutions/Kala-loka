@@ -23,7 +23,7 @@ export default function ProductSection({
       <div
         className={
           isCategories
-            ? "grid grid-cols-1 gap-6 sm:grid-cols-2 lg:grid-cols-4 lg:gap-7"
+            ? "grid grid-cols-1 gap-6 md:grid-cols-2 md:gap-8 lg:grid-cols-3"
             : "grid grid-cols-1 gap-6 md:grid-cols-2 md:gap-8 lg:grid-cols-3"
         }
       >
