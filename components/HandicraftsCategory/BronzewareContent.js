@@ -3,10 +3,8 @@ import Header from "@/components/Header";
 import Footer from "@/components/Footer";
 import BrandHero from "@/components/BrandLanding/BrandHero";
 import BrandPageFooter from "@/components/BrandLanding/BrandPageFooter";
-import ProductSection from "@/components/BrandLanding/ProductSection";
 import CraftProductCard from "@/components/HandicraftsCategory/CraftProductCard";
 import JsonLd from "@/components/JsonLd";
-import { getBrandCategoryItems } from "@/utils/data";
 import { breadcrumbJsonLd } from "@/utils/seo";
 import { absoluteUrl } from "@/utils/site";
 
@@ -66,18 +64,7 @@ export default function BronzewareContent({ category }) {
           </div>
         </section>
 
-        <ProductSection
-          title="Categories"
-          subtitle="GI-tagged artisan collections from across Karnataka"
-          products={getBrandCategoryItems(category.parentSlug)}
-          layout="categories"
-        />
-
-        <BrandPageFooter
-          currentBrandSlug={category.parentSlug}
-          categoryItems={getBrandCategoryItems(category.parentSlug)}
-          currentCategoryHref={`${parentHref}/${category.slug}`}
-        />
+        <BrandPageFooter currentBrandSlug={category.parentSlug} />
       </main>
 
       <Footer />

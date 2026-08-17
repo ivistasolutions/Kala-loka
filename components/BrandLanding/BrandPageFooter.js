@@ -1,46 +1,47 @@
 import Link from "next/link";
-import PillArrowNav from "@/components/PillArrowNav";
-import { brands } from "@/utils/data";
+import { getAdjacentBrands } from "@/utils/data";
 
-export default function BrandPageFooter({
-  currentBrandSlug,
-  categoryItems = [],
-  currentCategoryHref,
-}) {
-  const brandItems = brands.map((brand) => ({
-    name: brand.title,
-    href: `/our-brands/${brand.slug}`,
-  }));
+export default function BrandPageFooter({ currentBrandSlug }) {
+  const { prev, next } = getAdjacentBrands(currentBrandSlug);
+
+  const rowClassName =
+    "flex w-full max-w-xl flex-row flex-nowrap items-center justify-center gap-2 md:gap-4";
+
+  const brandPillClassName =
+    "inline-flex h-11 shrink-0 items-center justify-center gap-1 rounded-full border border-coral bg-white px-3 text-[12px] font-medium whitespace-nowrap text-navy transition-colors hover:bg-peach md:h-12 md:gap-1.5 md:px-6 md:text-[15px]";
+
+  const actionPillClassName =
+    "inline-flex h-11 shrink-0 items-center justify-center whitespace-nowrap px-5 text-[13px] font-medium md:h-12 md:px-8 md:text-[15px]";
 
   return (
-    <div className="mx-auto flex w-full max-w-7xl flex-col items-center gap-10 px-5 pt-10 pb-16 md:gap-12 md:px-8 md:pt-14 md:pb-20 lg:px-10">
-      <PillArrowNav
-        label="Other Brands"
-        currentHref={`/our-brands/${currentBrandSlug}`}
-        items={brandItems}
-      />
-
-      {categoryItems.length > 0 ? (
-        <PillArrowNav
-          label="Categories"
-          currentHref={currentCategoryHref}
-          items={categoryItems.map((item) => ({
-            name: item.name,
-            href: item.href,
-          }))}
-        />
+    <div className="mx-auto flex w-full max-w-7xl flex-col items-center gap-3 px-5 pt-10 pb-16 md:gap-4 md:px-8 md:pt-14 md:pb-20 lg:px-10">
+      {prev || next ? (
+        <nav aria-label="Other brands" className={rowClassName}>
+          {prev ? (
+            <Link href={`/our-brands/${prev.slug}`} className={brandPillClassName}>
+              <span aria-hidden="true">←</span>
+              {prev.title}
+            </Link>
+          ) : null}
+          {next ? (
+            <Link href={`/our-brands/${next.slug}`} className={brandPillClassName}>
+              {next.title}
+              <span aria-hidden="true">→</span>
+            </Link>
+          ) : null}
+        </nav>
       ) : null}
 
-      <div className="flex w-full max-w-md flex-col items-center gap-3 md:max-w-xl md:flex-row md:justify-center md:gap-4 lg:max-w-2xl">
+      <div className={rowClassName}>
         <Link
           href="/our-brands"
-          className="inline-flex h-11 w-full items-center justify-center rounded-full bg-coral px-8 text-[14px] font-medium text-white transition-colors hover:bg-[#d94e33] md:h-12 md:w-auto md:px-10 md:text-[15px]"
+          className={`${actionPillClassName} rounded-full bg-coral text-white transition-colors hover:bg-[#d94e33]`}
         >
           Our Brands
         </Link>
         <Link
           href="/"
-          className="inline-flex h-11 w-full items-center justify-center rounded-full border border-coral bg-white px-8 text-[14px] font-medium text-navy transition-colors hover:bg-peach md:h-12 md:w-auto md:px-10 md:text-[15px]"
+          className={`${actionPillClassName} rounded-full border border-coral bg-white text-navy transition-colors hover:bg-peach`}
         >
           Back to Home
         </Link>

@@ -5,7 +5,6 @@ import BrandIntroCard from "@/components/BrandLanding/BrandIntroCard";
 import ProductSection from "@/components/BrandLanding/ProductSection";
 import BrandPageFooter from "@/components/BrandLanding/BrandPageFooter";
 import JsonLd from "@/components/JsonLd";
-import { getBrandCategoryItems } from "@/utils/data";
 import { brandPageJsonLd, breadcrumbJsonLd } from "@/utils/seo";
 
 export default function BrandLanding({ brand }) {
@@ -44,10 +43,7 @@ export default function BrandLanding({ brand }) {
           />
         ))}
 
-        <BrandPageFooter
-          currentBrandSlug={brand.slug}
-          categoryItems={getBrandCategoryItems(brand.slug)}
-        />
+        <BrandPageFooter currentBrandSlug={brand.slug} />
       </main>
 
       <Footer />

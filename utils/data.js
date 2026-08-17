@@ -536,6 +536,18 @@ export function getBrandSlugs() {
   return Object.keys(brandPages);
 }
 
+export function getAdjacentBrands(slug) {
+  const index = brands.findIndex((brand) => brand.slug === slug);
+  if (index === -1) {
+    return { prev: null, next: null };
+  }
+
+  return {
+    prev: index > 0 ? brands[index - 1] : null,
+    next: index < brands.length - 1 ? brands[index + 1] : null,
+  };
+}
+
 export function getBrandCategoryItems(slug) {
   const section = brandPages[slug]?.productSections?.find(
     (item) => item.layout === "categories",
