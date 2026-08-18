@@ -3,6 +3,7 @@ import Footer from "@/components/Footer";
 import BrandHero from "@/components/BrandLanding/BrandHero";
 import BrandIntroCard from "@/components/BrandLanding/BrandIntroCard";
 import ProductSection from "@/components/BrandLanding/ProductSection";
+import CoffeeBoardSection from "@/components/BrandLanding/CoffeeBoardSection";
 import BrandPageFooter from "@/components/BrandLanding/BrandPageFooter";
 import JsonLd from "@/components/JsonLd";
 import { brandPageJsonLd, breadcrumbJsonLd } from "@/utils/seo";
@@ -33,15 +34,19 @@ export default function BrandLanding({ brand }) {
           extra={brand.intro.extra}
         />
 
-        {brand.productSections.map((section) => (
-          <ProductSection
-            key={section.id}
-            title={section.title}
-            subtitle={section.subtitle}
-            products={section.products}
-            layout={section.layout}
-          />
-        ))}
+        {brand.productSections.map((section) =>
+          section.layout === "coffee-board" ? (
+            <CoffeeBoardSection key={section.id} section={section} />
+          ) : (
+            <ProductSection
+              key={section.id}
+              title={section.title}
+              subtitle={section.subtitle}
+              products={section.products}
+              layout={section.layout}
+            />
+          ),
+        )}
 
         <BrandPageFooter currentBrandSlug={brand.slug} />
       </main>
