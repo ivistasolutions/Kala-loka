@@ -352,7 +352,7 @@ export const brandPages = {
     slug: "mysore-silk",
     title: "Mysore Silk",
     tagline: "KSIC heritage weaves. 100% pure silk, GI-11.",
-    heroImage: "/brands/mysore-silk/banner.png",
+    heroImage: "/brands/mysore-silk/Banner.png",
     intro: {
       paragraphs: [
         "Mysore is rich for its royal heritage and it is no surprise that the silk produced there reflects the traditional splendor through its rich yet delicate motifs.The name Mysore silk is a befitting tribute to its ancestry. Karnataka Silk Industries Corporation Limited (KSIC) the proud inheritor of this royal legacy, has treasured it for over seven decades, has been producing 100% pure silk with pure gold zari sarees. The silk weaving factory in Mysore, presently owned by KSIC, was established in the year 1912 by Sri Nalvadi Krishnaraja Wodeyar, Maharaja of Mysore province. Initially the silk fabrics/sarees were manufactured & supplied to meet the requirements of the royal family and ornamental fabrics to their armed forces.",
