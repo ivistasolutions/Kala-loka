@@ -78,7 +78,7 @@ export const brandPages = {
             weight: "250g & 500g",
             roast: "Medium",
             tastingNotes: "Spice, citrus, cocoa",
-            price: "₹898",
+            price: "",
             image: "/brands/inside/coffees-of-kr-1.png",
           },
           {
@@ -90,7 +90,7 @@ export const brandPages = {
             weight: "250g & 500g",
             roast: "Medium",
             tastingNotes: "Citrus, honey, light spice",
-            price: "₹898",
+            price: "",
             image: "/brands/inside/coffees-of-kr-2.png",
           },
           {
@@ -102,7 +102,7 @@ export const brandPages = {
             weight: "250g & 500g",
             roast: "Medium",
             tastingNotes: "Chocolate, nut, mild spice",
-            price: "₹898",
+            price: "",
             image: "/brands/inside/coffees-of-kr-3.png",
           },
           {
@@ -114,7 +114,7 @@ export const brandPages = {
             weight: "Assorted packs",
             roast: "Medium",
             tastingNotes: "Regional Arabica blend",
-            price: "₹898",
+            price: "",
             image: "/brands/inside/coffees-of-kr-4.png",
           },
           {
@@ -126,7 +126,7 @@ export const brandPages = {
             weight: "Assorted packs",
             roast: "Medium",
             tastingNotes: "Regional Arabica blend",
-            price: "₹898",
+            price: "",
             image: "/brands/inside/coffees-of-kr-5.png",
           },
           {
@@ -138,7 +138,7 @@ export const brandPages = {
             weight: "Assorted packs",
             roast: "Medium",
             tastingNotes: "Regional Arabica blend",
-            price: "₹898",
+            price: "",
             image: "/brands/inside/coffees-of-kr-6.png",
           },
           {
@@ -150,7 +150,7 @@ export const brandPages = {
             weight: "200g",
             roast: "Medium-dark",
             tastingNotes: "Oak, cocoa, spice",
-            price: "₹1,350",
+            price: "",
             image: "/brands/inside/classic-whisky.png",
           },
         ],
@@ -174,7 +174,7 @@ export const brandPages = {
             weight: "200g",
             roast: "Medium Dark",
             tastingNotes: "Dark Chocolate & Orange Citrus",
-            price: "₹898",
+            price: "",
             image: "/brands/inside/coffees-of-kr-7.png",
           },
           {
@@ -185,7 +185,7 @@ export const brandPages = {
             weight: "100g",
             roast: "Light - Medium",
             tastingNotes: "Assorted",
-            price: "₹898",
+            price: "",
             image: "/brands/inside/coffees-of-kr-8.png",
           },
           {
@@ -196,7 +196,7 @@ export const brandPages = {
             weight: "250g",
             roast: "Light - Medium",
             tastingNotes: "Irish cream, green apple & tropical fruits",
-            price: "₹898",
+            price: "",
             image: "/brands/inside/coffees-of-kr-9.png",
           },
         ],
@@ -220,7 +220,7 @@ export const brandPages = {
             weight: "250 & 100g",
             roast: "Medium to Medium-dark",
             tastingNotes: "Chocolate & Caramel",
-            price: "₹898",
+            price: "",
             image: "/brands/inside/coffees-of-kr-10.png",
           },
           {
@@ -230,7 +230,7 @@ export const brandPages = {
             weight: "250g",
             roast: "Dark (French)",
             tastingNotes: "Smoky, Intense",
-            price: "₹898",
+            price: "",
             image: "/brands/inside/coffees-of-kr-11.png",
           },
           {
@@ -240,7 +240,7 @@ export const brandPages = {
             weight: "250g",
             roast: "Mild Roast",
             tastingNotes: "Banana and Berry",
-            price: "₹898",
+            price: "",
             image: "/brands/inside/coffees-of-kr-12.png",
           },
           {
@@ -250,7 +250,7 @@ export const brandPages = {
             weight: "250g",
             roast: "Medium Roast",
             tastingNotes: "Toffee, Mildly sweet",
-            price: "₹898",
+            price: "",
             image: "/brands/inside/coffees-of-kr-13.png",
           },
         ],
@@ -283,8 +283,8 @@ export const brandPages = {
             id: "karnataka-bronzeware",
             name: "Karnataka Bronzeware",
             description:
-              "Brought from Iran in the 13th century, Bidriware is a 500-year-old Bidar craft featuring pure silver inlay on black zinc-copper alloy. Karnataka GI-20 since 2005.",
-            image: "/brands/karnataka-handicrafts/craft-4.png",
+              "Cast using the ancient lost-wax process, these solid bronze sculptures capture intricate iconographical details of deities and traditional motifs with remarkable heirloom durability.",
+            image: "/brands/karnataka-handicrafts/craft-04.png",
             href: "/our-brands/karnataka-handicrafts/karnataka-bronzeware",
           },
           {
@@ -298,14 +298,14 @@ export const brandPages = {
             id: "channapatna-toys",
             name: "Channapatna Toys & Dolls",
             description:
-              "Brought from Iran in the 13th century, Bidriware is a 500-year-old Bidar craft featuring pure silver inlay on black zinc-copper alloy. Karnataka GI-20 since 2005.",
+              "Crafted from soft ivory wood and finished with safe, non-toxic organic vegetable dyes, these eco-friendly turned-wood toys are celebrated for their vibrant colors and smooth, rounded forms.",
             image: "/brands/karnataka-handicrafts/craft-2.png",
           },
           {
             id: "designer-products",
             name: "Designer Products",
             description:
-              "Brought from Iran in the 13th century, Bidriware is a 500-year-old Bidar craft featuring pure silver inlay on black zinc-copper alloy. Karnataka GI-20 since 2005.",
+              "Contemporary utility and decor pieces that bridge tradition and modernity by adapting classic Karnataka craft techniques into stylish, functional items for modern lifestyles.",
             image: "/brands/karnataka-handicrafts/craft-3.png",
           },
         
@@ -313,35 +313,35 @@ export const brandPages = {
             id: "kasuthi-embroidery",
             name: "Kasuthi Embroidery",
             description:
-              "Brought from Iran in the 13th century, Bidriware is a 500-year-old Bidar craft featuring pure silver inlay on black zinc-copper alloy. Karnataka GI-20 since 2005.",
+              "A meticulous traditional folk embroidery technique using delicate geometric patterns stitched without knots, making both sides of the fabric look identical.",
             image: "/brands/karnataka-handicrafts/craft-5.png",
           },
           {
             id: "mysore-rosewood-inlay",
             name: "Mysore Rosewood Inlay",
             description:
-              "Brought from Iran in the 13th century, Bidriware is a 500-year-old Bidar craft featuring pure silver inlay on black zinc-copper alloy. Karnataka GI-20 since 2005.",
+              "An intricate art form where contrasting materials like ivory-substitutes, wood veneers, and acrylics are precisely shaped and embedded into seasoned rosewood to depict royal processions and floral patterns.",
             image: "/brands/karnataka-handicrafts/craft-6.png",
           },
           {
             id: "mysore-traditional-paintings",
             name: "Mysore Traditional Paintings & Ganjifa Cards of Mysore",
             description:
-              "Brought from Iran in the 13th century, Bidriware is a 500-year-old Bidar craft featuring pure silver inlay on black zinc-copper alloy. Karnataka GI-20 since 2005.",
+              "Distinguished by delicate linework and rich gesso work embellished with pure gold foil, paired with the heritage tradition of hand-painted circular playing cards featuring mythological figures.",
             image: "/brands/karnataka-handicrafts/craft-7.png",
           },
           {
             id: "navalgund-dhurries",
             name: "Navalgund Dhurries",
             description:
-              "Brought from Iran in the 13th century, Bidriware is a 500-year-old Bidar craft featuring pure silver inlay on black zinc-copper alloy. Karnataka GI-20 since 2005.",
+              "Hand-woven cotton floor rugs instantly recognizable by their bold geometric patterns, striking color contrasts, and signature motifs like peacocks and playing card designs.",
             image: "/brands/karnataka-handicrafts/craft-8.png",
           },
           {
             id: "sandalwood-carvings",
             name: "Sandalwood Carvings",
             description:
-              "Brought from Iran in the 13th century, Bidriware is a 500-year-old Bidar craft featuring pure silver inlay on black zinc-copper alloy. Karnataka GI-20 since 2005.",
+              "Renowned for their natural aromatic fragrance, these ultra-detailed sculptures are carved from premium Karnataka sandalwood using centuries-old precision craftsmanship.",
             image: "/brands/karnataka-handicrafts/craft-9.png",
           },
         ],
@@ -353,40 +353,79 @@ export const brandPages = {
     title: "Mysore Silk",
     tagline: "KSIC heritage weaves. 100% pure silk, GI-11.",
     heroImage: "/brands/mysore-silk/Banner.png",
+    heroVariant: "light",
     intro: {
       paragraphs: [
         "Mysore is rich for its royal heritage and it is no surprise that the silk produced there reflects the traditional splendor through its rich yet delicate motifs.The name Mysore silk is a befitting tribute to its ancestry. Karnataka Silk Industries Corporation Limited (KSIC) the proud inheritor of this royal legacy, has treasured it for over seven decades, has been producing 100% pure silk with pure gold zari sarees. The silk weaving factory in Mysore, presently owned by KSIC, was established in the year 1912 by Sri Nalvadi Krishnaraja Wodeyar, Maharaja of Mysore province. Initially the silk fabrics/sarees were manufactured & supplied to meet the requirements of the royal family and ornamental fabrics to their armed forces.",
-      ],
-      extra: [
         "Having gained widespread popularity for its unmatched standard of authentic Silk manufacturing process, KSIC has obtained Karnataka's first Geographical Indication Registration (GI-11) for 'Mysore Silk' in accordance with the provisions of the Geographical Indication of Goods (Registration and Protection Act) 1999 passed by the Indian Parliament.",
       ],
+      extra: [],
     },
     productSections: [
       {
         id: "ksic-weaves",
-        title: "KSIC Weaves",
-        subtitle: "100% pure silk, GI-11",
+        layout: "catalog",
+        showPrice: false,
         products: [
           {
             id: "classic-saree",
             name: "KSIC Mysore Silk Zari Saree",
-            description: "Pure mulberry silk with real zari border.",
-            price: "533",
-            images: ["/brands/mysore-silk/mysore-silk-1.png"],
+            weight: "500gms",
+            price: "",
+            image: "/brands/mysore-silk/mysore-silk-1.png",
           },
           {
             id: "temple-saree",
             name: "KSIC Mysore Silk Printed Saree",
-            description: "Heritage temple motif in gold zari.",
-            price: "533",
-            images: ["/brands/mysore-silk/mysore-silk-2.png"],
+            weight: "400gms",
+            price: "",
+            image: "/brands/mysore-silk/mysore-silk-2.png",
           },
           {
             id: "pastel-saree",
             name: "KSIC Mysore Silk Dhoti and Shalya",
-            description: "Lightweight crepe in seasonal colours.",
-            price: "533",
-            images: ["/brands/mysore-silk/mysore-silk-3.png"],
+            details: [
+              "Size : Dhothi (Panche) Size = 3.75 Mtrs",
+              "Length Valli (Shalya)",
+              "Size = 2.25 Mtrs Length",
+              "Weight : 400gms",
+            ],
+            price: "",
+            image: "/brands/mysore-silk/mysore-silk-3.png",
+          },
+          {
+            id: "silk-shirt",
+            name: "KSIC Mysore Silk Shirt (Mens)",
+            weight: "200gms",
+            price: "",
+            image: "/brands/mysore-silk/Group 26679.png",
+          },
+          {
+            id: "silk-kurta",
+            name: "KSIC Mysore Silk Kurta (Mens)",
+            weight: "200gms",
+            price: "",
+            image: "/brands/mysore-silk/Group 26680.png",
+          },
+          {
+            id: "silk-tie",
+            name: "KSIC Mysore Silk Tie with Pocket Square",
+            price: "",
+            image: "/brands/mysore-silk/Group 26681.png",
+          },
+          {
+            id: "silk-scarf",
+            name: "KSIC Mysore Silk Scarf",
+            weight: "100gms",
+            price: "",
+            image: "/brands/mysore-silk/Group 26682.png",
+          },
+          {
+            id: "silk-dupatta",
+            name: "KSIC Mysore Silk Dupatta",
+            weight: "500gms",
+            price: "",
+            image: "/brands/mysore-silk/Group 26683.png",
           },
         ],
       },
@@ -397,41 +436,94 @@ export const brandPages = {
     title: "Mysore Sandal Products",
     tagline: "Mysore Sandal Soap & Oil, GI No. 30 & GI No. 29.",
     heroImage: "/brands/mysore-sandal/banner.png",
+    heroVariant: "bottom",
     intro: {
       paragraphs: [
-        "Mysore Sandal is one of India's most recognised GI products. The soap and the oil are made from sandalwood grown and distilled in Karnataka — a fragrance the state has protected for generations.",
-        "Karnataka Soaps & Detergents Limited continues the original formula, still using genuine sandalwood oil.",
+        "The Government Sandalwood Oil Factory was established in 1916 at Mysore to distil oil from sandalwood grown in the forests of Karnataka. What began as a state enterprise to protect a royal fragrance is today Karnataka Soaps & Detergents Limited (KSDL).",
+        "Mysore Sandal Soap and Mysore Sandalwood Oil remain among India's most recognised GI products — GI No. 30 and GI No. 29 — made only from genuine sandalwood oil distilled in this land.",
+        
       ],
       extra: [
-        "GI No. 29 covers Mysore Sandalwood Oil. GI No. 30 covers Mysore Sandal Soap.",
+        "KSDL continues the original formula, packing soaps, oils, incense and skin-care that still carry the scent the state has protected for over a century.",
       ],
     },
     productSections: [
       {
         id: "sandal-range",
-        title: "Sandal Range",
-        subtitle: "Soap & oil, GI No. 30 & GI No. 29",
+        layout: "catalog",
+        showPrice: true,
         products: [
           {
-            id: "sandal-soap",
-            name: "Mysore Sandalwood Oil",
-            description: "Leather chappals, known for their unique designs, comfort, and eco-friendliness. Weight : 10ml",
-            price: "533",
-            images: ["/brands/mysore-sandal/mysor-sandal-1.png"],
-          },
-          {
             id: "sandal-oil",
-            name: "Mysore Sandalwood Billets",
-            description: "Pure billet paste extract to soothe skin, reduce fine lines and acne. Weight : 100gms",
-            price: "232",
-            images: ["/brands/mysore-sandal/mysor-sandal-2.png"],
+            name: "Mysore Sandalwood Oil",
+            description:
+              "Leather chappals, known for their unique designs, comfort, and eco-friendliness.",
+            weight: "10ml",
+            price: "",
+            image: "/brands/mysore-sandal/mysor-sandal-1.png",
           },
           {
-            id: "sandal-gift",
+            id: "sandal-billets",
+            name: "Mysore Sandalwood Billets",
+            description:
+              "Pure billet paste extract to soothe skin, reduce fine lines and acne.",
+            weight: "100gms",
+            price: "",
+            image: "/brands/mysore-sandal/mysor-sandal-2.png",
+          },
+          {
+            id: "sandal-soap",
             name: "Mysore Sandal Soap",
-            description: "100% pure sandalwood oil soap to keep skin soft, glowing, and blemish-free. Weight : 125gms",
-            price: "323",
-            images: ["/brands/mysore-sandal/mysor-sandal-3.png"],
+            description:
+              "100% pure sandalwood oil soap to keep skin soft, glowing, and blemish-free.",
+            weight: "125gms",
+            price: "",
+            image: "/brands/mysore-sandal/mysor-sandal-3.png",
+          },
+          {
+            id: "sandal-gold-soap",
+            name: "Mysore Sandal Premium Gold Soap",
+            description:
+              "Enriched with almond oil, moisturisers and conditioners, this exotic bar soap, nourishes and rejuvenates.",
+            weight: "125gms",
+            price: "",
+            image: "/brands/mysore-sandal/mysor-sandal-4.png",
+          },
+          {
+            id: "sandal-millennium-soap",
+            name: "Mysore Sandal Millennium Super Premium Soap",
+            description:
+              "Enriched with essential oils, like Vetiver, Guaiac wood, Patchouli, Geranium, Petitgrain, Orange, and Cedarwood.",
+            weight: "150gms",
+            price: "",
+            image: "/brands/mysore-sandal/mysor-sandal-5.png",
+          },
+          {
+            id: "sandal-face-pack",
+            name: "Mysore Sandal Face Pack",
+            description:
+              "Fuller's Earth, Sandalwood Oil, Almond Oil, Rose Water, Orange Peel Powder, and Saffron enriched.",
+            weight: "100 gms",
+            price: "",
+            image: "/brands/mysore-sandal/mysor-sandal-6.png",
+          },
+          {
+            id: "sandal-shower-gel",
+            name: "Mysore Sandal Gold Shower Gel",
+            description:
+              "Exotically scented liquid gel, infused with pure sandalwood oil, which unclogs pores, and deeply hydrates.",
+            weight: "200ml",
+            price: "",
+            image: "/brands/mysore-sandal/mysor-sandal-7.png",
+          },
+          {
+            id: "sandal-agarbhathi",
+            name: "Mysore Sandal Agarbhathi",
+            description:
+              "Hand-rolled with sandalwood, these slow-burning incense sticks offer a rich, lingering aroma.",
+            weight: "125gms",
+            price: "",
+            image: "/brands/mysore-sandal/mysor-sandal-8.png",
           },
         ],
       },
@@ -442,41 +534,79 @@ export const brandPages = {
     title: "Karnataka Handlooms",
     tagline: "Ilkal, Molakalmuru, Udupi & Melkote weaves, several GI-tagged.",
     heroImage: "/brands/karnataka-handlooms/banner.png",
+    heroVariant: "bottom",
     intro: {
       paragraphs: [
-        "Across Karnataka, handloom clusters still weave on pit looms and frame looms — Ilkal's tope teni joining, Molakalmuru's fine silk, Udupi's temple cottons, Melkote's bordered weaves.",
-        "Each region has its own GI and its own grammar of colour and border.",
+        "Karnataka has a rich handloom tradition dating back centuries, famous for distinct Geographical Indication (GI) tagged weaves like Ilkal, Udupi, and Molakalmuru sarees, as well as Kasuti embroidery.",
       ],
-      extra: [
-        "This catalog gathers GI-tagged handlooms from four of Karnataka's living weaving towns.",
-      ],
+      extra: [],
     },
     productSections: [
       {
         id: "handloom-weaves",
-        title: "Handloom Weaves",
-        subtitle: "Ilkal, Molakalmuru, Udupi & Melkote",
+        layout: "catalog",
+        showPrice: true,
         products: [
           {
             id: "printed-silk-handloom-sarees",
             name: "Printed Silk Handloom Sarees",
-            description: "Vibrant designs printed on Silk, woven on handlooms via screens or digital technology.",
-            price: "533",
-            images: ["/brands/karnataka-handlooms/karnataka-handlooms-1.png"],
+            description:
+              "Vibrant designs printed on Silk, woven on handlooms via screens or digital technology.",
+            details: [
+              "Material: Silk",
+              "Weight: 300-500gm",
+              "Colour: Multiple Colour",
+            ],
+            price: "",
+            image: "/brands/karnataka-handlooms/karnataka-handlooms-1.png",
           },
           {
             id: "traditional-silk-handloom-sarees",
             name: "Traditional Silk Handloom Sarees",
-            description: "Distinct designs of zari of Malkalmuru, Chintamani, Aanekal etc., preserved for years, woven on handloom silk sarees.",
-            price: "533",
-            images: ["/brands/karnataka-handlooms/karnataka-handlooms-2.png"],
+            description:
+              "Distinct designs of zari of Molakalmuru, Chintamani, Aanekal etc., preserved for years, woven on handloom silk sarees.",
+            details: [
+              "Material: Silk",
+              "Weight: 300-500gm",
+              "Colour: Multiple Colour",
+            ],
+            price: "",
+            image: "/brands/karnataka-handlooms/karnataka-handlooms-2.png",
           },
           {
             id: "ilkal-gi-tagged-handloom-sarees",
-            name: "Ilakl GI tagged Handloom Sarees",
-            description: "Ancient temple designs of Ilkal woven on Handloom cloth made of Cotton/mix of Cotton and art-silk/mix of Cotton and silk.",
-            price: "533",
-            images: ["/brands/karnataka-handlooms/karnataka-handlooms-3.png"],
+            name: "Ilkal GI tagged Handloom Sarees",
+            description:
+              "Ancient temple designs of Ilkal woven on Handloom cloth made of Cotton/mix of Cotton and art-silk/mix of Cotton and silk.",
+            details: [
+              "Material: Cotton / Silk mix",
+              "Weight: 300-500gm",
+              "Colour: Multiple Colour",
+            ],
+            price: "",
+            image: "/brands/karnataka-handlooms/karnataka-handlooms-3.png",
+          },
+          {
+            id: "udupi-cotton-handloom-sarees",
+            name: "Udupi Cotton Handloom Sarees",
+            description:
+              "Woven by temple-town weavers of Udupi on pit looms, these cotton sarees are known for their lightweight drape and temple borders.",
+            details: [
+              "Material: Cotton",
+              "Weight: 300-500gm",
+              "Colour: Multiple Colour",
+            ],
+            price: "",
+            image: "/brands/karnataka-handlooms/karnataka-handlooms-4.png",
+          },
+          {
+            id: "melkote-panche-shalya",
+            name: "Melkote panche shalya",
+            description:
+              "Melkote panche and shalya in silk with a gold zari border, woven for temple and ceremonial wear.",
+            details: ["Material: Pure silk", "Weight: 200g"],
+            price: "",
+            image: "/brands/karnataka-handlooms/karnataka-handlooms-5.png",
           },
         ],
       },
@@ -487,41 +617,124 @@ export const brandPages = {
     title: "Karnataka Leathers",
     tagline: "Kolhapuri GI chappals & handcrafted leather bags.",
     heroImage: "/brands/karnataka-leathers/banner.png",
+    heroVariant: "bottom",
     intro: {
       paragraphs: [
-        "Leather craft in Karnataka is still a hand process — vegetable tanning, hand-stitching, and the open-toe Kolhapuri chappal that carries a GI.",
-        "From Athani to Bengaluru workshops, bags and footwear are cut and finished by artisans who work hide by hide.",
+        "Leather craft in Karnataka traces back to the Sharana movement of the 12th century, when saints such as Sri Haralayya and Smt. Kalyanamma practised tanning and stitching as a sacred vocation under Sri Basavanna.",
+        "That hand process — vegetable tanning, hand-stitching, and the open-toe Kolhapuri chappal — still carries a Geographical Indication and is made hide by hide in clusters from Athani to Bengaluru.",
+        "To organise and support these artisan families, the Government of Karnataka established the Leather Industries Development Corporation of Karnataka (LIDKAR), which continues to market GI Kolhapuri footwear and handcrafted leather bags.",
       ],
-      extra: [
-        "This collection focuses on GI Kolhapuri chappals and handcrafted leather bags made in Karnataka.",
-      ],
+      extra: [],
     },
     productSections: [
       {
         id: "leather-craft",
-        title: "Leather Craft",
-        subtitle: "Kolhapuri GI chappals & bags",
+        layout: "catalog",
+        showPrice: true,
         products: [
           {
-            id: "kolhapuri",
+            id: "ladies-heel-chappal",
             name: "GI Registered Ladies Kolhapuri Heel Chappal",
-            description: "Hand-stitched GI Kolhapuri pair.",
-            price: "2,100",
-            images: ["/brands/karnataka-leathers/karnataka-leathers-1.png"],
+            description:
+              "Leather chappals, known for their unique designs, comfort, and eco-friendliness.",
+            details: [
+              "Color: Creamy",
+              "Weight: 600 gms",
+              "(Size may be vary depends on designs and sizes)",
+            ],
+            price: "",
+            image: "/brands/karnataka-leathers/karnataka-leathers-1.png",
           },
           {
-            id: "briefcase",
+            id: "ladies-flat-chappal",
             name: "GI Registered Ladies Kolhapuri Flat Chappal",
-            description: "Vegetable-tanned leather briefcase.",
-            price: "8,900",
-            images: ["/brands/karnataka-leathers/karnataka-leathers-2.png"],
+            description:
+              "Leather chappals, known for their unique designs, comfort, and eco-friendliness.",
+            details: [
+              "Color: Brown Colour",
+              "Weight: 600 gms",
+              "(Size may be vary depends on designs and sizes)",
+            ],
+            price: "",
+            image: "/brands/karnataka-leathers/karnataka-leathers-2.png",
           },
           {
-            id: "tote",
+            id: "gents-red-juti",
             name: "GI Registered Gents Red Juti Kolhapuri Chappal",
-            description: "Everyday leather tote, unlined.",
-            price: "5,400",
-            images: ["/brands/karnataka-leathers/karnataka-leathers-3.png"],
+            description:
+              "Leather chappals, known for their unique designs, comfort, and eco-friendliness.",
+            details: [
+              "Color: Red Colour",
+              "Weight: 900 gms",
+              "(Size may be vary depends on designs and sizes)",
+            ],
+            price: "",
+            image: "/brands/karnataka-leathers/karnataka-leathers-3.png",
+          },
+          {
+            id: "gents-tan-chappal",
+            name: "GI Registered Gents Tan Kolhapuri Chappal",
+            description:
+              "Leather chappals, known for their unique designs, comfort, and eco-friendliness.",
+            details: [
+              "Color: Tan Colour",
+              "Weight: 700 gms",
+              "(Size may be vary depends on designs and sizes)",
+            ],
+            price: "",
+            image: "/brands/karnataka-leathers/karnataka-leathers-4.png",
+          },
+          {
+            id: "kolhapuri-bantu-red",
+            name: "GI Registered Kolhapuri Bantu Red",
+            description:
+              "Leather chappals, known for their unique designs, comfort, and eco-friendliness.",
+            details: [
+              "Color: Red Color",
+              "Weight: 800 gms",
+              "(Size may be vary depends on designs and sizes)",
+            ],
+            price: "",
+            image: "/brands/karnataka-leathers/karnataka-leathers-5.png",
+          },
+          {
+            id: "shantinikethan-sling-bag",
+            name: "Shantinikethan Sling Bag",
+            description:
+              "Handcrafted from genuine leather and designed on both sides, with a multi-colored, adjustable sling.",
+            details: [
+              "Color: Multi Colour",
+              "Weight: 600 gms",
+              "(Size may be vary depends on designs and sizes)",
+            ],
+            price: "",
+            image: "/brands/karnataka-leathers/karnataka-leathers-6.png",
+          },
+          {
+            id: "shantinikethan-lhb-large",
+            name: "Shantinikethan LHB Large",
+            description:
+              "Handcrafted from genuine leather and designed on both sides, with a multi-colored, adjustable sling.",
+            details: [
+              "Color: Multi Colour",
+              "Weight: 900 gms",
+              "(Size may be vary depends on designs and sizes)",
+            ],
+            price: "",
+            image: "/brands/karnataka-leathers/karnataka-leathers-7.png",
+          },
+          {
+            id: "leather-hand-bag",
+            name: "Leather Hand Bag",
+            description:
+              "Handcrafted from genuine leather and designed on both sides, with a multi-colored, adjustable sling.",
+            details: [
+              "Color: Tan Colour",
+              "Weight: 1200 gms",
+              "(Size may be vary depends on designs and sizes)",
+            ],
+            price: "",
+            image: "/brands/karnataka-leathers/karnataka-leathers-8.png",
           },
         ],
       },
@@ -544,7 +757,7 @@ export const craftCategoryPages = {
         name: "BrDancingGanapathy",
         description:
           "Handcrafted brass idol features Lord Ganesha in a dynamic dancing pose (Nritya Ganesha), symbolizing joy, grace, and auspicious beginnings.",
-        price: "1,100",
+        price: "",
         images: [
           "/brands/karnataka-handicrafts/bronzeware/bronzeware-1.png",
           "/brands/karnataka-handicrafts/bronzeware/bronzeware-1.png",
@@ -555,7 +768,7 @@ export const craftCategoryPages = {
         name: "BrDarpanasundari",
         description:
           "Handcrafted brass idol features Lord Ganesha in a dynamic dancing pose (Nritya Ganesha), symbolizing joy, grace, and auspicious beginnings.",
-        price: "1,100",
+        price: "",
         images: [
           "/brands/karnataka-handicrafts/bronzeware/bronzeware-2.png",
           "/brands/karnataka-handicrafts/bronzeware/bronzeware-2.png",
@@ -566,7 +779,7 @@ export const craftCategoryPages = {
         name: "BrHamsa",
         description:
           "Handcrafted brass idol features Lord Ganesha in a dynamic dancing pose (Nritya Ganesha), symbolizing joy, grace, and auspicious beginnings.",
-        price: "1,100",
+        price: "",
         images: [
           "/brands/karnataka-handicrafts/bronzeware/bronzeware-3.png",
           "/brands/karnataka-handicrafts/bronzeware/bronzeware-3.png",
@@ -577,7 +790,7 @@ export const craftCategoryPages = {
         name: "BrKrishna",
         description:
           "Handcrafted brass idol features Lord Ganesha in a dynamic dancing pose (Nritya Ganesha), symbolizing joy, grace, and auspicious beginnings.",
-        price: "1,100",
+        price: "",
         images: [
           "/brands/karnataka-handicrafts/bronzeware/bronzeware-4.png",
           "/brands/karnataka-handicrafts/bronzeware/bronzeware-4.png",
@@ -588,7 +801,7 @@ export const craftCategoryPages = {
         name: "BrLakshmi",
         description:
           "Handcrafted brass idol features Lord Ganesha in a dynamic dancing pose (Nritya Ganesha), symbolizing joy, grace, and auspicious beginnings.",
-        price: "1,100",
+        price: "",
         images: [
           "/brands/karnataka-handicrafts/bronzeware/bronzeware-5.png",
           "/brands/karnataka-handicrafts/bronzeware/bronzeware-5.png",
@@ -599,7 +812,7 @@ export const craftCategoryPages = {
         name: "BrMahisasuramardini",
         description:
           "Handcrafted brass idol features Lord Ganesha in a dynamic dancing pose (Nritya Ganesha), symbolizing joy, grace, and auspicious beginnings.",
-        price: "1,100",
+        price: "",
         images: [
           "/brands/karnataka-handicrafts/bronzeware/bronzeware-6.png",
           "/brands/karnataka-handicrafts/bronzeware/bronzeware-6.png",
@@ -610,7 +823,7 @@ export const craftCategoryPages = {
         name: "BrManatapaJhulaganesha",
         description:
           "Handcrafted brass idol features Lord Ganesha in a dynamic dancing pose (Nritya Ganesha), symbolizing joy, grace, and auspicious beginnings.",
-        price: "1,100",
+        price: "",
         images: [
           "/brands/karnataka-handicrafts/bronzeware/bronzeware-7.png",
           "/brands/karnataka-handicrafts/bronzeware/bronzeware-7.png",
@@ -621,7 +834,7 @@ export const craftCategoryPages = {
         name: "BrNandi",
         description:
           "Handcrafted brass idol features Lord Ganesha in a dynamic dancing pose (Nritya Ganesha), symbolizing joy, grace, and auspicious beginnings.",
-        price: "1,100",
+        price: "",
         images: [
           "/brands/karnataka-handicrafts/bronzeware/bronzeware-8.png",
           "/brands/karnataka-handicrafts/bronzeware/bronzeware-8.png",
@@ -632,7 +845,7 @@ export const craftCategoryPages = {
         name: "BrNataraja",
         description:
           "Handcrafted brass idol features Lord Ganesha in a dynamic dancing pose (Nritya Ganesha), symbolizing joy, grace, and auspicious beginnings.",
-        price: "1,100",
+        price: "",
         images: [
           "/brands/karnataka-handicrafts/bronzeware/bronzeware-9.png",
           "/brands/karnataka-handicrafts/bronzeware/bronzeware-9.png",
@@ -660,6 +873,44 @@ export function getAdjacentBrands(slug) {
     prev: index > 0 ? brands[index - 1] : null,
     next: index < brands.length - 1 ? brands[index + 1] : null,
   };
+}
+
+function toAdjacentLink(item) {
+  if (!item?.href) return null;
+
+  return {
+    href: item.href,
+    title: item.name || item.title,
+  };
+}
+
+export function getAdjacentCraftCategories(slug) {
+  const categories = getBrandCategoryItems("karnataka-handicrafts");
+  const index = categories.findIndex((item) => item.id === slug);
+
+  if (index === -1) {
+    return { prev: null, next: null };
+  }
+
+  let prev = null;
+  for (let i = index - 1; i >= 0; i -= 1) {
+    const link = toAdjacentLink(categories[i]);
+    if (link) {
+      prev = link;
+      break;
+    }
+  }
+
+  let next = null;
+  for (let i = index + 1; i < categories.length; i += 1) {
+    const link = toAdjacentLink(categories[i]);
+    if (link) {
+      next = link;
+      break;
+    }
+  }
+
+  return { prev, next };
 }
 
 export function getBrandCategoryItems(slug) {

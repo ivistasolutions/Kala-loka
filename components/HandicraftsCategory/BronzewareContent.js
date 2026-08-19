@@ -6,6 +6,7 @@ import BrandPageFooter from "@/components/BrandLanding/BrandPageFooter";
 import CraftProductCard from "@/components/HandicraftsCategory/CraftProductCard";
 import JsonLd from "@/components/JsonLd";
 import { breadcrumbJsonLd } from "@/utils/seo";
+import { getAdjacentCraftCategories } from "@/utils/data";
 import { absoluteUrl } from "@/utils/site";
 
 export default function BronzewareContent({ category }) {
@@ -64,7 +65,10 @@ export default function BronzewareContent({ category }) {
           </div>
         </section>
 
-        <BrandPageFooter currentBrandSlug={category.parentSlug} />
+        <BrandPageFooter
+          adjacent={getAdjacentCraftCategories(category.slug)}
+          navLabel="Other crafts"
+        />
       </main>
 
       <Footer />

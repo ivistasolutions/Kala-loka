@@ -40,9 +40,11 @@ export default function CoffeeProductCard({ product, letter }) {
             <p>Tasting notes: {product.tastingNotes}</p>
           ) : null}
         </div>
-        <p className="mt-auto pt-3 text-[15px] font-semibold text-navy md:text-[16px]">
-          Price: {product.price}
-        </p>
+        {product.price ? (
+          <p className="mt-auto pt-3 text-[15px] font-semibold text-navy md:text-[16px]">
+            Price: {product.price}
+          </p>
+        ) : null}
       </div>
     </article>
   );

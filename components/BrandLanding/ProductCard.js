@@ -92,9 +92,11 @@ export default function ProductCard({ product }) {
         <p className="mt-2 min-h-[58px] text-[13px] leading-[1.55] text-navy/65 md:text-[14px]">
           {product.description}
         </p>
-        <p className="mt-4 text-[15px] font-semibold text-navy md:text-[16px]">
-          Price: {product.price}
-        </p>
+        {product.price ? (
+          <p className="mt-4 text-[15px] font-semibold text-navy md:text-[16px]">
+            Price: {product.price}
+          </p>
+        ) : null}
       </div>
     </article>
   );
