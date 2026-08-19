@@ -6,19 +6,19 @@ const cornerImages = [
     width: 653,
     height: 489,
     className:
-      "pointer-events-none absolute top-0 right-0 z-0 hidden h-auto w-[28vw] max-w-xl select-none md:block",
+      "pointer-events-none absolute top-[380px] right-0 z-0 h-auto w-[45vw] max-w-xl select-none md:top-[420px] md:w-[28vw]",
   },
   {
     src: "/images/corner-bottom-left.svg",
     width: 654,
     height: 243,
     className:
-      "pointer-events-none absolute bottom-0 left-0 z-0 hidden h-auto w-[32vw] max-w-2xl select-none md:block",
+      "pointer-events-none absolute bottom-0 left-0 z-0 h-auto w-[50vw] max-w-2xl select-none md:w-[32vw]",
   },
 ];
 
 const circleBaseClassName =
-  "pointer-events-none absolute top-1/2 z-0 hidden h-auto w-[22vw] max-w-[280px] -translate-y-1/2 select-none lg:block";
+  "pointer-events-none absolute top-1/2 z-0 h-auto w-[40vw] max-w-[280px] -translate-y-1/2 select-none md:w-[22vw]";
 
 const circlePlacementClassNames = {
   center: `${circleBaseClassName} left-1/2 -translate-x-1/2`,

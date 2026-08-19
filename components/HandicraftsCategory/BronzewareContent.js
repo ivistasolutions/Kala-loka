@@ -41,20 +41,19 @@ export default function BronzewareContent({ category }) {
       <Header activePage="brands" />
 
       <main id="main-content">
-        <BrandHero
-          title={category.title}
-          tagline={category.tagline}
-          heroImage={category.heroImage}
-          breadcrumbItems={[
-            { name: "Home", href: "/" },
-            { name: category.parentTitle, href: parentHref },
-            { name: category.title },
-          ]}
-        />
-
         <BrandCornerBackground
           circlePlacement={getCircleSideFromSlug(category.slug)}
         >
+          <BrandHero
+            title={category.title}
+            tagline={category.tagline}
+            heroImage={category.heroImage}
+            breadcrumbItems={[
+              { name: "Home", href: "/" },
+              { name: category.parentTitle, href: parentHref },
+              { name: category.title },
+            ]}
+          />
           <section className="mx-auto w-full max-w-7xl px-5 pt-8 pb-6 md:px-8 md:pt-10 lg:px-10 lg:pt-12">
             <Link
               href={parentHref}

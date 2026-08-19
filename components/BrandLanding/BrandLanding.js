@@ -26,16 +26,16 @@ export default function BrandLanding({ brand }) {
       <Header activePage="brands" />
 
       <main id="main-content">
-        <BrandHero
-          title={brand.title}
-          tagline={brand.tagline}
-          heroImage={brand.heroImage}
-          variant={brand.heroVariant}
-        />
-
         <BrandCornerBackground
           circlePlacement={getCircleSideFromSlug(brand.slug)}
         >
+          <BrandHero
+            title={brand.title}
+            tagline={brand.tagline}
+            heroImage={brand.heroImage}
+            variant={brand.heroVariant}
+          />
+
           <BrandIntroCard
             paragraphs={brand.intro.paragraphs}
             extra={brand.intro.extra}
@@ -66,6 +66,7 @@ export default function BrandLanding({ brand }) {
           <BrandPageFooter currentBrandSlug={brand.slug} />
         </BrandCornerBackground>
       </main>
+
 
       <Footer />
     </div>
