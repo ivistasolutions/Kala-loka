@@ -3,6 +3,9 @@ import Header from "@/components/Header";
 import Footer from "@/components/Footer";
 import BrandHero from "@/components/BrandLanding/BrandHero";
 import BrandPageFooter from "@/components/BrandLanding/BrandPageFooter";
+import BrandCornerBackground, {
+  getCircleSideFromSlug,
+} from "@/components/BrandLanding/BrandCornerBackground";
 import CraftProductCard from "@/components/HandicraftsCategory/CraftProductCard";
 import JsonLd from "@/components/JsonLd";
 import { breadcrumbJsonLd } from "@/utils/seo";
@@ -49,26 +52,30 @@ export default function BronzewareContent({ category }) {
           ]}
         />
 
-        <section className="mx-auto w-full max-w-7xl px-5 pt-8 pb-6 md:px-8 md:pt-10 lg:px-10 lg:pt-12">
-          <Link
-            href={parentHref}
-            className="inline-flex items-center gap-1.5 text-[14px] font-medium text-navy transition-colors hover:text-coral md:text-[15px]"
-          >
-            <span aria-hidden="true">←</span>
-            Back to {category.parentTitle}
-          </Link>
+        <BrandCornerBackground
+          circlePlacement={getCircleSideFromSlug(category.slug)}
+        >
+          <section className="mx-auto w-full max-w-7xl px-5 pt-8 pb-6 md:px-8 md:pt-10 lg:px-10 lg:pt-12">
+            <Link
+              href={parentHref}
+              className="inline-flex items-center gap-1.5 text-[14px] font-medium text-navy transition-colors hover:text-coral md:text-[15px]"
+            >
+              <span aria-hidden="true">←</span>
+              Back to {category.parentTitle}
+            </Link>
 
-          <div className="mt-8 grid grid-cols-1 gap-6 sm:grid-cols-2 md:mt-10 md:gap-8 lg:grid-cols-3">
-            {category.products.map((product) => (
-              <CraftProductCard key={product.id} product={product} />
-            ))}
-          </div>
-        </section>
+            <div className="mt-8 grid grid-cols-1 gap-6 sm:grid-cols-2 md:mt-10 md:gap-8 lg:grid-cols-3">
+              {category.products.map((product) => (
+                <CraftProductCard key={product.id} product={product} />
+              ))}
+            </div>
+          </section>
 
-        <BrandPageFooter
-          adjacent={getAdjacentCraftCategories(category.slug)}
-          navLabel="Other crafts"
-        />
+          <BrandPageFooter
+            adjacent={getAdjacentCraftCategories(category.slug)}
+            navLabel="Other crafts"
+          />
+        </BrandCornerBackground>
       </main>
 
       <Footer />

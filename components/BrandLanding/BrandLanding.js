@@ -6,6 +6,9 @@ import ProductSection from "@/components/BrandLanding/ProductSection";
 import CoffeeBoardSection from "@/components/BrandLanding/CoffeeBoardSection";
 import CatalogProductSection from "@/components/BrandLanding/CatalogProductSection";
 import BrandPageFooter from "@/components/BrandLanding/BrandPageFooter";
+import BrandCornerBackground, {
+  getCircleSideFromSlug,
+} from "@/components/BrandLanding/BrandCornerBackground";
 import JsonLd from "@/components/JsonLd";
 import { brandPageJsonLd, breadcrumbJsonLd } from "@/utils/seo";
 
@@ -30,32 +33,38 @@ export default function BrandLanding({ brand }) {
           variant={brand.heroVariant}
         />
 
-        <BrandIntroCard
-          paragraphs={brand.intro.paragraphs}
-          extra={brand.intro.extra}
-        />
+        <BrandCornerBackground
+          circlePlacement={getCircleSideFromSlug(brand.slug)}
+        >
+          <BrandIntroCard
+            paragraphs={brand.intro.paragraphs}
+            extra={brand.intro.extra}
+          />
 
-        {brand.productSections.map((section) => {
-          if (section.layout === "coffee-board") {
-            return <CoffeeBoardSection key={section.id} section={section} />;
-          }
+          {brand.productSections.map((section) => {
+            if (section.layout === "coffee-board") {
+              return <CoffeeBoardSection key={section.id} section={section} />;
+            }
 
-          if (section.layout === "catalog") {
-            return <CatalogProductSection key={section.id} section={section} />;
-          }
+            if (section.layout === "catalog") {
+              return (
+                <CatalogProductSection key={section.id} section={section} />
+              );
+            }
 
-          return (
-            <ProductSection
-              key={section.id}
-              title={section.title}
-              subtitle={section.subtitle}
-              products={section.products}
-              layout={section.layout}
-            />
-          );
-        })}
+            return (
+              <ProductSection
+                key={section.id}
+                title={section.title}
+                subtitle={section.subtitle}
+                products={section.products}
+                layout={section.layout}
+              />
+            );
+          })}
 
-        <BrandPageFooter currentBrandSlug={brand.slug} />
+          <BrandPageFooter currentBrandSlug={brand.slug} />
+        </BrandCornerBackground>
       </main>
 
       <Footer />
