@@ -1,12 +1,12 @@
 import Image from "next/image";
 
 const brandLogos = [
-  { src: "/logos/coffee_board.png", alt: "Coffee Board" },
-  { src: "/logos/cauvery.png", alt: "Cauvery" },
-  { src: "/logos/mysore_silk.png", alt: "Mysore Silk" },
-  { src: "/logos/mysore_sandal_soap.png", alt: "Mysore Sandal Soap" },
-  { src: "/logos/priyadharshini.png", alt: "Priyadharshini" },
-  { src: "/logos/lidkar.png", alt: "Lidkar" },
+  { src: "/logos/coffee_board_v2.png", alt: "Coffee Board" },
+  { src: "/logos/cauvery_v2.png", alt: "Cauvery" },
+  { src: "/logos/mysore_silk_v2.png", alt: "Mysore Silk" },
+  { src: "/logos/mysore_sandal_soap_v2.png", alt: "Mysore Sandal Soap" },
+  { src: "/logos/priyadharshini_v2.png", alt: "Priyadharshini" },
+  { src: "/logos/lidkar_v2.png", alt: "Lidkar" },
 ];
 
 function MarqueeTrack({ logoClassName }) {
