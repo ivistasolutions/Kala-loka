@@ -43,6 +43,7 @@ export default function BronzewareContent({ category }) {
       <main id="main-content">
         <BrandCornerBackground
           circlePlacement={getCircleSideFromSlug(category.slug)}
+          topCornerPlacement="afterBanner"
         >
           <BrandHero
             title={category.title}

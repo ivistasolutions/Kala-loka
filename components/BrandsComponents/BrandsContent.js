@@ -21,7 +21,7 @@ export default function BrandsContent() {
       <Header activePage="brands" />
 
       <main id="main-content" className="flex-1">
-        <BrandCornerBackground circlePlacement="center">
+        <BrandCornerBackground circlePlacement="center" topCornerPlacement="top">
           <div className="mx-auto flex w-full max-w-7xl flex-col px-5 pt-6 pb-16 md:px-8 md:pt-8 md:pb-20 lg:px-10 lg:pb-24">
             <Breadcrumb
               className="mb-8 md:mb-10"

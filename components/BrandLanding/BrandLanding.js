@@ -28,6 +28,7 @@ export default function BrandLanding({ brand }) {
       <main id="main-content">
         <BrandCornerBackground
           circlePlacement={getCircleSideFromSlug(brand.slug)}
+          topCornerPlacement="afterBanner"
         >
           <BrandHero
             title={brand.title}
