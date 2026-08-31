@@ -9,8 +9,21 @@ function toSrc(path) {
   return `/${path}`;
 }
 
+function getMaterial(product) {
+  if (product.material) return product.material;
+
+  const line = (product.details || []).find((item) =>
+    /^material\s*:/i.test(item),
+  );
+
+  return line ? line.replace(/^material\s*:\s*/i, "") : "";
+}
+
 export default function CraftProductCard({ product }) {
-  const images = (product.images || []).map(toSrc).filter(Boolean);
+  const images = [
+    ...new Set((product.images || []).map(toSrc).filter(Boolean)),
+  ];
+  const material = getMaterial(product);
   const [index, setIndex] = useState(0);
   const startX = useRef(0);
   const hasCarousel = images.length > 1;
@@ -89,12 +102,14 @@ export default function CraftProductCard({ product }) {
         <h3 className="text-[17px] font-semibold text-navy md:text-[18px]">
           {product.name}
         </h3>
-        <p className="mt-2 flex-1 text-[13px] leading-[1.55] text-navy/60 md:text-[14px]">
-          {product.description}
-        </p>
-        {product.price ? (
-          <p className="mt-4 text-[15px] font-semibold text-navy md:text-[16px]">
-            Price: {product.price}
+        {product.description ? (
+          <p className="mt-2 text-[13px] leading-[1.55] text-navy/60 md:text-[14px]">
+            {product.description}
+          </p>
+        ) : null}
+        {material ? (
+          <p className="mt-3 text-[13px] leading-normal text-navy/70 md:text-[14px]">
+            Material: {material}
           </p>
         ) : null}
       </div>

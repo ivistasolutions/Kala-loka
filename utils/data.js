@@ -293,6 +293,7 @@ export const brandPages = {
             description:
               "Brought from Iran in the 13th century, Bidriware is a 500-year-old Bidar craft featuring pure silver inlay on black zinc-copper alloy. Karnataka GI-20 since 2005.",
             image: "/brands/karnataka-handicrafts/craft-1.png",
+            href: "/our-brands/karnataka-handicrafts/bidriware",
           },
           {
             id: "channapatna-toys",
@@ -300,42 +301,7 @@ export const brandPages = {
             description:
               "Crafted from soft ivory wood and finished with safe, non-toxic organic vegetable dyes, these eco-friendly turned-wood toys are celebrated for their vibrant colors and smooth, rounded forms.",
             image: "/brands/karnataka-handicrafts/craft-2.png",
-          },
-          {
-            id: "designer-products",
-            name: "Designer Products",
-            description:
-              "Contemporary utility and decor pieces that bridge tradition and modernity by adapting classic Karnataka craft techniques into stylish, functional items for modern lifestyles.",
-            image: "/brands/karnataka-handicrafts/craft-3.png",
-          },
-        
-          {
-            id: "kasuthi-embroidery",
-            name: "Kasuthi Embroidery",
-            description:
-              "A meticulous traditional folk embroidery technique using delicate geometric patterns stitched without knots, making both sides of the fabric look identical.",
-            image: "/brands/karnataka-handicrafts/craft-5.png",
-          },
-          {
-            id: "mysore-rosewood-inlay",
-            name: "Mysore Rosewood Inlay",
-            description:
-              "An intricate art form where contrasting materials like ivory-substitutes, wood veneers, and acrylics are precisely shaped and embedded into seasoned rosewood to depict royal processions and floral patterns.",
-            image: "/brands/karnataka-handicrafts/craft-6.png",
-          },
-          {
-            id: "mysore-traditional-paintings",
-            name: "Mysore Traditional Paintings & Ganjifa Cards of Mysore",
-            description:
-              "Distinguished by delicate linework and rich gesso work embellished with pure gold foil, paired with the heritage tradition of hand-painted circular playing cards featuring mythological figures.",
-            image: "/brands/karnataka-handicrafts/craft-7.png",
-          },
-          {
-            id: "navalgund-dhurries",
-            name: "Navalgund Dhurries",
-            description:
-              "Hand-woven cotton floor rugs instantly recognizable by their bold geometric patterns, striking color contrasts, and signature motifs like peacocks and playing card designs.",
-            image: "/brands/karnataka-handicrafts/craft-8.png",
+            href: "/our-brands/karnataka-handicrafts/channapatna-toys",
           },
           {
             id: "sandalwood-carvings",
@@ -343,6 +309,7 @@ export const brandPages = {
             description:
               "Renowned for their natural aromatic fragrance, these ultra-detailed sculptures are carved from premium Karnataka sandalwood using centuries-old precision craftsmanship.",
             image: "/brands/karnataka-handicrafts/craft-9.png",
+            href: "/our-brands/karnataka-handicrafts/sandalwood-carvings",
           },
         ],
       },
@@ -441,7 +408,6 @@ export const brandPages = {
       paragraphs: [
         "The Government Sandalwood Oil Factory was established in 1916 at Mysore to distil oil from sandalwood grown in the forests of Karnataka. What began as a state enterprise to protect a royal fragrance is today Karnataka Soaps & Detergents Limited (KSDL).",
         "Mysore Sandal Soap and Mysore Sandalwood Oil remain among India's most recognised GI products — GI No. 30 and GI No. 29 — made only from genuine sandalwood oil distilled in this land.",
-        
       ],
       extra: [
         "KSDL continues the original formula, packing soaps, oils, incense and skin-care that still carry the scent the state has protected for over a century.",
@@ -749,107 +715,361 @@ export const craftCategoryPages = {
     parentTitle: "Karnataka Handicrafts",
     title: "Karnataka Bronzeware",
     tagline:
-      "Karnataka Bronzeware is a traditional metal craft using the ancient 'lost wax' (cire perdue) casting technique. Protected by a Geographical Indication (GI) tag,",
+      "Karnataka Bronzeware is a traditional metal craft using the ancient lost-wax (cire perdue) casting technique. Protected by a Geographical Indication (GI) tag, these solid bronze sculptures capture intricate iconographical details of deities and traditional motifs.",
     heroImage: "/brands/karnataka-handicrafts/bronzeware/banner.png",
     products: [
       {
         id: "br-dancing-ganapathy",
-        name: "BrDancingGanapathy",
+        name: "Dancing Ganapathy",
         description:
-          "Handcrafted brass idol features Lord Ganesha in a dynamic dancing pose (Nritya Ganesha), symbolizing joy, grace, and auspicious beginnings.",
-        price: "",
-        images: [
-          "/brands/karnataka-handicrafts/bronzeware/bronzeware-1.png",
-          "/brands/karnataka-handicrafts/bronzeware/bronzeware-1.png",
-        ],
+          "Handcrafted bronze idol of Lord Ganesha in a dynamic dancing pose (Nritya Ganesha), symbolizing joy, grace, and auspicious beginnings.",
+        material: "Bronze",
+        images: ["/brands/karnataka-handicrafts/bronzeware/bronzeware-1.png"],
       },
       {
         id: "br-darpanasundari",
-        name: "BrDarpanasundari",
+        name: "Darpanasundari",
         description:
-          "Handcrafted brass idol features Lord Ganesha in a dynamic dancing pose (Nritya Ganesha), symbolizing joy, grace, and auspicious beginnings.",
-        price: "",
-        images: [
-          "/brands/karnataka-handicrafts/bronzeware/bronzeware-2.png",
-          "/brands/karnataka-handicrafts/bronzeware/bronzeware-2.png",
-        ],
+          "A bronze idol of Darpanasundari, the celestial maiden gazing into a mirror — an iconic motif of Karnataka temple sculpture, rendered with lost-wax precision.",
+        material: "Bronze",
+        images: ["/brands/karnataka-handicrafts/bronzeware/bronzeware-2.png"],
       },
       {
         id: "br-hamsa",
-        name: "BrHamsa",
+        name: "Hamsa",
         description:
-          "Handcrafted brass idol features Lord Ganesha in a dynamic dancing pose (Nritya Ganesha), symbolizing joy, grace, and auspicious beginnings.",
-        price: "",
-        images: [
-          "/brands/karnataka-handicrafts/bronzeware/bronzeware-3.png",
-          "/brands/karnataka-handicrafts/bronzeware/bronzeware-3.png",
-        ],
+          "A graceful bronze hamsa (sacred swan), a symbol of wisdom and discernment, cast with flowing lines that capture the bird's poised, regal form.",
+        material: "Bronze",
+        images: ["/brands/karnataka-handicrafts/bronzeware/bronzeware-3.png"],
       },
       {
         id: "br-krishna",
-        name: "BrKrishna",
+        name: "Krishna",
         description:
-          "Handcrafted brass idol features Lord Ganesha in a dynamic dancing pose (Nritya Ganesha), symbolizing joy, grace, and auspicious beginnings.",
-        price: "",
-        images: [
-          "/brands/karnataka-handicrafts/bronzeware/bronzeware-4.png",
-          "/brands/karnataka-handicrafts/bronzeware/bronzeware-4.png",
-        ],
+          "A solid bronze figure of Lord Krishna, capturing the charm of the divine cowherd in traditional iconographic pose with the heirloom durability of lost-wax casting.",
+        material: "Bronze",
+        images: ["/brands/karnataka-handicrafts/bronzeware/bronzeware-4.png"],
       },
       {
         id: "br-lakshmi",
-        name: "BrLakshmi",
+        name: "Lakshmi",
         description:
-          "Handcrafted brass idol features Lord Ganesha in a dynamic dancing pose (Nritya Ganesha), symbolizing joy, grace, and auspicious beginnings.",
-        price: "",
-        images: [
-          "/brands/karnataka-handicrafts/bronzeware/bronzeware-5.png",
-          "/brands/karnataka-handicrafts/bronzeware/bronzeware-5.png",
-        ],
+          "A handcrafted bronze idol of Goddess Lakshmi, the embodiment of prosperity and grace, depicted in classic seated form with intricate jewellery and drapery detail.",
+        material: "Bronze",
+        images: ["/brands/karnataka-handicrafts/bronzeware/bronzeware-5.png"],
       },
       {
         id: "br-mahisasuramardini",
-        name: "BrMahisasuramardini",
+        name: "Mahishasuramardini",
         description:
-          "Handcrafted brass idol features Lord Ganesha in a dynamic dancing pose (Nritya Ganesha), symbolizing joy, grace, and auspicious beginnings.",
-        price: "",
-        images: [
-          "/brands/karnataka-handicrafts/bronzeware/bronzeware-6.png",
-          "/brands/karnataka-handicrafts/bronzeware/bronzeware-6.png",
-        ],
+          "A powerful bronze sculpture of Mahishasuramardini — Goddess Durga vanquishing the buffalo-demon Mahishasura — cast with the dynamic energy of Karnataka's lost-wax tradition.",
+        material: "Bronze",
+        images: ["/brands/karnataka-handicrafts/bronzeware/bronzeware-6.png"],
       },
       {
         id: "br-manatapa-jhulaganesha",
-        name: "BrManatapaJhulaganesha",
+        name: "Mantapa Jhula Ganesha",
         description:
-          "Handcrafted brass idol features Lord Ganesha in a dynamic dancing pose (Nritya Ganesha), symbolizing joy, grace, and auspicious beginnings.",
-        price: "",
-        images: [
-          "/brands/karnataka-handicrafts/bronzeware/bronzeware-7.png",
-          "/brands/karnataka-handicrafts/bronzeware/bronzeware-7.png",
-        ],
+          "Lord Ganesha seated on a swing (jhula) beneath a temple pavilion (mantapa), a festive bronze composition that brings the warmth of festival processions into the home.",
+        material: "Bronze",
+        images: ["/brands/karnataka-handicrafts/bronzeware/bronzeware-7.png"],
       },
       {
         id: "br-nandi",
-        name: "BrNandi",
+        name: "Nandi",
         description:
-          "Handcrafted brass idol features Lord Ganesha in a dynamic dancing pose (Nritya Ganesha), symbolizing joy, grace, and auspicious beginnings.",
-        price: "",
-        images: [
-          "/brands/karnataka-handicrafts/bronzeware/bronzeware-8.png",
-          "/brands/karnataka-handicrafts/bronzeware/bronzeware-8.png",
-        ],
+          "A seated bronze Nandi, Lord Shiva's sacred bull, rendered with calm devotion and the solid, enduring presence that lost-wax bronzeware is prized for.",
+        material: "Bronze",
+        images: ["/brands/karnataka-handicrafts/bronzeware/bronzeware-8.png"],
       },
       {
         id: "br-nataraja",
-        name: "BrNataraja",
+        name: "Nataraja",
         description:
-          "Handcrafted brass idol features Lord Ganesha in a dynamic dancing pose (Nritya Ganesha), symbolizing joy, grace, and auspicious beginnings.",
-        price: "",
-        images: [
-          "/brands/karnataka-handicrafts/bronzeware/bronzeware-9.png",
-          "/brands/karnataka-handicrafts/bronzeware/bronzeware-9.png",
-        ],
+          "Lord Shiva as Nataraja, the cosmic dancer, captured in bronze at the moment of the Tandava — an emblem of creation and dissolution, cast with Karnataka's metal-craft iconography.",
+        material: "Bronze",
+        images: ["/brands/karnataka-handicrafts/bronzeware/bronzeware-9.png"],
+      },
+    ],
+  },
+  "bidriware": {
+    slug: "bidriware",
+    parentSlug: "karnataka-handicrafts",
+    parentTitle: "Karnataka Handicrafts",
+    title: "Bidriware",
+    tagline:
+      "Brought from Iran in the 13th century, Bidriware is a 500-year-old Bidar craft featuring pure silver inlay on black zinc-copper alloy. Karnataka GI-20 since 2005.",
+    heroImage: "/brands/karnataka-handicrafts/bidriware/hero.jpeg",
+    products: [
+      {
+        id: "bidriware-elephant-check-design",
+        name: "Bidriware Elephant Check Design",
+        description:
+          "A striking elephant figure finished in Bidar's signature blackened alloy, its body etched with a fine checkerboard lattice inlaid in pure silver — a design classic among Bidriware collectors.",
+        material: "Zinc, Copper and Pure silver",
+        images: ["/brands/karnataka-handicrafts/bidriware/bidriware-1.png"],
+      },
+      {
+        id: "bidriware-nandi",
+        name: "Bidriware Nandi",
+        description:
+          "A seated Nandi, Lord Shiva's sacred bull, rendered in deep black metal with delicate silver inlay tracing its draped saddle cloth — a serene devotional piece for home altars and display shelves alike.",
+        material: "Zinc, Copper and Pure silver",
+        images: ["/brands/karnataka-handicrafts/bidriware/bidriware-2.png"],
+      },
+      {
+        id: "bidriware-box",
+        name: "Bidriware Box",
+        description:
+          "A compact keepsake box in traditional Bidri work, its lid and sides covered edge to edge with intricate floral silver inlay against the alloy's velvety black finish — ideal for jewellery or small treasures.",
+        material: "Zinc, Copper and Pure silver",
+        images: ["/brands/karnataka-handicrafts/bidriware/bidriware-3.png"],
+      },
+      {
+        id: "bidri-elephant-pz",
+        name: "Bidri Elephant PZ",
+        description:
+          "A regal standing elephant crafted in the Bidar tradition, its trunk raised and body inlaid with fine silver detailing that catches the light against the deep charcoal alloy base.",
+        material: "Zinc, Copper and Pure silver",
+        images: ["/brands/karnataka-handicrafts/bidriware/bidriware-4.png"],
+      },
+      {
+        id: "bidri-gudgudi",
+        name: "Bidri Gudgudi",
+        description:
+          "A gracefully curved decorative vessel in classic Bidri form, its bulbous silhouette wrapped in dense silver filigree — a statement showpiece rooted in centuries-old Bidar metalwork.",
+        material: "Zinc, Copper and Pure silver",
+        images: ["/brands/karnataka-handicrafts/bidriware/bidriware-5.png"],
+      },
+      {
+        id: "bidri-office-set-3pcs",
+        name: "Bidri Office Set 3 Pcs",
+        description:
+          "A three-piece desk set — pen stand, paperweight and card holder — finished in traditional Bidri black-and-silver work, bringing centuries-old craftsmanship to the modern desk. Presented in a fitted gift case.",
+        material: "Zinc, Copper and Pure silver",
+        images: ["/brands/karnataka-handicrafts/bidriware/bidriware-6.png"],
+      },
+      {
+        id: "bidri-goblet-butta",
+        name: "Bidri Goblet Butta",
+        description:
+          "A slender, long-necked goblet with a bulbous body, entirely covered in dense silver butta (floral dot) inlay — a refined decorative piece that showcases the precision of Bidar's inlay artisans.",
+        material: "Zinc, Copper and Pure silver",
+        images: ["/brands/karnataka-handicrafts/bidriware/bidriware-7.png"],
+      },
+      {
+        id: "bidri-chambu-mehtabi",
+        name: "Bidri Chambu Mehtabi",
+        description:
+          "A traditional water vessel (chambu) in the Mehtabi style, its rounded form covered in an elaborate floral and vine silver inlay pattern set against the signature jet-black alloy finish.",
+        material: "Zinc, Copper and Pure silver",
+        images: ["/brands/karnataka-handicrafts/bidriware/bidriware-8.png"],
+      },
+    ],
+  },
+  "channapatna-toys": {
+    slug: "channapatna-toys",
+    parentSlug: "karnataka-handicrafts",
+    parentTitle: "Karnataka Handicrafts",
+    title: "Channapatna Toys & Dolls",
+    tagline:
+      "Crafted from soft ivory wood and finished with safe, non-toxic organic vegetable dyes, these eco-friendly turned-wood toys are celebrated for their vibrant colors and smooth, rounded forms.",
+    heroImage: "/brands/karnataka-handicrafts/channapatna-toys/banner.png",
+    products: [
+      {
+        id: "cp-couple-dolls",
+        name: "Channapatna Couple Dolls",
+        description:
+          "A traditional pair of turned-wood dolls dressed in classic Karnataka attire, lacquer-finished in bright vegetable dyes — a cheerful decorative set rooted in Channapatna's toy-making heritage.",
+        material: "Ivory wood with organic vegetable dyes",
+        images: ["/brands/karnataka-handicrafts/channapatna-toys/channapatna-1.png"],
+      },
+      {
+        id: "cp-spinning-top",
+        name: "Channapatna Spinning Top",
+        description:
+          "A classic lacquered wooden spinning top in bold red and green, turned on a lathe and polished to a smooth finish — a nostalgic favourite among Channapatna's turned-wood toys.",
+        material: "Ivory wood with organic vegetable dyes",
+        images: ["/brands/karnataka-handicrafts/channapatna-toys/channapatna-2.png"],
+      },
+      {
+        id: "cp-stacking-rings-tower",
+        name: "Channapatna Stacking Rings Tower",
+        description:
+          "A colourful stacking tower of graduated wooden rings, lacquer-dyed in rainbow shades — a simple, screen-free toy that doubles as a shape-and-colour learning aid for little hands.",
+        material: "Ivory wood with organic vegetable dyes",
+        images: ["/brands/karnataka-handicrafts/channapatna-toys/channapatna-3.png"],
+      },
+      {
+        id: "cp-woman-with-pot",
+        name: "Channapatna Woman with Pot Doll",
+        description:
+          "A charming turned-wood figure of a woman balancing a pot, finished in rich lacquer tones — a decorative piece that reflects everyday rural life through Channapatna's signature toy-making style.",
+        material: "Ivory wood with organic vegetable dyes",
+        images: ["/brands/karnataka-handicrafts/channapatna-toys/channapatna-4.png"],
+      },
+      {
+        id: "cp-pull-bear-rings",
+        name: "Channapatna Pull-Along Bear with Rings",
+        description:
+          "A rolling wooden bear threaded with bright spinning rings on its axle, designed as a pull-along toy that rattles and turns as it moves — a playful, eco-friendly classic for toddlers.",
+        material: "Ivory wood with organic vegetable dyes",
+        images: ["/brands/karnataka-handicrafts/channapatna-toys/channapatna-5.png"],
+      },
+      {
+        id: "cp-bear-push-toy",
+        name: "Channapatna Bear Push Toy",
+        description:
+          "A rounded, smiling bear figure mounted on wooden wheels, lacquered in warm browns — a sturdy little push toy shaped and finished in the traditional Channapatna turnery style.",
+        material: "Ivory wood with organic vegetable dyes",
+        images: ["/brands/karnataka-handicrafts/channapatna-toys/channapatna-6.png"],
+      },
+      {
+        id: "cp-musician-dolls-trio",
+        name: "Channapatna Musician Dolls Trio",
+        description:
+          "A set of three turned-wood figures dressed in colourful traditional outfits, each lacquer-painted with distinct patterns — a decorative trio that captures the folk-art charm of Channapatna toy-making.",
+        material: "Ivory wood with organic vegetable dyes",
+        images: ["/brands/karnataka-handicrafts/channapatna-toys/channapatna-7.png"],
+      },
+      {
+        id: "cp-pull-rabbit",
+        name: "Channapatna Pull-Along Rabbit",
+        description:
+          "An ivory-toned wooden rabbit on wheels with a pull-string, its smooth turned form and gentle painted features making it a soft, safe first toy in the Channapatna tradition.",
+        material: "Ivory wood with organic vegetable dyes",
+        images: ["/brands/karnataka-handicrafts/channapatna-toys/channapatna-8.png"],
+      },
+      {
+        id: "cp-pull-train",
+        name: "Channapatna Pull-Along Train",
+        description:
+          "A segmented wooden pull-toy train in red and green lacquer, its rounded carriages linked and mounted on wheels — a bright, rattling companion for toddlers learning to walk.",
+        material: "Ivory wood with organic vegetable dyes",
+        images: ["/brands/karnataka-handicrafts/channapatna-toys/channapatna-9.png"],
+      },
+      {
+        id: "cp-pull-wheel-toy",
+        name: "Channapatna Pull-Along Wheel Toy",
+        description:
+          "A green wooden wheel toy trailing a pair of red wooden balls on a pull-string, designed to roll and bounce playfully as it's dragged along — a simple, tactile Channapatna classic.",
+        material: "Ivory wood with organic vegetable dyes",
+        images: ["/brands/karnataka-handicrafts/channapatna-toys/channapatna-10.png"],
+      },
+      {
+        id: "cp-pull-spool-train",
+        name: "Channapatna Pull-Along Spool Train",
+        description:
+          "A chain of lacquered wooden spools linked into a rolling pull-toy, alternating warm reds, ochres and creams — a rhythmic, rattling toy turned on the traditional Channapatna lathe.",
+        material: "Ivory wood with organic vegetable dyes",
+        images: ["/brands/karnataka-handicrafts/channapatna-toys/channapatna-11.png"],
+      },
+      {
+        id: "cp-abacus-toy",
+        name: "Channapatna Abacus Toy",
+        description:
+          "A hand-turned wooden counting toy with sliding beads set between two dumbbell-shaped ends, lacquered in deep maroon and gold — a playful nod to early learning through traditional craft.",
+        material: "Ivory wood with organic vegetable dyes",
+        images: ["/brands/karnataka-handicrafts/channapatna-toys/channapatna-12.png"],
+      },
+      {
+        id: "cp-cat-figure",
+        name: "Channapatna Cat Figure",
+        description:
+          "A stylised standing cat figure turned from soft ivory wood and lacquered in deep maroon tones, its smooth, rounded silhouette typical of Channapatna's signature toy-making finish.",
+        material: "Ivory wood with organic vegetable dyes",
+        images: ["/brands/karnataka-handicrafts/channapatna-toys/channapatna-13.png"],
+      },
+      {
+        id: "cp-rattle-toy",
+        name: "Channapatna Rattle Toy",
+        description:
+          "A handheld wooden rattle with a lacquered red ball head and looped cord, designed for little hands to shake and grip — a simple, safe first toy from Channapatna's toy-making tradition.",
+        material: "Ivory wood with organic vegetable dyes",
+        images: ["/brands/karnataka-handicrafts/channapatna-toys/channapatna-14.png"],
+      },
+    ],
+  },
+  "sandalwood-carvings": {
+    slug: "sandalwood-carvings",
+    parentSlug: "karnataka-handicrafts",
+    parentTitle: "Karnataka Handicrafts",
+    title: "Sandalwood Carvings",
+    tagline:
+      "Renowned for their natural aromatic fragrance, these ultra-detailed sculptures are carved from premium Karnataka sandalwood using centuries-old precision craftsmanship.",
+    heroImage: "/brands/karnataka-handicrafts/sandalwood-carvings/hero.png",
+    products: [
+      {
+        id: "sw-standing-deity",
+        name: "Sandalwood Standing Deity",
+        description:
+          "A tall, finely carved figure of a standing deity holding traditional attributes, set on a dark wooden base — the natural grain of sandalwood lending warmth to every fold of drapery and ornament.",
+        material: "Karnataka sandalwood",
+        images: ["/brands/karnataka-handicrafts/sandalwood-carvings/sandalwood-1.png"],
+      },
+      {
+        id: "sw-gajalakshmi",
+        name: "Sandalwood Gajalakshmi",
+        description:
+          "Goddess Lakshmi seated in blessing, flanked by a pair of elephants, carved in rich sandalwood with intricate crown and jewellery detail — a symbol of prosperity for home or altar.",
+        material: "Karnataka sandalwood",
+        images: ["/brands/karnataka-handicrafts/sandalwood-carvings/sandalwood-2.png"],
+      },
+      {
+        id: "sw-radha-krishna",
+        name: "Sandalwood Radha Krishna",
+        description:
+          "Radha and Krishna carved standing side by side in devotional embrace, their garments and ornaments etched in fine detail across the deep, fragrant sandalwood grain.",
+        material: "Karnataka sandalwood",
+        images: ["/brands/karnataka-handicrafts/sandalwood-carvings/sandalwood-3.png"],
+      },
+      {
+        id: "sw-krishna-arch",
+        name: "Sandalwood Krishna in Arch",
+        description:
+          "Lord Krishna carved within an elaborately latticed temple arch, the openwork frame showcasing the sandalwood carver's skill in translating temple architecture into miniature form.",
+        material: "Karnataka sandalwood",
+        images: ["/brands/karnataka-handicrafts/sandalwood-carvings/sandalwood-4.png"],
+      },
+      {
+        id: "sw-temple-arch-panel",
+        name: "Sandalwood Temple Arch Panel",
+        description:
+          "A domed temple-arch carving with a deity enshrined at its centre, surrounded by pillared detailing and finials — a decorative piece that echoes South Indian temple facades in miniature.",
+        material: "Karnataka sandalwood",
+        images: ["/brands/karnataka-handicrafts/sandalwood-carvings/sandalwood-5.png"],
+      },
+      {
+        id: "sw-temple-shrine",
+        name: "Sandalwood Temple Shrine",
+        description:
+          "An intricately jaali-cut temple shrine carving with a deity seated within, its pierced screen work and layered spire capturing the ornamentation of classical temple gopurams.",
+        material: "Karnataka sandalwood",
+        images: ["/brands/karnataka-handicrafts/sandalwood-carvings/sandalwood-6.png"],
+      },
+      {
+        id: "sw-mala-bracelet",
+        name: "Sandalwood Mala Bracelet",
+        description:
+          "A hand-strung bracelet of rounded sandalwood beads, retaining the wood's natural fragrance and warmth — worn for both its calming scent and its simple, understated craftsmanship.",
+        material: "Karnataka sandalwood",
+        images: ["/brands/karnataka-handicrafts/sandalwood-carvings/sandalwood-7.png"],
+      },
+      {
+        id: "sw-mala-beads",
+        name: "Sandalwood Mala Beads",
+        description:
+          "A traditional 108-bead sandalwood mala strung for prayer and meditation, each bead smoothly turned to release the wood's natural aroma with handling.",
+        material: "Karnataka sandalwood",
+        images: ["/brands/karnataka-handicrafts/sandalwood-carvings/sandalwood-8.png"],
+      },
+      {
+        id: "sw-elephant-with-calf",
+        name: "Sandalwood Elephant with Calf",
+        description:
+          "A mother elephant and calf carved in fluid, naturalistic detail and mounted on a dark wooden base — a heirloom-quality piece prized as much for its craftsmanship as its lingering sandalwood scent.",
+        material: "Karnataka sandalwood",
+        images: ["/brands/karnataka-handicrafts/sandalwood-carvings/sandalwood-9.png"],
       },
     ],
   },
