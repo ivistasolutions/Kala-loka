@@ -301,42 +301,7 @@ export const brandPages = {
             description:
               "Crafted from soft ivory wood and finished with safe, non-toxic organic vegetable dyes, these eco-friendly turned-wood toys are celebrated for their vibrant colors and smooth, rounded forms.",
             image: "/brands/karnataka-handicrafts/craft-2.png",
-          },
-          {
-            id: "designer-products",
-            name: "Designer Products",
-            description:
-              "Contemporary utility and decor pieces that bridge tradition and modernity by adapting classic Karnataka craft techniques into stylish, functional items for modern lifestyles.",
-            image: "/brands/karnataka-handicrafts/craft-3.png",
-          },
-
-          {
-            id: "kasuthi-embroidery",
-            name: "Kasuthi Embroidery",
-            description:
-              "A meticulous traditional folk embroidery technique using delicate geometric patterns stitched without knots, making both sides of the fabric look identical.",
-            image: "/brands/karnataka-handicrafts/craft-5.png",
-          },
-          {
-            id: "mysore-rosewood-inlay",
-            name: "Mysore Rosewood Inlay",
-            description:
-              "An intricate art form where contrasting materials like ivory-substitutes, wood veneers, and acrylics are precisely shaped and embedded into seasoned rosewood to depict royal processions and floral patterns.",
-            image: "/brands/karnataka-handicrafts/craft-6.png",
-          },
-          {
-            id: "mysore-traditional-paintings",
-            name: "Mysore Traditional Paintings & Ganjifa Cards of Mysore",
-            description:
-              "Distinguished by delicate linework and rich gesso work embellished with pure gold foil, paired with the heritage tradition of hand-painted circular playing cards featuring mythological figures.",
-            image: "/brands/karnataka-handicrafts/craft-7.png",
-          },
-          {
-            id: "navalgund-dhurries",
-            name: "Navalgund Dhurries",
-            description:
-              "Hand-woven cotton floor rugs instantly recognizable by their bold geometric patterns, striking color contrasts, and signature motifs like peacocks and playing card designs.",
-            image: "/brands/karnataka-handicrafts/craft-8.png",
+            href: "/our-brands/karnataka-handicrafts/channapatna-toys",
           },
           {
             id: "sandalwood-carvings",
@@ -344,6 +309,7 @@ export const brandPages = {
             description:
               "Renowned for their natural aromatic fragrance, these ultra-detailed sculptures are carved from premium Karnataka sandalwood using centuries-old precision craftsmanship.",
             image: "/brands/karnataka-handicrafts/craft-9.png",
+            href: "/our-brands/karnataka-handicrafts/sandalwood-carvings",
           },
         ],
       },
@@ -826,7 +792,7 @@ export const craftCategoryPages = {
       },
     ],
   },
-  bidriware: {
+  "bidriware": {
     slug: "bidriware",
     parentSlug: "karnataka-handicrafts",
     parentTitle: "Karnataka Handicrafts",
@@ -898,6 +864,212 @@ export const craftCategoryPages = {
           "A traditional water vessel (chambu) in the Mehtabi style, its rounded form covered in an elaborate floral and vine silver inlay pattern set against the signature jet-black alloy finish.",
         material: "Zinc, Copper and Pure silver",
         images: ["/brands/karnataka-handicrafts/bidriware/bidriware-8.png"],
+      },
+    ],
+  },
+  "channapatna-toys": {
+    slug: "channapatna-toys",
+    parentSlug: "karnataka-handicrafts",
+    parentTitle: "Karnataka Handicrafts",
+    title: "Channapatna Toys & Dolls",
+    tagline:
+      "Crafted from soft ivory wood and finished with safe, non-toxic organic vegetable dyes, these eco-friendly turned-wood toys are celebrated for their vibrant colors and smooth, rounded forms.",
+    heroImage: "/brands/karnataka-handicrafts/channapatna-toys/banner.png",
+    products: [
+      {
+        id: "cp-couple-dolls",
+        name: "Channapatna Couple Dolls",
+        description:
+          "A traditional pair of turned-wood dolls dressed in classic Karnataka attire, lacquer-finished in bright vegetable dyes — a cheerful decorative set rooted in Channapatna's toy-making heritage.",
+        material: "Ivory wood with organic vegetable dyes",
+        images: ["/brands/karnataka-handicrafts/channapatna-toys/channapatna-1.png"],
+      },
+      {
+        id: "cp-spinning-top",
+        name: "Channapatna Spinning Top",
+        description:
+          "A classic lacquered wooden spinning top in bold red and green, turned on a lathe and polished to a smooth finish — a nostalgic favourite among Channapatna's turned-wood toys.",
+        material: "Ivory wood with organic vegetable dyes",
+        images: ["/brands/karnataka-handicrafts/channapatna-toys/channapatna-2.png"],
+      },
+      {
+        id: "cp-stacking-rings-tower",
+        name: "Channapatna Stacking Rings Tower",
+        description:
+          "A colourful stacking tower of graduated wooden rings, lacquer-dyed in rainbow shades — a simple, screen-free toy that doubles as a shape-and-colour learning aid for little hands.",
+        material: "Ivory wood with organic vegetable dyes",
+        images: ["/brands/karnataka-handicrafts/channapatna-toys/channapatna-3.png"],
+      },
+      {
+        id: "cp-woman-with-pot",
+        name: "Channapatna Woman with Pot Doll",
+        description:
+          "A charming turned-wood figure of a woman balancing a pot, finished in rich lacquer tones — a decorative piece that reflects everyday rural life through Channapatna's signature toy-making style.",
+        material: "Ivory wood with organic vegetable dyes",
+        images: ["/brands/karnataka-handicrafts/channapatna-toys/channapatna-4.png"],
+      },
+      {
+        id: "cp-pull-bear-rings",
+        name: "Channapatna Pull-Along Bear with Rings",
+        description:
+          "A rolling wooden bear threaded with bright spinning rings on its axle, designed as a pull-along toy that rattles and turns as it moves — a playful, eco-friendly classic for toddlers.",
+        material: "Ivory wood with organic vegetable dyes",
+        images: ["/brands/karnataka-handicrafts/channapatna-toys/channapatna-5.png"],
+      },
+      {
+        id: "cp-bear-push-toy",
+        name: "Channapatna Bear Push Toy",
+        description:
+          "A rounded, smiling bear figure mounted on wooden wheels, lacquered in warm browns — a sturdy little push toy shaped and finished in the traditional Channapatna turnery style.",
+        material: "Ivory wood with organic vegetable dyes",
+        images: ["/brands/karnataka-handicrafts/channapatna-toys/channapatna-6.png"],
+      },
+      {
+        id: "cp-musician-dolls-trio",
+        name: "Channapatna Musician Dolls Trio",
+        description:
+          "A set of three turned-wood figures dressed in colourful traditional outfits, each lacquer-painted with distinct patterns — a decorative trio that captures the folk-art charm of Channapatna toy-making.",
+        material: "Ivory wood with organic vegetable dyes",
+        images: ["/brands/karnataka-handicrafts/channapatna-toys/channapatna-7.png"],
+      },
+      {
+        id: "cp-pull-rabbit",
+        name: "Channapatna Pull-Along Rabbit",
+        description:
+          "An ivory-toned wooden rabbit on wheels with a pull-string, its smooth turned form and gentle painted features making it a soft, safe first toy in the Channapatna tradition.",
+        material: "Ivory wood with organic vegetable dyes",
+        images: ["/brands/karnataka-handicrafts/channapatna-toys/channapatna-8.png"],
+      },
+      {
+        id: "cp-pull-train",
+        name: "Channapatna Pull-Along Train",
+        description:
+          "A segmented wooden pull-toy train in red and green lacquer, its rounded carriages linked and mounted on wheels — a bright, rattling companion for toddlers learning to walk.",
+        material: "Ivory wood with organic vegetable dyes",
+        images: ["/brands/karnataka-handicrafts/channapatna-toys/channapatna-9.png"],
+      },
+      {
+        id: "cp-pull-wheel-toy",
+        name: "Channapatna Pull-Along Wheel Toy",
+        description:
+          "A green wooden wheel toy trailing a pair of red wooden balls on a pull-string, designed to roll and bounce playfully as it's dragged along — a simple, tactile Channapatna classic.",
+        material: "Ivory wood with organic vegetable dyes",
+        images: ["/brands/karnataka-handicrafts/channapatna-toys/channapatna-10.png"],
+      },
+      {
+        id: "cp-pull-spool-train",
+        name: "Channapatna Pull-Along Spool Train",
+        description:
+          "A chain of lacquered wooden spools linked into a rolling pull-toy, alternating warm reds, ochres and creams — a rhythmic, rattling toy turned on the traditional Channapatna lathe.",
+        material: "Ivory wood with organic vegetable dyes",
+        images: ["/brands/karnataka-handicrafts/channapatna-toys/channapatna-11.png"],
+      },
+      {
+        id: "cp-abacus-toy",
+        name: "Channapatna Abacus Toy",
+        description:
+          "A hand-turned wooden counting toy with sliding beads set between two dumbbell-shaped ends, lacquered in deep maroon and gold — a playful nod to early learning through traditional craft.",
+        material: "Ivory wood with organic vegetable dyes",
+        images: ["/brands/karnataka-handicrafts/channapatna-toys/channapatna-12.png"],
+      },
+      {
+        id: "cp-cat-figure",
+        name: "Channapatna Cat Figure",
+        description:
+          "A stylised standing cat figure turned from soft ivory wood and lacquered in deep maroon tones, its smooth, rounded silhouette typical of Channapatna's signature toy-making finish.",
+        material: "Ivory wood with organic vegetable dyes",
+        images: ["/brands/karnataka-handicrafts/channapatna-toys/channapatna-13.png"],
+      },
+      {
+        id: "cp-rattle-toy",
+        name: "Channapatna Rattle Toy",
+        description:
+          "A handheld wooden rattle with a lacquered red ball head and looped cord, designed for little hands to shake and grip — a simple, safe first toy from Channapatna's toy-making tradition.",
+        material: "Ivory wood with organic vegetable dyes",
+        images: ["/brands/karnataka-handicrafts/channapatna-toys/channapatna-14.png"],
+      },
+    ],
+  },
+  "sandalwood-carvings": {
+    slug: "sandalwood-carvings",
+    parentSlug: "karnataka-handicrafts",
+    parentTitle: "Karnataka Handicrafts",
+    title: "Sandalwood Carvings",
+    tagline:
+      "Renowned for their natural aromatic fragrance, these ultra-detailed sculptures are carved from premium Karnataka sandalwood using centuries-old precision craftsmanship.",
+    heroImage: "/brands/karnataka-handicrafts/sandalwood-carvings/hero.png",
+    products: [
+      {
+        id: "sw-standing-deity",
+        name: "Sandalwood Standing Deity",
+        description:
+          "A tall, finely carved figure of a standing deity holding traditional attributes, set on a dark wooden base — the natural grain of sandalwood lending warmth to every fold of drapery and ornament.",
+        material: "Karnataka sandalwood",
+        images: ["/brands/karnataka-handicrafts/sandalwood-carvings/sandalwood-1.png"],
+      },
+      {
+        id: "sw-gajalakshmi",
+        name: "Sandalwood Gajalakshmi",
+        description:
+          "Goddess Lakshmi seated in blessing, flanked by a pair of elephants, carved in rich sandalwood with intricate crown and jewellery detail — a symbol of prosperity for home or altar.",
+        material: "Karnataka sandalwood",
+        images: ["/brands/karnataka-handicrafts/sandalwood-carvings/sandalwood-2.png"],
+      },
+      {
+        id: "sw-radha-krishna",
+        name: "Sandalwood Radha Krishna",
+        description:
+          "Radha and Krishna carved standing side by side in devotional embrace, their garments and ornaments etched in fine detail across the deep, fragrant sandalwood grain.",
+        material: "Karnataka sandalwood",
+        images: ["/brands/karnataka-handicrafts/sandalwood-carvings/sandalwood-3.png"],
+      },
+      {
+        id: "sw-krishna-arch",
+        name: "Sandalwood Krishna in Arch",
+        description:
+          "Lord Krishna carved within an elaborately latticed temple arch, the openwork frame showcasing the sandalwood carver's skill in translating temple architecture into miniature form.",
+        material: "Karnataka sandalwood",
+        images: ["/brands/karnataka-handicrafts/sandalwood-carvings/sandalwood-4.png"],
+      },
+      {
+        id: "sw-temple-arch-panel",
+        name: "Sandalwood Temple Arch Panel",
+        description:
+          "A domed temple-arch carving with a deity enshrined at its centre, surrounded by pillared detailing and finials — a decorative piece that echoes South Indian temple facades in miniature.",
+        material: "Karnataka sandalwood",
+        images: ["/brands/karnataka-handicrafts/sandalwood-carvings/sandalwood-5.png"],
+      },
+      {
+        id: "sw-temple-shrine",
+        name: "Sandalwood Temple Shrine",
+        description:
+          "An intricately jaali-cut temple shrine carving with a deity seated within, its pierced screen work and layered spire capturing the ornamentation of classical temple gopurams.",
+        material: "Karnataka sandalwood",
+        images: ["/brands/karnataka-handicrafts/sandalwood-carvings/sandalwood-6.png"],
+      },
+      {
+        id: "sw-mala-bracelet",
+        name: "Sandalwood Mala Bracelet",
+        description:
+          "A hand-strung bracelet of rounded sandalwood beads, retaining the wood's natural fragrance and warmth — worn for both its calming scent and its simple, understated craftsmanship.",
+        material: "Karnataka sandalwood",
+        images: ["/brands/karnataka-handicrafts/sandalwood-carvings/sandalwood-7.png"],
+      },
+      {
+        id: "sw-mala-beads",
+        name: "Sandalwood Mala Beads",
+        description:
+          "A traditional 108-bead sandalwood mala strung for prayer and meditation, each bead smoothly turned to release the wood's natural aroma with handling.",
+        material: "Karnataka sandalwood",
+        images: ["/brands/karnataka-handicrafts/sandalwood-carvings/sandalwood-8.png"],
+      },
+      {
+        id: "sw-elephant-with-calf",
+        name: "Sandalwood Elephant with Calf",
+        description:
+          "A mother elephant and calf carved in fluid, naturalistic detail and mounted on a dark wooden base — a heirloom-quality piece prized as much for its craftsmanship as its lingering sandalwood scent.",
+        material: "Karnataka sandalwood",
+        images: ["/brands/karnataka-handicrafts/sandalwood-carvings/sandalwood-9.png"],
       },
     ],
   },
