@@ -3,17 +3,17 @@ import BronzewareContent from "@/components/HandicraftsCategory/BronzewareConten
 import { getCraftCategoryBySlug } from "@/utils/data";
 import { pageMetadata } from "@/utils/seo";
 
-const SLUG = "karnataka-bronzeware";
+const SLUG = "bidriware";
 
 export const metadata = pageMetadata({
-  title: "Karnataka Bronzeware",
+  title: "Bidriware",
   description:
-    "Karnataka Bronzeware is a traditional metal craft using the ancient lost-wax (cire perdue) casting technique. Protected by a Geographical Indication (GI) tag, these solid bronze sculptures capture intricate iconographical details of deities and traditional motifs.",
+    "Brought from Iran in the 13th century, Bidriware is a 500-year-old Bidar craft featuring pure silver inlay on black zinc-copper alloy. Karnataka GI-20 since 2005.",
   path: `/our-brands/karnataka-handicrafts/${SLUG}`,
-  image: "/brands/karnataka-handicrafts/bronzeware/bronzeware-2.png",
+  image: "/brands/karnataka-handicrafts/bidriware/bidriware-1.png",
 });
 
-export default function KarnatakaBronzewarePage() {
+export default function BidriwarePage() {
   const category = getCraftCategoryBySlug(SLUG);
 
   if (!category) {

@@ -293,6 +293,7 @@ export const brandPages = {
             description:
               "Brought from Iran in the 13th century, Bidriware is a 500-year-old Bidar craft featuring pure silver inlay on black zinc-copper alloy. Karnataka GI-20 since 2005.",
             image: "/brands/karnataka-handicrafts/craft-1.png",
+            href: "/our-brands/karnataka-handicrafts/bidriware",
           },
           {
             id: "channapatna-toys",
@@ -308,7 +309,7 @@ export const brandPages = {
               "Contemporary utility and decor pieces that bridge tradition and modernity by adapting classic Karnataka craft techniques into stylish, functional items for modern lifestyles.",
             image: "/brands/karnataka-handicrafts/craft-3.png",
           },
-        
+
           {
             id: "kasuthi-embroidery",
             name: "Kasuthi Embroidery",
@@ -441,7 +442,6 @@ export const brandPages = {
       paragraphs: [
         "The Government Sandalwood Oil Factory was established in 1916 at Mysore to distil oil from sandalwood grown in the forests of Karnataka. What began as a state enterprise to protect a royal fragrance is today Karnataka Soaps & Detergents Limited (KSDL).",
         "Mysore Sandal Soap and Mysore Sandalwood Oil remain among India's most recognised GI products — GI No. 30 and GI No. 29 — made only from genuine sandalwood oil distilled in this land.",
-        
       ],
       extra: [
         "KSDL continues the original formula, packing soaps, oils, incense and skin-care that still carry the scent the state has protected for over a century.",
@@ -749,107 +749,155 @@ export const craftCategoryPages = {
     parentTitle: "Karnataka Handicrafts",
     title: "Karnataka Bronzeware",
     tagline:
-      "Karnataka Bronzeware is a traditional metal craft using the ancient 'lost wax' (cire perdue) casting technique. Protected by a Geographical Indication (GI) tag,",
+      "Karnataka Bronzeware is a traditional metal craft using the ancient lost-wax (cire perdue) casting technique. Protected by a Geographical Indication (GI) tag, these solid bronze sculptures capture intricate iconographical details of deities and traditional motifs.",
     heroImage: "/brands/karnataka-handicrafts/bronzeware/banner.png",
     products: [
       {
         id: "br-dancing-ganapathy",
-        name: "BrDancingGanapathy",
+        name: "Dancing Ganapathy",
         description:
-          "Handcrafted brass idol features Lord Ganesha in a dynamic dancing pose (Nritya Ganesha), symbolizing joy, grace, and auspicious beginnings.",
-        price: "",
-        images: [
-          "/brands/karnataka-handicrafts/bronzeware/bronzeware-1.png",
-          "/brands/karnataka-handicrafts/bronzeware/bronzeware-1.png",
-        ],
+          "Handcrafted bronze idol of Lord Ganesha in a dynamic dancing pose (Nritya Ganesha), symbolizing joy, grace, and auspicious beginnings.",
+        material: "Bronze",
+        images: ["/brands/karnataka-handicrafts/bronzeware/bronzeware-1.png"],
       },
       {
         id: "br-darpanasundari",
-        name: "BrDarpanasundari",
+        name: "Darpanasundari",
         description:
-          "Handcrafted brass idol features Lord Ganesha in a dynamic dancing pose (Nritya Ganesha), symbolizing joy, grace, and auspicious beginnings.",
-        price: "",
-        images: [
-          "/brands/karnataka-handicrafts/bronzeware/bronzeware-2.png",
-          "/brands/karnataka-handicrafts/bronzeware/bronzeware-2.png",
-        ],
+          "A bronze idol of Darpanasundari, the celestial maiden gazing into a mirror — an iconic motif of Karnataka temple sculpture, rendered with lost-wax precision.",
+        material: "Bronze",
+        images: ["/brands/karnataka-handicrafts/bronzeware/bronzeware-2.png"],
       },
       {
         id: "br-hamsa",
-        name: "BrHamsa",
+        name: "Hamsa",
         description:
-          "Handcrafted brass idol features Lord Ganesha in a dynamic dancing pose (Nritya Ganesha), symbolizing joy, grace, and auspicious beginnings.",
-        price: "",
-        images: [
-          "/brands/karnataka-handicrafts/bronzeware/bronzeware-3.png",
-          "/brands/karnataka-handicrafts/bronzeware/bronzeware-3.png",
-        ],
+          "A graceful bronze hamsa (sacred swan), a symbol of wisdom and discernment, cast with flowing lines that capture the bird's poised, regal form.",
+        material: "Bronze",
+        images: ["/brands/karnataka-handicrafts/bronzeware/bronzeware-3.png"],
       },
       {
         id: "br-krishna",
-        name: "BrKrishna",
+        name: "Krishna",
         description:
-          "Handcrafted brass idol features Lord Ganesha in a dynamic dancing pose (Nritya Ganesha), symbolizing joy, grace, and auspicious beginnings.",
-        price: "",
-        images: [
-          "/brands/karnataka-handicrafts/bronzeware/bronzeware-4.png",
-          "/brands/karnataka-handicrafts/bronzeware/bronzeware-4.png",
-        ],
+          "A solid bronze figure of Lord Krishna, capturing the charm of the divine cowherd in traditional iconographic pose with the heirloom durability of lost-wax casting.",
+        material: "Bronze",
+        images: ["/brands/karnataka-handicrafts/bronzeware/bronzeware-4.png"],
       },
       {
         id: "br-lakshmi",
-        name: "BrLakshmi",
+        name: "Lakshmi",
         description:
-          "Handcrafted brass idol features Lord Ganesha in a dynamic dancing pose (Nritya Ganesha), symbolizing joy, grace, and auspicious beginnings.",
-        price: "",
-        images: [
-          "/brands/karnataka-handicrafts/bronzeware/bronzeware-5.png",
-          "/brands/karnataka-handicrafts/bronzeware/bronzeware-5.png",
-        ],
+          "A handcrafted bronze idol of Goddess Lakshmi, the embodiment of prosperity and grace, depicted in classic seated form with intricate jewellery and drapery detail.",
+        material: "Bronze",
+        images: ["/brands/karnataka-handicrafts/bronzeware/bronzeware-5.png"],
       },
       {
         id: "br-mahisasuramardini",
-        name: "BrMahisasuramardini",
+        name: "Mahishasuramardini",
         description:
-          "Handcrafted brass idol features Lord Ganesha in a dynamic dancing pose (Nritya Ganesha), symbolizing joy, grace, and auspicious beginnings.",
-        price: "",
-        images: [
-          "/brands/karnataka-handicrafts/bronzeware/bronzeware-6.png",
-          "/brands/karnataka-handicrafts/bronzeware/bronzeware-6.png",
-        ],
+          "A powerful bronze sculpture of Mahishasuramardini — Goddess Durga vanquishing the buffalo-demon Mahishasura — cast with the dynamic energy of Karnataka's lost-wax tradition.",
+        material: "Bronze",
+        images: ["/brands/karnataka-handicrafts/bronzeware/bronzeware-6.png"],
       },
       {
         id: "br-manatapa-jhulaganesha",
-        name: "BrManatapaJhulaganesha",
+        name: "Mantapa Jhula Ganesha",
         description:
-          "Handcrafted brass idol features Lord Ganesha in a dynamic dancing pose (Nritya Ganesha), symbolizing joy, grace, and auspicious beginnings.",
-        price: "",
-        images: [
-          "/brands/karnataka-handicrafts/bronzeware/bronzeware-7.png",
-          "/brands/karnataka-handicrafts/bronzeware/bronzeware-7.png",
-        ],
+          "Lord Ganesha seated on a swing (jhula) beneath a temple pavilion (mantapa), a festive bronze composition that brings the warmth of festival processions into the home.",
+        material: "Bronze",
+        images: ["/brands/karnataka-handicrafts/bronzeware/bronzeware-7.png"],
       },
       {
         id: "br-nandi",
-        name: "BrNandi",
+        name: "Nandi",
         description:
-          "Handcrafted brass idol features Lord Ganesha in a dynamic dancing pose (Nritya Ganesha), symbolizing joy, grace, and auspicious beginnings.",
-        price: "",
-        images: [
-          "/brands/karnataka-handicrafts/bronzeware/bronzeware-8.png",
-          "/brands/karnataka-handicrafts/bronzeware/bronzeware-8.png",
-        ],
+          "A seated bronze Nandi, Lord Shiva's sacred bull, rendered with calm devotion and the solid, enduring presence that lost-wax bronzeware is prized for.",
+        material: "Bronze",
+        images: ["/brands/karnataka-handicrafts/bronzeware/bronzeware-8.png"],
       },
       {
         id: "br-nataraja",
-        name: "BrNataraja",
+        name: "Nataraja",
         description:
-          "Handcrafted brass idol features Lord Ganesha in a dynamic dancing pose (Nritya Ganesha), symbolizing joy, grace, and auspicious beginnings.",
-        price: "",
-        images: [
-          "/brands/karnataka-handicrafts/bronzeware/bronzeware-9.png",
-          "/brands/karnataka-handicrafts/bronzeware/bronzeware-9.png",
-        ],
+          "Lord Shiva as Nataraja, the cosmic dancer, captured in bronze at the moment of the Tandava — an emblem of creation and dissolution, cast with Karnataka's metal-craft iconography.",
+        material: "Bronze",
+        images: ["/brands/karnataka-handicrafts/bronzeware/bronzeware-9.png"],
+      },
+    ],
+  },
+  bidriware: {
+    slug: "bidriware",
+    parentSlug: "karnataka-handicrafts",
+    parentTitle: "Karnataka Handicrafts",
+    title: "Bidriware",
+    tagline:
+      "Brought from Iran in the 13th century, Bidriware is a 500-year-old Bidar craft featuring pure silver inlay on black zinc-copper alloy. Karnataka GI-20 since 2005.",
+    heroImage: "/brands/karnataka-handicrafts/bidriware/hero.jpeg",
+    products: [
+      {
+        id: "bidriware-elephant-check-design",
+        name: "Bidriware Elephant Check Design",
+        description:
+          "A striking elephant figure finished in Bidar's signature blackened alloy, its body etched with a fine checkerboard lattice inlaid in pure silver — a design classic among Bidriware collectors.",
+        material: "Zinc, Copper and Pure silver",
+        images: ["/brands/karnataka-handicrafts/bidriware/bidriware-1.png"],
+      },
+      {
+        id: "bidriware-nandi",
+        name: "Bidriware Nandi",
+        description:
+          "A seated Nandi, Lord Shiva's sacred bull, rendered in deep black metal with delicate silver inlay tracing its draped saddle cloth — a serene devotional piece for home altars and display shelves alike.",
+        material: "Zinc, Copper and Pure silver",
+        images: ["/brands/karnataka-handicrafts/bidriware/bidriware-2.png"],
+      },
+      {
+        id: "bidriware-box",
+        name: "Bidriware Box",
+        description:
+          "A compact keepsake box in traditional Bidri work, its lid and sides covered edge to edge with intricate floral silver inlay against the alloy's velvety black finish — ideal for jewellery or small treasures.",
+        material: "Zinc, Copper and Pure silver",
+        images: ["/brands/karnataka-handicrafts/bidriware/bidriware-3.png"],
+      },
+      {
+        id: "bidri-elephant-pz",
+        name: "Bidri Elephant PZ",
+        description:
+          "A regal standing elephant crafted in the Bidar tradition, its trunk raised and body inlaid with fine silver detailing that catches the light against the deep charcoal alloy base.",
+        material: "Zinc, Copper and Pure silver",
+        images: ["/brands/karnataka-handicrafts/bidriware/bidriware-4.png"],
+      },
+      {
+        id: "bidri-gudgudi",
+        name: "Bidri Gudgudi",
+        description:
+          "A gracefully curved decorative vessel in classic Bidri form, its bulbous silhouette wrapped in dense silver filigree — a statement showpiece rooted in centuries-old Bidar metalwork.",
+        material: "Zinc, Copper and Pure silver",
+        images: ["/brands/karnataka-handicrafts/bidriware/bidriware-5.png"],
+      },
+      {
+        id: "bidri-office-set-3pcs",
+        name: "Bidri Office Set 3 Pcs",
+        description:
+          "A three-piece desk set — pen stand, paperweight and card holder — finished in traditional Bidri black-and-silver work, bringing centuries-old craftsmanship to the modern desk. Presented in a fitted gift case.",
+        material: "Zinc, Copper and Pure silver",
+        images: ["/brands/karnataka-handicrafts/bidriware/bidriware-6.png"],
+      },
+      {
+        id: "bidri-goblet-butta",
+        name: "Bidri Goblet Butta",
+        description:
+          "A slender, long-necked goblet with a bulbous body, entirely covered in dense silver butta (floral dot) inlay — a refined decorative piece that showcases the precision of Bidar's inlay artisans.",
+        material: "Zinc, Copper and Pure silver",
+        images: ["/brands/karnataka-handicrafts/bidriware/bidriware-7.png"],
+      },
+      {
+        id: "bidri-chambu-mehtabi",
+        name: "Bidri Chambu Mehtabi",
+        description:
+          "A traditional water vessel (chambu) in the Mehtabi style, its rounded form covered in an elaborate floral and vine silver inlay pattern set against the signature jet-black alloy finish.",
+        material: "Zinc, Copper and Pure silver",
+        images: ["/brands/karnataka-handicrafts/bidriware/bidriware-8.png"],
       },
     ],
   },
