@@ -16,13 +16,13 @@ export const brands = [
   {
     slug: "mysore-silk",
     title: "Mysore Silk",
-    description: "KSIC heritage weaves. 100% pure silk, GI-11.",
+    description: "KSIC heritage weaves. 100% pure silk, GI-tagged.",
     image: "/brands/mysore-silk.png",
   },
   {
     slug: "mysore-sandal-products",
     title: "Mysore Sandal Products",
-    description: "Mysore Sandal Soap & Oil, GI No. 30 & GI No. 29.",
+    description: "Mysore Sandal Soap & Oil, GI-tagged.",
     image: "/brands/mysore-sandal.png",
   },
   {
@@ -35,7 +35,7 @@ export const brands = [
   {
     slug: "karnataka-leathers",
     title: "Karnataka Leathers",
-    description: "Kolhapuri GI chappals & handcrafted leather bags.",
+    description: "Kolhapuri GI tagged chappals & handcrafted leather bags.",
     image: "/brands/karnataka-leathers.png",
   },
 ];
