@@ -1,31 +1,37 @@
 import Image from "next/image";
 
 const brandLogos = [
-  { src: "/logos/coffee_board_v2.png", alt: "Coffee Board" },
-  { src: "/logos/cauvery_v2.png", alt: "Cauvery" },
-  { src: "/logos/mysore_silk_v2.png", alt: "Mysore Silk" },
-  { src: "/logos/mysore_sandal_soap_v2.png", alt: "Mysore Sandal Soap" },
-  { src: "/logos/priyadharshini_v2.png", alt: "Priyadharshini" },
-  { src: "/logos/lidkar_v2.png", alt: "Lidkar" },
+  { src: "/logos/new/coffee_board.png", alt: "Coffee Board" },
+  { src: "/logos/new/cauvery.png", alt: "Cauvery" },
+  { src: "/logos/new/mysore_silk.jpg", alt: "Mysore Silk" },
+  { src: "/logos/new/mysore_sandal_soap.png", alt: "Mysore Sandal Soap" },
+  { src: "/logos/new/priyadharshini.jpg", alt: "Priyadharshini" },
+  { src: "/logos/new/lidkar.png", alt: "Lidkar" },
 ];
 
-function MarqueeTrack({ logoClassName }) {
+function MarqueeTrack({ variant }) {
+  const frameClassName =
+    variant === "pill"
+      ? "relative h-16 w-full sm:h-20 md:h-24"
+      : "relative h-14 w-full sm:h-16 md:h-20";
+
   return (
     <div className="logo-marquee-track flex items-center">
       {[...brandLogos, ...brandLogos].map((logo, index) => (
         <div
           key={`${logo.src}-${index}`}
-          className="flex w-[calc(100cqw/4)] shrink-0 items-center justify-center px-2 sm:px-3"
+          className="w-[calc(100cqw/4)] shrink-0 px-2 sm:px-3"
         >
-          <Image
-            src={logo.src}
-            alt={logo.alt}
-            width={220}
-            height={96}
-            sizes="(min-width: 768px) 140px, 100px"
-            quality={80}
-            className={logoClassName}
-          />
+          <div className={frameClassName}>
+            <Image
+              src={logo.src}
+              alt={logo.alt}
+              fill
+              sizes="(min-width: 768px) 140px, 100px"
+              quality={80}
+              className="object-contain"
+            />
+          </div>
         </div>
       ))}
     </div>
@@ -50,7 +56,7 @@ export default function LogoMarquee({ variant = "plain" }) {
     return (
       <div className="relative z-20 mx-auto md:mt-8 w-full max-w-sm sm:mt-10 sm:max-w-lg md:max-w-2xl lg:max-w-3xl">
         <MarqueeCard className="rounded-2xl py-1 md:rounded-3xl ">
-          <MarqueeTrack logoClassName="h-16 w-auto max-w-full object-contain sm:h-20 md:h-24" />
+          <MarqueeTrack variant="pill" />
         </MarqueeCard>
       </div>
     );
@@ -59,7 +65,7 @@ export default function LogoMarquee({ variant = "plain" }) {
   return (
     <div className="relative z-20 mx-auto md:mt-8 w-full max-w-sm sm:mt-10 sm:max-w-lg md:max-w-2xl lg:max-w-3xl">
       <MarqueeCard className="rounded-2xl py-1 md:rounded-full ">
-        <MarqueeTrack logoClassName="h-14 w-auto max-w-full object-contain sm:h-16 md:h-20" />
+        <MarqueeTrack variant="plain" />
       </MarqueeCard>
     </div>
   );
