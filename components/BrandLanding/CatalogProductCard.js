@@ -6,9 +6,16 @@ function toSrc(path) {
   return encodeURI(src);
 }
 
+function isHiddenDetail(line) {
+  const text = String(line).trim();
+  if (/^(product code|care|colou?r|weight)\s*:/i.test(text)) return true;
+  if (/size may be vary/i.test(text)) return true;
+  return false;
+}
+
 export default function CatalogProductCard({ product }) {
   const image = toSrc(product.image || product.images?.[0]);
-  const details = product.details || [];
+  const details = (product.details || []).filter((line) => !isHiddenDetail(line));
 
   return (
     <article className="flex flex-col overflow-hidden rounded-2xl bg-white shadow-[0_8px_28px_rgba(7,71,96,0.08)]">
@@ -33,12 +40,13 @@ export default function CatalogProductCard({ product }) {
             {product.description}
           </p>
         ) : null}
-        <div className="mt-2 space-y-0.5 text-[13px] leading-normal text-navy/70 md:text-[14px]">
-          {product.weight ? <p>Weight : {product.weight}</p> : null}
-          {details.map((line) => (
-            <p key={line}>{line}</p>
-          ))}
-        </div>
+        {details.length ? (
+          <div className="mt-2 space-y-0.5 text-[13px] leading-normal text-navy/70 md:text-[14px]">
+            {details.map((line) => (
+              <p key={line}>{line}</p>
+            ))}
+          </div>
+        ) : null}
         {product.price ? (
           <p className="pt-3 text-[15px] font-semibold text-navy md:text-[16px]">
             Price: {product.price}

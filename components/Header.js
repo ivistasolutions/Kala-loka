@@ -7,6 +7,7 @@ const navItems = [
   { href: "/", label: "Home", key: "home" },
   { href: "/our-story", label: "Our Story", key: "story" },
   { href: "/our-brands", label: "Our Brands", key: "brands" },
+  { href: "/about-gi-tags", label: "About GI Tags", key: "gi" },
 ];
 
 export default function Header({ activePage = "home" }) {
@@ -31,7 +32,7 @@ export default function Header({ activePage = "home" }) {
 
         <MobileNav navItems={navItems} activePage={activePage} />
 
-        <nav aria-label="Primary" className="hidden items-center gap-3 md:flex">
+        <nav aria-label="Primary" className="hidden items-center gap-2 md:flex lg:gap-3">
           {navItems.map((item) => (
             <NavLink
               key={item.key}

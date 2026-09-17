@@ -34,7 +34,6 @@ export default function CoffeeProductCard({ product, letter }) {
         ) : null}
         <div className="mt-2 space-y-0.5 text-[13px] leading-normal text-navy/70">
           {product.origin ? <p>Origin: {product.origin}</p> : null}
-          {product.weight ? <p>Weight: {product.weight}</p> : null}
           {product.roast ? <p>Roast profile: {product.roast}</p> : null}
           {product.tastingNotes ? (
             <p>Tasting notes: {product.tastingNotes}</p>
