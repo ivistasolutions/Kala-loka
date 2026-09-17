@@ -60,7 +60,6 @@ export const brandPages = {
         id: "coffee-board",
         layout: "coffee-board",
         heading: "Coffees Brands",
-        showLetters: true,
         banner: {
           title: "Karnataka Coffee Board Products",
           description:

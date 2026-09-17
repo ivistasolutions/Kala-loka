@@ -49,16 +49,8 @@ export default function CoffeeBoardSection({ section }) {
 
       <div className="mx-auto mt-8 w-full max-w-7xl px-5 md:mt-10 md:px-8 lg:px-10">
         <div className="grid grid-cols-1 items-stretch gap-4 md:grid-cols-2 md:gap-5 lg:grid-cols-3">
-          {visible.map((product, index) => (
-            <CoffeeProductCard
-              key={product.id}
-              product={product}
-              letter={
-                section.showLetters
-                  ? String.fromCharCode(97 + index)
-                  : undefined
-              }
-            />
+          {visible.map((product) => (
+            <CoffeeProductCard key={product.id} product={product} />
           ))}
         </div>
 
