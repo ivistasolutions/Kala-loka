@@ -89,7 +89,7 @@ export default function ProductCard({ product }) {
         <h3 className="text-[18px] font-semibold text-navy md:text-[20px]">
           {product.name}
         </h3>
-        <p className="mt-2 min-h-[58px] text-[13px] leading-[1.55] text-navy/65 md:text-[14px]">
+        <p className="mt-2 min-h-[58px] text-justify text-[13px] leading-[1.55] text-navy/65 md:text-[14px]">
           {product.description}
         </p>
         {product.price ? (

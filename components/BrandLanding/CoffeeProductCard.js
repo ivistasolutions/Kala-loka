@@ -28,7 +28,7 @@ export default function CoffeeProductCard({ product, letter }) {
           {letter ? `(${letter}) ${product.name}` : product.name}
         </h3>
         {product.description ? (
-          <p className="mt-1.5 text-[13px] leading-[1.55] text-navy/65 md:text-[14px]">
+          <p className="mt-1.5 text-justify text-[13px] leading-[1.55] text-navy/65 md:text-[14px]">
             {product.description}
           </p>
         ) : null}
