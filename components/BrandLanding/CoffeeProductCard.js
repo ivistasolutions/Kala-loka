@@ -6,7 +6,7 @@ function toSrc(path) {
   return `/${path}`;
 }
 
-export default function CoffeeProductCard({ product, letter }) {
+export default function CoffeeProductCard({ product }) {
   const image = toSrc(product.image || product.images?.[0]);
 
   return (
@@ -25,7 +25,7 @@ export default function CoffeeProductCard({ product, letter }) {
 
       <div className="flex flex-1 flex-col px-4 pt-2 pb-4 md:px-5 md:pb-5">
         <h3 className="text-[15px] leading-snug font-semibold text-navy md:text-[16px]">
-          {letter ? `(${letter}) ${product.name}` : product.name}
+          {product.name}
         </h3>
         {product.description ? (
           <p className="mt-1.5 text-justify text-[13px] leading-[1.55] text-navy/65 md:text-[14px]">
