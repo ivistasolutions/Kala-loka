@@ -75,18 +75,24 @@ export default function Banner() {
               provenance.
             </p>
 
-            <div className="mt-6 flex w-full max-w-sm flex-row items-center justify-center gap-2.5 sm:mt-9 sm:max-w-xl sm:gap-4 md:max-w-2xl">
+            <div className="mt-6 flex w-full max-w-sm flex-col items-stretch gap-2.5 sm:mt-9 sm:max-w-3xl sm:flex-row sm:flex-wrap sm:items-center sm:justify-center sm:gap-3 md:gap-4">
               <Link
                 href="/our-brands"
-                className="inline-flex h-11 flex-1 items-center justify-center rounded-full bg-coral px-4 text-[13px] font-medium tracking-wide text-white transition-colors hover:bg-[#d94e33] focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-coral sm:h-[52px] sm:flex-none sm:px-9 sm:text-[15px]"
+                className="inline-flex h-11 items-center justify-center rounded-full bg-coral px-4 text-[13px] font-medium tracking-wide text-white transition-colors hover:bg-[#d94e33] focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-coral sm:h-[52px] sm:px-8 sm:text-[15px] md:px-9"
               >
                 Explore the brands
               </Link>
               <Link
                 href="/our-story"
-                className="inline-flex h-11 flex-1 items-center justify-center rounded-full border border-coral bg-white px-4 text-[13px] font-medium tracking-wide text-navy transition-colors hover:bg-peach focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-coral md:h-12 md:flex-none md:px-9 md:text-[15px]"
+                className="inline-flex h-11 items-center justify-center rounded-full border border-coral bg-white px-4 text-[13px] font-medium tracking-wide text-navy transition-colors hover:bg-peach focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-coral sm:h-[52px] sm:px-8 sm:text-[15px] md:px-9"
               >
                 Read Our Story
+              </Link>
+              <Link
+                href="/about-gi-tags"
+                className="inline-flex h-11 items-center justify-center rounded-full border border-coral bg-white px-4 text-[13px] font-medium tracking-wide text-navy transition-colors hover:bg-peach focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-coral sm:h-[52px] sm:px-8 sm:text-[15px] md:px-9"
+              >
+                About GI Tags
               </Link>
             </div>
           </section>

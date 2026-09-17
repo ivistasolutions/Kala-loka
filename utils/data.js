@@ -598,6 +598,425 @@ export const brandPages = {
         layout: "catalog",
         showPrice: true,
         products: [
+          // ── New LIDKAR products (LIDKL series) ──
+          {
+            id: "lidkl001-ladies-handbag-peacock",
+            name: "Ladies Hand Bag",
+            description:
+              "Handcrafted from genuine leather, a beautiful ethnic art. This multi-coloured bag is a great combination of style and comfort. You can easily carry this bag to your office, function, party, or anywhere you want.",
+            details: [
+              "Material: Plain Leather, light weight & durable, best for daily shopping use",
+              "Product Code: LIDKL001",
+              "Care: Keep away from water and excessive moisture; clean with a dry cloth; store in a cool, dry place when not in use.",
+            ],
+            price: "",
+            image: "/brands/karnataka-leathers/lidkar/LIDKL001.png",
+          },
+          {
+            id: "lidkl003-ladies-handbag-squirrel",
+            name: "Ladies Hand Bag",
+            description:
+              "Handcrafted from genuine leather, a beautiful ethnic art. This multi-coloured bag is a great combination of style and comfort. You can easily carry this bag to your office, function, party, or anywhere you want.",
+            details: [
+              "Material: Softy Leather, light weight & durable, best for daily shopping use",
+              "Product Code: LIDKL003",
+              "Care: Keep away from water and excessive moisture; clean with a dry cloth; store in a cool, dry place when not in use.",
+            ],
+            price: "",
+            image: "/brands/karnataka-leathers/lidkar/LIDKL003.png",
+          },
+          {
+            id: "lidkl004-ladies-handbag-moth",
+            name: "Ladies Hand Bag",
+            description:
+              "Handcrafted from genuine leather, a beautiful ethnic art. This multi-coloured bag is a great combination of style and comfort. You can easily carry this bag to your office, function, party, or anywhere you want.",
+            details: [
+              "Material: Softy Leather, light weight & durable, best for daily shopping use",
+              "Product Code: LIDKL004",
+              "Care: Keep away from water and excessive moisture; clean with a dry cloth; store in a cool, dry place when not in use.",
+            ],
+            price: "",
+            image: "/brands/karnataka-leathers/lidkar/LIDKL004.png",
+          },
+          {
+            id: "lidkl005-ladies-handbag-lotus",
+            name: "Ladies Hand Bag",
+            description:
+              "Handcrafted from genuine leather, a beautiful ethnic art. This multi-coloured bag is a great combination of style and comfort. You can easily carry this bag to your office, function, party, or anywhere you want.",
+            details: [
+              "Material: Plain Leather, light weight & durable, best for daily shopping use",
+              "Product Code: LIDKL005",
+              "Care: Keep away from water and excessive moisture; clean with a dry cloth; store in a cool, dry place when not in use.",
+            ],
+            price: "",
+            image: "/brands/karnataka-leathers/lidkar/LIDKL005.png",
+          },
+          {
+            id: "lidkl007-ladies-clutch-lotus",
+            name: "Ladies Clutch Purse",
+            description:
+              "Handcrafted from genuine leather, a beautiful ethnic art with a hand-painted lotus pond motif across the flap. A great combination of style and comfort, easy to carry to office, function, or party.",
+            details: [
+              "Material: Genuine hand-painted leather, light weight & durable",
+              "Product Code: LIDKL007",
+              "Care: Keep away from water and excessive moisture; clean with a dry cloth; store in a cool, dry place when not in use.",
+            ],
+            price: "",
+            image: "/brands/karnataka-leathers/lidkar/LIDKL007.png",
+          },
+          {
+            id: "lidkl009-ladies-clutch-celtic",
+            name: "Ladies Clutch Purse",
+            description:
+              "Handcrafted from genuine leather, a beautiful ethnic art. This multi-coloured bag is a great combination of style and comfort. You can easily carry this bag to your office, function, party, or anywhere you want.",
+            details: [
+              "Material: Softy Leather, light weight & durable, best for daily shopping use",
+              "Product Code: LIDKL009",
+              "Care: Keep away from water and excessive moisture; clean with a dry cloth; store in a cool, dry place when not in use.",
+            ],
+            price: "",
+            image: "/brands/karnataka-leathers/lidkar/LIDKL009.png",
+          },
+          {
+            id: "lidkl017-laptop-bag-elephant",
+            name: "Leather Laptop Bag",
+            description:
+              "A handcrafted genuine leather laptop bag featuring a hand-painted elephant amid tropical leaves. Sturdy handles and an adjustable sling make it equally suited for the office commute or travel.",
+            details: [
+              "Material: Genuine hand-painted leather",
+              "Product Code: LIDKL017",
+              "Care: Keep away from water and excessive moisture; clean with a dry cloth; store in a cool, dry place when not in use.",
+            ],
+            price: "",
+            image: "/brands/karnataka-leathers/lidkar/LIDKL017.png",
+          },
+          {
+            id: "lidkl019-tote-bag-butterfly",
+            name: "Ladies Tote Bag",
+            description:
+              "Handcrafted from genuine leather, this spacious tote is hand-painted with a vivid butterfly and floral motif. A striking, everyday piece that pairs practicality with artisanal detail.",
+            details: [
+              "Material: Genuine hand-painted leather, light weight & durable",
+              "Product Code: LIDKL019",
+              "Care: Keep away from water and excessive moisture; clean with a dry cloth; store in a cool, dry place when not in use.",
+            ],
+            price: "",
+            image: "/brands/karnataka-leathers/lidkar/LIDKL019.png",
+          },
+          {
+            id: "lidkl024-handbag-peacock-feather",
+            name: "Ladies Hand Bag",
+            description:
+              "Handcrafted from genuine leather, finished with a hand-painted peacock feather motif. Compact and structured, this bag combines everyday practicality with artisanal detailing.",
+            details: [
+              "Material: Genuine hand-painted leather, light weight & durable",
+              "Product Code: LIDKL024",
+              "Care: Keep away from water and excessive moisture; clean with a dry cloth; store in a cool, dry place when not in use.",
+            ],
+            price: "",
+            image: "/brands/karnataka-leathers/lidkar/LIDKL024.png",
+          },
+          {
+            id: "lidkl028-tote-bag-birds",
+            name: "Ladies Tote Bag",
+            description:
+              "Handcrafted from genuine leather, this navy tote is hand-painted with a pair of songbirds amid roses. A refined, artisanal piece that transitions easily from daily use to gifting.",
+            details: [
+              "Material: Genuine hand-painted leather, light weight & durable",
+              "Product Code: LIDKL028",
+              "Care: Keep away from water and excessive moisture; clean with a dry cloth; store in a cool, dry place when not in use.",
+            ],
+            price: "",
+            image: "/brands/karnataka-leathers/lidkar/LIDKL028.png",
+          },
+          {
+            id: "lidkl030-travel-bag-mysore-palace",
+            name: "Leather Travel Bag",
+            description:
+              "A handcrafted genuine leather travel bag with a hand-painted rendering of the illuminated Mysore Palace across the front panel — a striking souvenir piece built for daily carry or short trips.",
+            details: [
+              "Material: Genuine hand-painted leather",
+              "Product Code: LIDKL030",
+              "Care: Keep away from water and excessive moisture; clean with a dry cloth; store in a cool, dry place when not in use.",
+            ],
+            price: "",
+            image: "/brands/karnataka-leathers/lidkar/LIDKL030.png",
+          },
+          {
+            id: "lidkl036-travel-bag-lake-landscape",
+            name: "Leather Travel Bag",
+            description:
+              "A handcrafted genuine leather travel bag hand-painted with a tranquil mountain-lake scene, complete with a rowboat and pine trees. Structured handles and a roomy interior make it a practical everyday carry.",
+            details: [
+              "Material: Genuine hand-painted leather",
+              "Product Code: LIDKL036",
+              "Care: Keep away from water and excessive moisture; clean with a dry cloth; store in a cool, dry place when not in use.",
+            ],
+            price: "",
+            image: "/brands/karnataka-leathers/lidkar/LIDKL036.png",
+          },
+          {
+            id: "lidkl050-clutch-mysore-gate",
+            name: "Ladies Clutch Purse",
+            description:
+              "Handcrafted from genuine leather, this trifold clutch is hand-painted with the ornate gateway of the Mysore Palace in gold tones against deep brown leather — a heritage-inspired everyday accessory.",
+            details: [
+              "Material: Genuine hand-painted leather",
+              "Product Code: LIDKL050",
+              "Care: Keep away from water and excessive moisture; clean with a dry cloth; store in a cool, dry place when not in use.",
+            ],
+            price: "",
+            image: "/brands/karnataka-leathers/lidkar/LIDKL050.png",
+          },
+          {
+            id: "lidkl051-wallet-floral-scroll",
+            name: "Ladies Wallet",
+            description:
+              "Handcrafted from genuine leather, this trifold wallet is hand-painted with flowing floral scrollwork in blue and purple tones across a rich black base — an elegant everyday essential.",
+            details: [
+              "Material: Genuine hand-painted leather",
+              "Product Code: LIDKL051",
+              "Care: Keep away from water and excessive moisture; clean with a dry cloth; store in a cool, dry place when not in use.",
+            ],
+            price: "",
+            image: "/brands/karnataka-leathers/lidkar/LIDKL051.png",
+          },
+          {
+            id: "lidkl052-card-holder-lantern",
+            name: "Card Holder",
+            description:
+              "A compact genuine leather card holder hand-painted with a glowing lantern motif in warm ochre and brown tones — a small, artisanal accessory for everyday essentials.",
+            details: [
+              "Material: Genuine hand-painted leather",
+              "Product Code: LIDKL052",
+              "Care: Keep away from water and excessive moisture; clean with a dry cloth; store in a cool, dry place when not in use.",
+            ],
+            price: "",
+            image: "/brands/karnataka-leathers/lidkar/LIDKL052.png",
+          },
+          {
+            id: "lidkl053-card-holder-ship",
+            name: "Card Holder",
+            description:
+              "A compact genuine leather card holder hand-painted with a full-sail ship against a stormy sea, finished with the LIDKAR mark — a nautical-themed keepsake accessory.",
+            details: [
+              "Material: Genuine hand-painted leather",
+              "Product Code: LIDKL053",
+              "Care: Keep away from water and excessive moisture; clean with a dry cloth; store in a cool, dry place when not in use.",
+            ],
+            price: "",
+            image: "/brands/karnataka-leathers/lidkar/LIDKL053.png",
+          },
+          {
+            id: "lidkl054-wallet-lion",
+            name: "Men's Wallet",
+            description:
+              "Handcrafted from genuine leather, this bifold wallet is hand-painted with a bold lion-face motif set amid leafy scrollwork on a black base — a striking everyday piece for him.",
+            details: [
+              "Material: Genuine hand-painted leather",
+              "Product Code: LIDKL054",
+              "Care: Keep away from water and excessive moisture; clean with a dry cloth; store in a cool, dry place when not in use.",
+            ],
+            price: "",
+            image: "/brands/karnataka-leathers/lidkar/LIDKL054.png",
+          },
+          {
+            id: "lidkl055-wallet-fish",
+            name: "Wallet",
+            description:
+              "Handcrafted from genuine leather, a beautiful ethnic art. This multi-colored bag is a great combination of style and comfort. Designed on both sides, you can easily carry this bag to your office, function, party, or anywhere you want.",
+            details: [
+              "Material: Plain Leather, light weight & durable, best for daily shopping use",
+              "Product Code: LIDKL055",
+              "Care: Keep away from water and excessive moisture; clean with a dry cloth; store in a cool, dry place when not in use.",
+            ],
+            price: "",
+            image: "/brands/karnataka-leathers/lidkar/LIDKL055.png",
+          },
+          {
+            id: "lidkl057-wallet-dragonfly",
+            name: "Wallet",
+            description:
+              "Handcrafted from genuine leather, a beautiful ethnic art. This multi-colored bag is a great combination of style and comfort. Designed on both sides, you can easily carry this bag to your office, function, party, or anywhere you want.",
+            details: [
+              "Material: Plain Leather, light weight & durable, best for daily shopping use",
+              "Product Code: LIDKL057",
+              "Care: Keep away from water and excessive moisture; clean with a dry cloth; store in a cool, dry place when not in use.",
+            ],
+            price: "",
+            image: "/brands/karnataka-leathers/lidkar/LIDKL057.png",
+          },
+          {
+            id: "lidkl058-wallet-abstract-eye",
+            name: "Wallet",
+            description:
+              "Handcrafted from genuine leather, a beautiful ethnic art. This multi-colored bag is a great combination of style and comfort. Designed on both sides, you can easily carry this bag to your office, function, party, or anywhere you want.",
+            details: [
+              "Material: Plain Leather, light weight & durable, best for daily shopping use",
+              "Product Code: LIDKL058",
+              "Care: Keep away from water and excessive moisture; clean with a dry cloth; store in a cool, dry place when not in use.",
+            ],
+            price: "",
+            image: "/brands/karnataka-leathers/lidkar/LIDKL058.png",
+          },
+          {
+            id: "lidkl059-wallet-turtle",
+            name: "Wallet",
+            description:
+              "Handcrafted from genuine leather, a beautiful ethnic art hand-painted with a turtle motif in warm gold and red tones against a deep blue base. Designed on both sides, ideal for daily carry.",
+            details: [
+              "Material: Plain Leather, light weight & durable, best for daily shopping use",
+              "Product Code: LIDKL059",
+              "Care: Keep away from water and excessive moisture; clean with a dry cloth; store in a cool, dry place when not in use.",
+            ],
+            price: "",
+            image: "/brands/karnataka-leathers/lidkar/LIDKL059.png",
+          },
+          {
+            id: "lidkl060-wallet-owl",
+            name: "Wallet",
+            description:
+              "Handcrafted from genuine leather, a beautiful ethnic art. This multi-colored bag is a great combination of style and comfort. Designed on both sides, you can easily carry this bag to your office, function, party, or anywhere you want.",
+            details: [
+              "Material: Plain Leather, light weight & durable, best for daily shopping use",
+              "Product Code: LIDKL060",
+              "Care: Keep away from water and excessive moisture; clean with a dry cloth; store in a cool, dry place when not in use.",
+            ],
+            price: "",
+            image: "/brands/karnataka-leathers/lidkar/LIDKL060.png",
+          },
+          {
+            id: "lidkl107-ladies-belt",
+            name: "Ladies Belt",
+            description:
+              "Crafted from heavy-duty leather featuring a rich, two-tone finish—a warm tan-brown surface contrasted against a darkened buckle-end panel.",
+            details: [
+              "Material: Natural Leather, durable, best for daily shopping use",
+              "Product Code: LIDKL107",
+              "Care: Keep away from water and excessive moisture; clean with a dry cloth; store in a cool, dry place when not in use.",
+            ],
+            price: "",
+            image: "/brands/karnataka-leathers/lidkkl/LIDKL107.png",
+          },
+          {
+            id: "lidkl120-puda-kapshi-gents-chappal",
+            name: "Puda Kapshi Kolhapuri Gents Chappal",
+            description:
+              "Features a wide, intricately braided central strap with decorative punch-hole cutouts and scalloped borders.",
+            details: [
+              "Material: Leather, durable, best for daily shopping use",
+              "Product Code: LIDKL120",
+              "Care: Keep away from water and excessive moisture; clean with a dry cloth; store in a cool, dry place when not in use.",
+            ],
+            price: "",
+            image: "/brands/karnataka-leathers/lidkkl/LIDKL120.png",
+          },
+          {
+            id: "lidkl129-doom-patta-ladies-chappal",
+            name: "Doom Patta Kolhapuri Ladies Chappal",
+            description:
+              "Built with a classic ethnic toe-ring structure, highlighted by a large, circular sunburst-style metallic embellishment or medallion on the toe loop.",
+            details: [
+              "Material: Natural Leather, durable, best for daily shopping use",
+              "Product Code: LIDKL129",
+              "Care: Keep away from water and excessive moisture; clean with a dry cloth; store in a cool, dry place when not in use.",
+            ],
+            price: "",
+            image: "/brands/karnataka-leathers/lidkkl/LIDKL129.png",
+          },
+          {
+            id: "lidkl135-puda-kapshi-2-gents-chappal",
+            name: "Puda Kapshi -2 Kolhapuri Gents Chappal",
+            description:
+              "This style features a unique, thick, and wide leather horizontal strap across the midfoot. It is constructed using layered leather pieces stitched closely together, giving it a slightly raised or padded look.",
+            details: [
+              "Material: Natural Leather, durable, best for daily shopping use",
+              "Product Code: LIDKL135",
+              "Care: Keep away from water and excessive moisture; clean with a dry cloth; store in a cool, dry place when not in use.",
+            ],
+            price: "",
+            image: "/brands/karnataka-leathers/lidkkl/LIDKL135.png",
+          },
+          {
+            id: "lidkl146-bantu-boot-unisex-chappal",
+            name: "Bantu Boot Kolhapuri Unisex Chappal LID1233",
+            description:
+              "Crafted using 100% genuine, breathable leather that stretches to naturally fit your foot shape over time.",
+            details: [
+              "Material: Natural Leather, durable, best for daily shopping use",
+              "Product Code: LIDKL146",
+              "Care: Keep away from water and excessive moisture; clean with a dry cloth; store in a cool, dry place when not in use.",
+            ],
+            price: "",
+            image: "/brands/karnataka-leathers/lidkkl/LIDKL146.png",
+          },
+          {
+            id: "lidkl169-gents-shoe",
+            name: "Gents shoe",
+            description:
+              "The shoe follows a traditional closed-lacing system characteristic of an Oxford dress shoe.",
+            details: [
+              "Material: Softy Leather, durable, best for daily shopping use",
+              "Product Code: LIDKL169",
+              "Care: Keep away from water and excessive moisture; clean with a dry cloth; store in a cool, dry place when not in use.",
+            ],
+            price: "",
+            image: "/brands/karnataka-leathers/lidkkl/LIDKL169.png",
+          },
+          {
+            id: "lidkl183-ladies-hand-bag",
+            name: "Ladies hand bag",
+            description:
+              "Styles often include structured satchels or top-handle tote bags designed for casual, evening, or corporate office environments.",
+            details: [
+              "Material: Cow Softy & Painted Leather, durable, best for daily shopping use",
+              "Product Code: LIDKL183",
+              "Care: Keep away from water and excessive moisture; clean with a dry cloth; store in a cool, dry place when not in use.",
+            ],
+            price: "",
+            image: "/brands/karnataka-leathers/lidkkl/LIDKL183.png",
+          },
+          {
+            id: "lidkl203-ladies-chappal-silver",
+            name: "Ladies Chappal",
+            description:
+              "This design blends a classic open-toe toe-ring pattern with a wide upper cross-strap. It is embellished with textured, silver borders and cut-out detailing against a smooth black leather base.",
+            details: [
+              "Material: Cow Softy Leather, durable, best for daily shopping use",
+              "Product Code: LIDKL203",
+              "Care: Keep away from water and excessive moisture; clean with a dry cloth; store in a cool, dry place when not in use.",
+            ],
+            price: "",
+            image: "/brands/karnataka-leathers/lidkkl/LIDKL203.png",
+          },
+          {
+            id: "lidkl202-ladies-chappal-gold",
+            name: "Ladies Chappal",
+            description:
+              "This design blends a classic open-toe toe-ring pattern with a wide upper cross-strap. It is embellished with textured, gold borders and cut-out detailing against a smooth black leather base.",
+            details: [
+              "Material: Cow Softy Leather, durable, best for daily shopping use",
+              "Product Code: LIDKL202",
+              "Care: Keep away from water and excessive moisture; clean with a dry cloth; store in a cool, dry place when not in use.",
+            ],
+            price: "",
+            image: "/brands/karnataka-leathers/lidkkl/LIDKL202.png",
+          },
+          {
+            id: "lidkl108-ladies-belt",
+            name: "Ladies Belt",
+            description:
+              "Crafted from heavy-duty leather featuring a rich, two-tone finish—a warm tan-brown surface contrasted against a darkened buckle-end panel.",
+            details: [
+              "Material: Natural Leather, durable, best for daily shopping use",
+              "Product Code: LIDKL108",
+              "Care: Keep away from water and excessive moisture; clean with a dry cloth; store in a cool, dry place when not in use.",
+            ],
+            price: "",
+            image: "/brands/karnataka-leathers/lidkkl/LIDKL108.png",
+          },
+        
+          // ── Existing products (unchanged) ──
           {
             id: "ladies-heel-chappal",
             name: "GI Registered Ladies Kolhapuri Heel Chappal",

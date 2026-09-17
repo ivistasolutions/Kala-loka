@@ -2,7 +2,7 @@ import Link from "next/link";
 
 export default function NavLink({ href, label, isHome, isActive, onClick }) {
   const base =
-    "inline-flex h-11 w-full items-center justify-center rounded-full px-6 text-[15px] font-medium transition-colors md:h-11 md:w-auto md:px-8";
+    "inline-flex h-11 w-full items-center justify-center rounded-full px-6 text-[15px] font-medium whitespace-nowrap transition-colors md:h-11 md:w-auto md:px-5 lg:px-7";
 
   if (isHome) {
     return (
