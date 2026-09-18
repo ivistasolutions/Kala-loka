@@ -10,7 +10,7 @@ export const brands = [
     slug: "karnataka-handicrafts",
     title: "Karnataka Handicrafts",
     description:
-      "Bidriware, Channapatna toys, rosewood inlay — GI heritage crafts.",
+      "Bidriware, Channapatna Toys & Dolls, Mysore Rosewood Inlay — GI heritage crafts.",
     image: "/brands/karnataka-handicrafts.png",
   },
   {
@@ -35,7 +35,7 @@ export const brands = [
   {
     slug: "karnataka-leathers",
     title: "Karnataka Leathers",
-    description: "Kolhapuri GI tagged chappals & handcrafted leather bags.",
+    description: "Kolhapuri GI-tagged chappals & handcrafted leather bags.",
     image: "/brands/karnataka-leathers.png",
   },
 ];
@@ -265,17 +265,17 @@ export const brandPages = {
     intro: {
       paragraphs: [
         "Karnataka is known for its handicraft industry and its unique, traditional masterpieces made from a variety of materials using intricate motifs and time-tested as well as modern techniques. The sandalwood and rosewood grown in abundance in Karnataka have led to a legacy of exquisite sandalwood carvings and intricate rosewood inlay work, kept alive by passing skills from generation to generation.",
-        "To preserve, develop and promote this craftsmanship, the Government of Karnataka established the Karnataka State Handicrafts Development Corporation Ltd (KSHDCL) in 1964. KSHDCL markets the beautiful GI-tagged handicrafts of Karnataka — Channapatna Toys & Dolls, Bidriware, Mysore Rosewood Inlay, Kasuti Embroidery, Sandalwood and more — under the brand name 'Cauvery', through 12 Craft Complexes and showrooms across the country.",
+        "To preserve, develop and promote this craftsmanship, the Government of Karnataka established the Karnataka State Handicrafts Development Corporation Ltd (KSHDCL) in 1964. KSHDCL markets the beautiful GI-tagged handicrafts of Karnataka — Channapatna Toys & Dolls, Bidriware, Mysore Rosewood Inlay, Kasuti Embroidery, Sandalwood artefacts and more — under the brand name 'Cauvery', through 12 Craft Complexes and showrooms across the country.",
       ],
       extra: [
-        "Brought from Iran in the 13th century, Bidriware is a 500-year-old Bidar craft featuring pure silver inlay on a black zinc-copper alloy. It carries Karnataka GI-20, registered since 2005.",
+        "Bidriware (GI tagged) is a 500-year-old Bidar craft featuring pure silver inlay work on black zinc-copper alloy. The unique soil around the Bidar Fort provides the oxidised colour to the products.",
       ],
     },
     productSections: [
       {
         id: "categories",
         title: "Categories",
-        subtitle: "GI-tagged artisan collections from across Karnataka",
+        subtitle: "GI-tagged and heritage, artisan collections from across Karnataka",
         layout: "categories",
         products: [
           {
@@ -290,7 +290,7 @@ export const brandPages = {
             id: "bidriware",
             name: "Bidriware",
             description:
-              "Brought from Iran in the 13th century, Bidriware is a 500-year-old Bidar craft featuring pure silver inlay on black zinc-copper alloy. Karnataka GI-20 since 2005.",
+              "The origins of the craft date back to the 13th century. Bidriware (GI tagged) is a 500-year-old Bidar craft featuring pure silver inlay work on black zinc-copper alloy. The unique soil around the Bidar Fort provides the oxidised colour to the products.",
             image: "/brands/karnataka-handicrafts/craft-1.png",
             href: "/our-brands/karnataka-handicrafts/bidriware",
           },
@@ -298,7 +298,7 @@ export const brandPages = {
             id: "channapatna-toys",
             name: "Channapatna Toys & Dolls",
             description:
-              "Crafted from soft ivory wood and finished with safe, non-toxic organic vegetable dyes, these eco-friendly turned-wood toys are celebrated for their vibrant colors and smooth, rounded forms.",
+              "Crafted from soft ‘Hale wood’ in Kannada (ivory wood), these are lacquerware products finished with safe, non-toxic organic vegetable dyes. These eco-friendly turned-wood toys are celebrated for their vibrant colors and smooth, rounded forms.",
             image: "/brands/karnataka-handicrafts/craft-2.png",
             href: "/our-brands/karnataka-handicrafts/channapatna-toys",
           },
@@ -317,13 +317,14 @@ export const brandPages = {
   "mysore-silk": {
     slug: "mysore-silk",
     title: "Mysore Silk",
-    tagline: "KSIC heritage weaves. 100% pure silk, GI-11.",
+    tagline:
+      "KSIC heritage weaves. 100% pure silk, GI tagged: Karnataka’s first registered GI product.",
     heroImage: "/brands/mysore-silk/Banner.png",
     heroVariant: "light",
     intro: {
       paragraphs: [
-        "Mysore is rich for its royal heritage and it is no surprise that the silk produced there reflects the traditional splendor through its rich yet delicate motifs.The name Mysore silk is a befitting tribute to its ancestry. Karnataka Silk Industries Corporation Limited (KSIC) the proud inheritor of this royal legacy, has treasured it for over seven decades, has been producing 100% pure silk with pure gold zari sarees. The silk weaving factory in Mysore, presently owned by KSIC, was established in the year 1912 by Sri Nalvadi Krishnaraja Wodeyar, Maharaja of Mysore province. Initially the silk fabrics/sarees were manufactured & supplied to meet the requirements of the royal family and ornamental fabrics to their armed forces.",
-        "Having gained widespread popularity for its unmatched standard of authentic Silk manufacturing process, KSIC has obtained Karnataka's first Geographical Indication Registration (GI-11) for 'Mysore Silk' in accordance with the provisions of the Geographical Indication of Goods (Registration and Protection Act) 1999 passed by the Indian Parliament.",
+        "Mysore is rich for its royal heritage and it is no surprise that the silk produced there reflects the traditional splendor through its rich yet delicate motifs. The name Mysore Silk is a befitting tribute to its ancestry. Karnataka Silk Industries Corporation Limited (KSIC), the proud inheritor of this royal legacy, has treasured it for over seven decades, producing 100% pure silk with pure gold zari sarees. The silk weaving factory in Mysore, presently owned by KSIC, was established in the year 1912 by Sri Nalvadi Krishnaraja Wodeyar, Maharaja of Mysore province. Initially the silk fabrics/sarees were manufactured & supplied to meet the requirements of the royal family and ornamental fabrics to their armed forces.",
+        "Having gained widespread popularity for its unmatched standard of authentic silk manufacturing process, KSIC has obtained Karnataka's first Geographical Indication Registration (GI-11) for 'Mysore Silk' in accordance with the provisions of the Geographical Indication of Goods (Registration and Protection Act) 1999 passed by the Indian Parliament.",
       ],
       extra: [],
     },
@@ -351,24 +352,23 @@ export const brandPages = {
             id: "pastel-saree",
             name: "KSIC Mysore Silk Dhoti and Shalya",
             details: [
-              "Size : Dhothi (Panche) Size = 3.75 Mtrs",
-              "Length Valli (Shalya)",
-              "Size = 2.25 Mtrs Length",
-              "Weight : 400gms",
+              "Dhothi (Panche) size: 3.75 mtrs length",
+              "Valli (Shalya) size: 2.25 mtrs length",
+              "Weight: 400gms",
             ],
             price: "",
             image: "/brands/mysore-silk/mysore-silk-3.png",
           },
           {
             id: "silk-shirt",
-            name: "KSIC Mysore Silk Shirt (Mens)",
+            name: "KSIC Mysore Silk Shirt (Men's)",
             weight: "200gms",
             price: "",
             image: "/brands/mysore-silk/Group 26679.png",
           },
           {
             id: "silk-kurta",
-            name: "KSIC Mysore Silk Kurta (Mens)",
+            name: "KSIC Mysore Silk Kurta (Men's)",
             weight: "200gms",
             price: "",
             image: "/brands/mysore-silk/Group 26680.png",
@@ -400,13 +400,13 @@ export const brandPages = {
   "mysore-sandal-products": {
     slug: "mysore-sandal-products",
     title: "Mysore Sandal Products",
-    tagline: "Mysore Sandal Soap & Oil",
+    tagline: "Mysore Sandal Soap & Mysore Sandalwood Oil — GI tagged",
     heroImage: "/brands/mysore-sandal/banner.png",
     heroVariant: "bottom",
     intro: {
       paragraphs: [
         "The Government Sandalwood Oil Factory was established in 1916 at Mysore to distil oil from sandalwood grown in the forests of Karnataka. What began as a state enterprise to protect a royal fragrance is today Karnataka Soaps & Detergents Limited (KSDL).",
-        "Mysore Sandal Soap and Mysore Sandalwood Oil remain among India's most recognised GI tagged products. Made only from genuine sandalwood oil distilled in this land.",
+        "Mysore Sandal Soap and Mysore Sandalwood Oil remain among India's most recognised GI products with more than a century’s history, made only from genuine sandalwood oil distilled in this land.",
       ],
       extra: [
         "KSDL continues the original formula, packing soaps, oils, incense and skin-care that still carry the scent the state has protected for over a century.",
@@ -419,10 +419,19 @@ export const brandPages = {
         showPrice: true,
         products: [
           {
+            id: "sandal-soap",
+            name: "Mysore Sandal Soap",
+            description:
+              "100% pure sandalwood oil soap to keep skin soft, glowing, and blemish-free.",
+            weight: "125gms",
+            price: "",
+            image: "/brands/mysore-sandal/mysor-sandal-3.png",
+          },
+          {
             id: "sandal-oil",
             name: "Mysore Sandalwood Oil",
             description:
-              "Leather chappals, known for their unique designs, comfort, and eco-friendliness.",
+              "Pure sandalwood oil distilled in Karnataka, prized for its warm, lingering fragrance.",
             weight: "10ml",
             price: "",
             image: "/brands/mysore-sandal/mysor-sandal-1.png",
@@ -437,19 +446,10 @@ export const brandPages = {
             image: "/brands/mysore-sandal/mysor-sandal-2.png",
           },
           {
-            id: "sandal-soap",
-            name: "Mysore Sandal Soap",
-            description:
-              "100% pure sandalwood oil soap to keep skin soft, glowing, and blemish-free.",
-            weight: "125gms",
-            price: "",
-            image: "/brands/mysore-sandal/mysor-sandal-3.png",
-          },
-          {
             id: "sandal-gold-soap",
             name: "Mysore Sandal Premium Gold Soap",
             description:
-              "Enriched with almond oil, moisturisers and conditioners, this exotic bar soap, nourishes and rejuvenates.",
+              "Enriched with almond oil, moisturisers and conditioners, this exotic bar soap nourishes and rejuvenates.",
             weight: "125gms",
             price: "",
             image: "/brands/mysore-sandal/mysor-sandal-4.png",
@@ -476,7 +476,7 @@ export const brandPages = {
             id: "sandal-shower-gel",
             name: "Mysore Sandal Gold Shower Gel",
             description:
-              "Exotically scented liquid gel, infused with pure sandalwood oil, which unclogs pores, and deeply hydrates.",
+              "Exotically scented liquid gel, infused with pure sandalwood oil, which unclogs pores and deeply hydrates.",
             weight: "200ml",
             price: "",
             image: "/brands/mysore-sandal/mysor-sandal-7.png",
@@ -502,7 +502,7 @@ export const brandPages = {
     heroVariant: "bottom",
     intro: {
       paragraphs: [
-        "Karnataka has a rich handloom tradition dating back centuries, famous for distinct Geographical Indication (GI) tagged weaves like Ilkal, Udupi, and Molakalmuru sarees, as well as Kasuti embroidery.",
+        "Karnataka has a rich handloom tradition dating back centuries, famous for distinct Geographical Indication (GI) tagged weaves like Ilkal, Udupi, and Molakalmuru sarees, as well as Kasuti embroidery and Sandur Lambani Embroidery.",
       ],
       extra: [],
     },
@@ -529,7 +529,7 @@ export const brandPages = {
             id: "traditional-silk-handloom-sarees",
             name: "Traditional Silk Handloom Sarees",
             description:
-              "Distinct designs of zari of Molakalmuru, Chintamani, Aanekal etc., preserved for years, woven on handloom silk sarees.",
+              "Distinct designs of zari of Molakalmuru, Chintamani, Anekal etc., preserved for years, woven on handloom silk sarees.",
             details: [
               "Material: Silk",
               "Weight: 300-500gm",
@@ -540,7 +540,7 @@ export const brandPages = {
           },
           {
             id: "ilkal-gi-tagged-handloom-sarees",
-            name: "Ilkal GI tagged Handloom Sarees",
+            name: "Ilkal GI-Tagged Handloom Sarees",
             description:
               "Ancient temple designs of Ilkal woven on Handloom cloth made of Cotton/mix of Cotton and art-silk/mix of Cotton and silk.",
             details: [
@@ -553,7 +553,7 @@ export const brandPages = {
           },
           {
             id: "udupi-cotton-handloom-sarees",
-            name: "Udupi Cotton Handloom Sarees",
+            name: "Udupi Sarees, GI tagged",
             description:
               "Woven by temple-town weavers of Udupi on pit looms, these cotton sarees are known for their lightweight drape and temple borders.",
             details: [
@@ -566,9 +566,9 @@ export const brandPages = {
           },
           {
             id: "melkote-panche-shalya",
-            name: "Melkote panche shalya",
+            name: "Melkote Panche Shalya",
             description:
-              "Melkote panche and shalya in silk with a gold zari border, woven for temple and ceremonial wear.",
+              "Melkote Panche and Shalya in silk with a gold zari border, woven for temple and ceremonial wear.",
             details: ["Material: Pure silk", "Weight: 200g"],
             price: "",
             image: "/brands/karnataka-handlooms/karnataka-handlooms-5.png",
@@ -580,13 +580,13 @@ export const brandPages = {
   "karnataka-leathers": {
     slug: "karnataka-leathers",
     title: "Karnataka Leathers",
-    tagline: "Kolhapuri GI chappals & handcrafted leather bags.",
+    tagline: "Kolhapuri chappals (GI tagged) and handcrafted leather bags",
     heroImage: "/brands/karnataka-leathers/banner.png",
     heroVariant: "bottom",
     intro: {
       paragraphs: [
         "Leather craft in Karnataka traces back to the Sharana movement of the 12th century, when saints such as Sri Haralayya and Smt. Kalyanamma practised tanning and stitching as a sacred vocation under Sri Basavanna.",
-        "That hand process — vegetable tanning, hand-stitching, and the open-toe Kolhapuri chappal — still carries a Geographical Indication and is made hide by hide in clusters from Athani to Bengaluru.",
+        "The hand process — vegetable tanning, hand-stitching, and the open-toe Kolhapuri chappal — carries a Geographical Indication and is made hide by hide in clusters from Athani and Madbhavi regions in Belgaum, pockets of Vijayapura and Dharwad in Karnataka.",
         "To organise and support these artisan families, the Government of Karnataka established the Leather Industries Development Corporation of Karnataka (LIDKAR), which continues to market GI Kolhapuri footwear and handcrafted leather bags.",
       ],
       extra: [],
@@ -1216,7 +1216,7 @@ export const craftCategoryPages = {
     parentTitle: "Karnataka Handicrafts",
     title: "Bidriware",
     tagline:
-      "Brought from Iran in the 13th century, Bidriware is a 500-year-old Bidar craft featuring pure silver inlay on black zinc-copper alloy. Karnataka GI-20 since 2005.",
+      "The origins of the craft date back to the 13th century. Bidriware (GI tagged) is a 500-year-old Bidar craft featuring pure silver inlay work on black zinc-copper alloy. The unique soil around the Bidar Fort provides the oxidised colour to the products.",
     heroImage: "/brands/karnataka-handicrafts/bidriware/hero.jpeg",
     products: [
       {
@@ -1291,7 +1291,7 @@ export const craftCategoryPages = {
     parentTitle: "Karnataka Handicrafts",
     title: "Channapatna Toys & Dolls",
     tagline:
-      "Crafted from soft ivory wood and finished with safe, non-toxic organic vegetable dyes, these eco-friendly turned-wood toys are celebrated for their vibrant colors and smooth, rounded forms.",
+      "Crafted from soft ‘Hale wood’ in Kannada (ivory wood), these are lacquerware products finished with safe, non-toxic organic vegetable dyes. These eco-friendly turned-wood toys are celebrated for their vibrant colors and smooth, rounded forms.",
     heroImage: "/brands/karnataka-handicrafts/channapatna-toys/banner.png",
     products: [
       {

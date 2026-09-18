@@ -26,7 +26,7 @@ export const metadata = {
     "GI tagged",
     "Mysore Silk",
     "Mysore Sandal",
-    "Channapatna toys",
+    "Channapatna Toys & Dolls",
     "Bidriware",
     "Karnataka coffee",
     "handlooms",

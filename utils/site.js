@@ -1,7 +1,7 @@
 export const SITE_NAME = "Kala Loka";
 export const SITE_TAGLINE = "Treasures of Karnataka";
 export const SITE_DESCRIPTION =
-  "A living catalog of Karnataka's finest GI-tagged treasures. Six legacy government brands of coffee, handicrafts, silk, sandal, handlooms and leather.";
+  "A living catalog of Karnataka's finest GI-tagged treasures. Six legacy government brands of coffee, handicrafts, silk, sandalwood, handlooms and leather.";
 
 export function getSiteUrl() {
   const explicit = process.env.NEXT_PUBLIC_SITE_URL;
