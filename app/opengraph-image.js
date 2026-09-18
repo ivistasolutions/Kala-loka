@@ -53,7 +53,7 @@ export default function OpenGraphImage() {
             maxWidth: 820,
           }}
         >
-          Six legacy GI-tagged brands of coffee, handicrafts, silk, sandal,
+          Six legacy GI-tagged brands of coffee, handicrafts, silk, sandalwood,
           handlooms and leather.
         </div>
       </div>

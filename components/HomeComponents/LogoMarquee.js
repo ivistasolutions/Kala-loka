@@ -3,9 +3,9 @@ import Image from "next/image";
 const brandLogos = [
   { src: "/logos/new/coffee_board.png", alt: "Coffee Board" },
   { src: "/logos/new/cauvery.png", alt: "Cauvery" },
-  { src: "/logos/new/mysore_silk.jpg", alt: "Mysore Silk" },
+  { src: "/logos/new/mysore_silk.jpg", alt: "Mysore Silk (KSIC)" },
   { src: "/logos/new/mysore_sandal_soap.png", alt: "Mysore Sandal Soap" },
-  { src: "/logos/new/priyadharshini.jpg", alt: "Priyadharshini" },
+  { src: "/logos/new/priyadharshini.jpg", alt: "Priyadharshini Handlooms" },
   { src: "/logos/new/lidkar.png", alt: "Lidkar" },
 ];
 

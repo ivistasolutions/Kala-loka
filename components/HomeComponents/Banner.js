@@ -70,9 +70,9 @@ export default function Banner() {
               GI-tagged treasures.
             </h1>
             <p className="mt-4 max-w-sm text-[14px] leading-relaxed text-navy/75 sm:mt-6 sm:max-w-2xl sm:text-lg md:max-w-3xl">
-              Six legacy government brands of coffee, handicrafts, silk, sandal,
-              handlooms and leather and more each with its own story and
-              provenance.
+              Six legacy government brands of coffee, handicrafts, silk,
+              sandalwood, handlooms and leather and more — each with its own
+              story and genesis.
             </p>
 
             <div className="mt-6 flex w-full max-w-sm flex-col items-stretch gap-2.5 sm:mt-9 sm:max-w-3xl sm:flex-row sm:flex-wrap sm:items-center sm:justify-center sm:gap-3 md:gap-4">
