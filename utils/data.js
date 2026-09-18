@@ -400,13 +400,13 @@ export const brandPages = {
   "mysore-sandal-products": {
     slug: "mysore-sandal-products",
     title: "Mysore Sandal Products",
-    tagline: "Mysore Sandal Soap & Oil, GI No. 30 & GI No. 29.",
+    tagline: "Mysore Sandal Soap & Oil",
     heroImage: "/brands/mysore-sandal/banner.png",
     heroVariant: "bottom",
     intro: {
       paragraphs: [
         "The Government Sandalwood Oil Factory was established in 1916 at Mysore to distil oil from sandalwood grown in the forests of Karnataka. What began as a state enterprise to protect a royal fragrance is today Karnataka Soaps & Detergents Limited (KSDL).",
-        "Mysore Sandal Soap and Mysore Sandalwood Oil remain among India's most recognised GI products — GI No. 30 and GI No. 29 — made only from genuine sandalwood oil distilled in this land.",
+        "Mysore Sandal Soap and Mysore Sandalwood Oil remain among India's most recognised GI tagged products. Made only from genuine sandalwood oil distilled in this land.",
       ],
       extra: [
         "KSDL continues the original formula, packing soaps, oils, incense and skin-care that still carry the scent the state has protected for over a century.",
