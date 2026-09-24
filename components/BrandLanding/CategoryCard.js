@@ -51,9 +51,16 @@ export default function CategoryCard({ product }) {
             product.name
           )}
         </h3>
-        <p className="mt-2 mb-5 flex-1 text-[13px] leading-[1.55] text-white/80 md:text-[14px]">
-          {product.description}
-        </p>
+        <div className="mt-2 mb-5 flex-1 text-[13px] leading-[1.55] text-white/80 md:text-[14px]">
+          {product.descriptionLead ? (
+            <p className="font-bold text-white">{product.descriptionLead}</p>
+          ) : null}
+          {product.description ? (
+            <p className={product.descriptionLead ? "mt-1.5" : undefined}>
+              {product.description}
+            </p>
+          ) : null}
+        </div>
         {href ? (
           <Link
             href={href}

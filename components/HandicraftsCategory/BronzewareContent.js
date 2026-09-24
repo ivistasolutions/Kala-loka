@@ -6,6 +6,7 @@ import BrandPageFooter from "@/components/BrandLanding/BrandPageFooter";
 import BrandCornerBackground, {
   getCircleSideFromSlug,
 } from "@/components/BrandLanding/BrandCornerBackground";
+import BrandIntroCard from "@/components/BrandLanding/BrandIntroCard";
 import CraftProductCard from "@/components/HandicraftsCategory/CraftProductCard";
 import JsonLd from "@/components/JsonLd";
 import { breadcrumbJsonLd } from "@/utils/seo";
@@ -55,6 +56,14 @@ export default function BronzewareContent({ category }) {
               { name: category.title },
             ]}
           />
+
+          {category.intro ? (
+            <BrandIntroCard
+              paragraphs={category.intro.paragraphs}
+              extra={category.intro.extra}
+            />
+          ) : null}
+
           <section className="mx-auto w-full max-w-7xl px-5 pt-8 pb-6 md:px-8 md:pt-10 lg:px-10 lg:pt-12">
             <Link
               href={parentHref}
@@ -64,11 +73,13 @@ export default function BronzewareContent({ category }) {
               Back to {category.parentTitle}
             </Link>
 
-            <div className="mt-8 grid grid-cols-1 gap-6 sm:grid-cols-2 md:mt-10 md:gap-8 lg:grid-cols-3">
-              {category.products.map((product) => (
-                <CraftProductCard key={product.id} product={product} />
-              ))}
-            </div>
+            {category.products?.length ? (
+              <div className="mt-8 grid grid-cols-1 gap-6 sm:grid-cols-2 md:mt-10 md:gap-8 lg:grid-cols-3">
+                {category.products.map((product) => (
+                  <CraftProductCard key={product.id} product={product} />
+                ))}
+              </div>
+            ) : null}
           </section>
 
           <BrandPageFooter
