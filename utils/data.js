@@ -1,7 +1,7 @@
 export const brands = [
   {
-    slug: "coffees-of-karnataka",
-    title: "Coffees of Karnataka",
+    slug: "coffee-board-of-india",
+    title: "Coffee Board of India",
     description:
       "GI-tagged single-estate Arabica & Robusta from the Western Ghats.",
     image: "/brands/coffees-of-karnataka.png",
@@ -10,7 +10,7 @@ export const brands = [
     slug: "karnataka-handicrafts",
     title: "Karnataka Handicrafts",
     description:
-      "Bidriware, Channapatna Toys & Dolls, Mysore Rosewood Inlay — GI heritage crafts.",
+      "Sandalwood artefacts, Channapatna toys, Bidriware, rosewood inlay and more — GI heritage crafts.",
     image: "/brands/karnataka-handicrafts.png",
   },
   {
@@ -41,9 +41,9 @@ export const brands = [
 ];
 
 export const brandPages = {
-  "coffees-of-karnataka": {
-    slug: "coffees-of-karnataka",
-    title: "Coffees of Karnataka",
+  "coffee-board-of-india": {
+    slug: "coffee-board-of-india",
+    title: "Coffee Board of India",
     tagline: "Where Baba Budan's seven seeds became a nation's cup",
     heroImage: "/brands/inside/coffees-of-karnataka-new.png",
     intro: {
@@ -152,6 +152,14 @@ export const brandPages = {
             price: "",
             image: "/brands/inside/classic-whisky.png",
           },
+          {
+            id: "classic-filter",
+            name: "Classic Filter",
+            description:
+              "Traditional South Indian stainless steel filter coffee set from the Coffee Board — brewing vessel, tumbler and plunger for a classic filter brew at home.",
+            price: "",
+            image: "/brands/inside/classic_filter.png",
+          },
         ],
       },
       {
@@ -161,7 +169,7 @@ export const brandPages = {
         banner: {
           title: "Harley Coffee",
           description:
-            "Single-origin Arabica from Harley Estate in Sakleshpur — estate-grown beans, barrel-aged lots, and quick-brew formats packed under the Classic name.",
+            "A range of finely crafted gourmet blends made with the finest Arabica and Robusta beans from our award-winning estates.",
           image: "/brands/inside/harley-coffees.png",
         },
         products: [
@@ -201,13 +209,115 @@ export const brandPages = {
         ],
       },
       {
+        id: "big-cup-cafe",
+        layout: "coffee-board",
+        initialCount: 4,
+        banner: {
+          title: "Big Cup Café",
+          description:
+            "From crop to cup — seven generations of Coorg coffee legacy, planters to brewers. The trusted expert name for coffee aficionados, grown and roasted with a lineage that runs deep.",
+          image: "/brands/inside/big-c-1.webp",
+        },
+        products: [
+          {
+            id: "big-cup-coffee-duo",
+            name: "Big Cup Coffee (250g Packs)",
+            description:
+              "Estate-grown Coorg coffee, packed for everyday brewing — from crop to cup.",
+            weight: "250g",
+            price: "",
+            image: "/brands/inside/big-c-1.webp",
+          },
+          {
+            id: "big-cup-coffee-classic",
+            name: "Big Cup Coffee — Classic",
+            description:
+              "Finely roasted Coorg coffee in the classic cream pack, rooted in seven generations of planters-to-brewers craft.",
+            weight: "250g",
+            price: "",
+            image: "/brands/inside/big-c-2.webp",
+          },
+          {
+            id: "big-cup-coffee-signature",
+            name: "Big Cup Coffee — Signature",
+            description:
+              "Bold Coorg cup in the signature yellow pack — grown and roasted for coffee aficionados.",
+            weight: "250g",
+            price: "",
+            image: "/brands/inside/big-c-3.webp",
+          },
+          {
+            id: "big-cup-coffee-estate",
+            name: "Big Cup Coffee — Estate Roast",
+            description:
+              "Single-estate Coorg coffee, roasted with a lineage that runs deep from plantation to brew.",
+            weight: "250g",
+            price: "",
+            image: "/brands/inside/big-c-4.webp",
+          },
+        ],
+      },
+      {
+        id: "kaapi-royale",
+        layout: "coffee-board",
+        initialCount: 4,
+        banner: {
+          title: "Kaapi Royale",
+          description:
+            "One of India's richest single-origin speciality robustas. Estate-grown in Magundi, roasted to royal perfection, brewed into your morning ritual.",
+          image: "/brands/inside/kaapi-c-4.webp",
+        },
+        products: [
+          {
+            id: "kaapi-big-tail",
+            name: "Big Tail",
+            description:
+              "Single-origin speciality robusta from Magundi — a rich, royal cup for your morning ritual.",
+            bean: "Speciality Robusta",
+            origin: "Magundi",
+            price: "",
+            image: "/brands/inside/kaapi-c-1.webp",
+          },
+          {
+            id: "kaapi-bold-horns",
+            name: "Bold Horns",
+            description:
+              "Estate-grown Magundi robusta, roasted to bold, full-bodied perfection.",
+            bean: "Speciality Robusta",
+            origin: "Magundi",
+            price: "",
+            image: "/brands/inside/kaapi-c-2.webp",
+          },
+          {
+            id: "kaapi-golden-emperor",
+            name: "Golden Emperor",
+            description:
+              "One of India's richest single-origin robustas — Magundi-grown and roasted to royal perfection.",
+            bean: "Speciality Robusta",
+            origin: "Magundi",
+            price: "",
+            image: "/brands/inside/kaapi-c-3.webp",
+          },
+          {
+            id: "kaapi-royale-collection",
+            name: "Kaapi Royale Collection",
+            description:
+              "Big Tail, Golden Emperor and Bold Horns — Magundi estate robustas for the morning ritual.",
+            bean: "Speciality Robusta",
+            origin: "Magundi",
+            price: "",
+            image: "/brands/inside/kaapi-c-4.webp",
+          },
+        ],
+      },
+      {
         id: "maverick-farmer-coffee",
         layout: "coffee-board",
         initialCount: 4,
         banner: {
-          title: "Maverick & Farmer Coffee",
+          title: "Maverick & Farmer",
           description:
-            "Single-estate Arabica from Karnataka farms — small-lot blends packed as beans and ground, from mellow fruit cups to dark French roasts.",
+            "Bold, experimental, farm-fresh coffee. Daily-roasted in Bangalore, crafted for mavericks who like their coffee unheard of elsewhere.",
           image: "/brands/inside/former-coffee.png",
         },
         products: [
@@ -220,7 +330,7 @@ export const brandPages = {
             roast: "Medium to Medium-dark",
             tastingNotes: "Chocolate & Caramel",
             price: "",
-            image: "/brands/inside/coffees-of-kr-10.png",
+            image: "/brands/inside/maverick-c-1.webp",
           },
           {
             id: "tall-dark-handsome",
@@ -230,7 +340,7 @@ export const brandPages = {
             roast: "Dark (French)",
             tastingNotes: "Smoky, Intense",
             price: "",
-            image: "/brands/inside/coffees-of-kr-11.png",
+            image: "/brands/inside/maverick-c-3.webp",
           },
           {
             id: "say-hello-to-mellow",
@@ -240,7 +350,7 @@ export const brandPages = {
             roast: "Mild Roast",
             tastingNotes: "Banana and Berry",
             price: "",
-            image: "/brands/inside/coffees-of-kr-12.png",
+            image: "/brands/inside/maverick-c-4.webp",
           },
           {
             id: "rohan-bopanna-master-blend",
@@ -250,7 +360,27 @@ export const brandPages = {
             roast: "Medium Roast",
             tastingNotes: "Toffee, Mildly sweet",
             price: "",
-            image: "/brands/inside/coffees-of-kr-13.png",
+            image: "/brands/inside/maverick-c-6.webp",
+          },
+          {
+            id: "ol-smoky-cold-smoked",
+            name: "Ol' Smoky - Cold Smoked Coffee!",
+            description: "The world's first cold-smoked coffee.",
+            bean: "100% single estate Arabica",
+            process: "Washed, cold-smoked",
+            roast: "Medium-light",
+            tastingNotes: "Sweet smoke, roasted spice",
+            price: "",
+            image: "/brands/inside/maverick-c-2.webp",
+          },
+          {
+            id: "lions-mane-mushroom-coffee",
+            name: "Lion's Mane Mushroom Coffee",
+            bean: "100% Arabica",
+            roast: "Mild Roast",
+            tastingNotes: "Dark Chocolate, Caramel",
+            price: "",
+            image: "/brands/inside/maverick-c-5.webp",
           },
         ],
       },
@@ -259,55 +389,94 @@ export const brandPages = {
   "karnataka-handicrafts": {
     slug: "karnataka-handicrafts",
     title: "Karnataka Handicrafts",
-    tagline: "500 years of silver inlay, kept alive under the Cauvery name.",
+    tagline: "Empowering Artisans, Preserving Heritage",
     heroImage: "/brands/karnataka-handicrafts/Banner.png",
     heroVariant: "centered",
     intro: {
       paragraphs: [
         "Karnataka is known for its handicraft industry and its unique, traditional masterpieces made from a variety of materials using intricate motifs and time-tested as well as modern techniques. The sandalwood and rosewood grown in abundance in Karnataka have led to a legacy of exquisite sandalwood carvings and intricate rosewood inlay work, kept alive by passing skills from generation to generation.",
-        "To preserve, develop and promote this craftsmanship, the Government of Karnataka established the Karnataka State Handicrafts Development Corporation Ltd (KSHDCL) in 1964. KSHDCL markets the beautiful GI-tagged handicrafts of Karnataka — Channapatna Toys & Dolls, Bidriware, Mysore Rosewood Inlay, Kasuti Embroidery, Sandalwood artefacts and more — under the brand name 'Cauvery', through 12 Craft Complexes and showrooms across the country.",
+        "To preserve, develop and promote this craftsmanship, the Government of Karnataka established the Karnataka State Handicrafts Development Corporation Ltd (KSHDCL) in 1964. KSHDCL markets the beautiful GI-tagged handicrafts of Karnataka — Sandalwood artefacts, Channapatna Toys & Dolls, Bidriware, Mysore Rosewood Inlay, Karnataka Bronzewares, Shivaniwood Carvings, Navalgund Dhurries, Natural Hand Rolled Incense Sticks and Perfumeries, Traditional Paintings and more — under the brand name 'Cauvery', through 12 showrooms and online across the country.",
       ],
-      extra: [
-        "Bidriware (GI tagged) is a 500-year-old Bidar craft featuring pure silver inlay work on black zinc-copper alloy. The unique soil around the Bidar Fort provides the oxidised colour to the products.",
-      ],
+      extra: [],
     },
     productSections: [
       {
         id: "categories",
         title: "Categories",
-        subtitle: "GI-tagged and heritage, artisan collections from across Karnataka",
+        subtitle:
+          "GI-tagged and Traditional Handicrafts collection from across Karnataka",
         layout: "categories",
         products: [
-          {
-            id: "karnataka-bronzeware",
-            name: "Karnataka Bronzeware",
-            description:
-              "Cast using the ancient lost-wax process, these solid bronze sculptures capture intricate iconographical details of deities and traditional motifs with remarkable heirloom durability.",
-            image: "/brands/karnataka-handicrafts/craft-04.png",
-            href: "/our-brands/karnataka-handicrafts/karnataka-bronzeware",
-          },
           {
             id: "bidriware",
             name: "Bidriware",
             description:
-              "The origins of the craft date back to the 13th century. Bidriware (GI tagged) is a 500-year-old Bidar craft featuring pure silver inlay work on black zinc-copper alloy. The unique soil around the Bidar Fort provides the oxidised colour to the products.",
-            image: "/brands/karnataka-handicrafts/craft-1.png",
+              "Brought from Iran in the 13th century, Bidriware is a 500-year-old Bidar craft featuring pure silver inlay on black zinc-copper alloy. Karnataka GI-20 since 2005.",
+            image: "/brands/karnataka-handicrafts/ka-handi-1.png",
             href: "/our-brands/karnataka-handicrafts/bidriware",
           },
           {
             id: "channapatna-toys",
             name: "Channapatna Toys & Dolls",
             description:
-              "Crafted from soft ‘Hale wood’ in Kannada (ivory wood), these are lacquerware products finished with safe, non-toxic organic vegetable dyes. These eco-friendly turned-wood toys are celebrated for their vibrant colors and smooth, rounded forms.",
-            image: "/brands/karnataka-handicrafts/craft-2.png",
+              "Crafted from soft ivory wood and finished with safe, non-toxic organic vegetable dyes, these eco-friendly turned-wood toys are celebrated for their vibrant colors and smooth, rounded forms.",
+            image: "/brands/karnataka-handicrafts/ka-handi-2.png",
             href: "/our-brands/karnataka-handicrafts/channapatna-toys",
+          },
+          {
+            id: "designer-products",
+            name: "Designer Products",
+            description:
+              "Contemporary utility and decor pieces that bridge tradition and modernity by adapting classic Karnataka craft techniques into stylish, functional items for modern lifestyles.",
+            image: "/brands/karnataka-handicrafts/ka-handi-3.png",
+            href: "/our-brands/karnataka-handicrafts/designer-products",
+          },
+          {
+            id: "karnataka-bronzeware",
+            name: "Karnataka Bronzeware",
+            description:
+              "Cast using the ancient lost-wax process, these solid bronze sculptures capture intricate iconographical details of deities and traditional motifs with remarkable heirloom durability.",
+            image: "/brands/karnataka-handicrafts/ka-handi-4.png",
+            href: "/our-brands/karnataka-handicrafts/karnataka-bronzeware",
+          },
+          {
+            id: "kasuti-embroidery",
+            name: "Kasuthi Embroidery",
+            description:
+              "A meticulous traditional folk embroidery technique using delicate geometric patterns stitched without knots, making both sides of the fabric look identical.",
+            image: "/brands/karnataka-handicrafts/ka-handi-5.png",
+            href: "/our-brands/karnataka-handicrafts/kasuti-embroidery",
+          },
+          {
+            id: "mysore-rosewood-inlay",
+            name: "Mysore Rosewood Inlay",
+            description:
+              "An intricate art form where contrasting materials like ivory-substitutes, wood veneers, and acrylics are precisely shaped and embedded into seasoned rosewood to depict royal procession scenes and floral patterns.",
+            image: "/brands/karnataka-handicrafts/ka-handi-6.png",
+            href: "/our-brands/karnataka-handicrafts/mysore-rosewood-inlay",
+          },
+          {
+            id: "mysore-paintings-ganjifa",
+            name: "Mysore Traditional Paintings & Ganjifa Cards of Mysore",
+            description:
+              "Distinguished by delicate linework and rich gesso work embellished with pure gold foil, paired with the heritage tradition of hand-painted circular playing cards featuring mythological figures.",
+            image: "/brands/karnataka-handicrafts/ka-handi-7.png",
+            href: "/our-brands/karnataka-handicrafts/mysore-paintings-ganjifa",
+          },
+          {
+            id: "navalgund-dhurries",
+            name: "Navalgund Dhurries",
+            description:
+              "Hand-woven cotton floor rugs instantly recognizable by their bold geometric patterns, striking color contrasts, and signature motifs like peacocks and playing card designs.",
+            image: "/brands/karnataka-handicrafts/ka-handi-8.png",
+            href: "/our-brands/karnataka-handicrafts/navalgund-dhurries",
           },
           {
             id: "sandalwood-carvings",
             name: "Sandalwood Carvings",
             description:
               "Renowned for their natural aromatic fragrance, these ultra-detailed sculptures are carved from premium Karnataka sandalwood using centuries-old precision craftsmanship.",
-            image: "/brands/karnataka-handicrafts/craft-9.png",
+            image: "/brands/karnataka-handicrafts/ka-handi-9.png",
             href: "/our-brands/karnataka-handicrafts/sandalwood-carvings",
           },
         ],
@@ -1132,8 +1301,16 @@ export const craftCategoryPages = {
     parentSlug: "karnataka-handicrafts",
     parentTitle: "Karnataka Handicrafts",
     title: "Karnataka Bronzeware",
-    tagline:
-      "Karnataka Bronzeware is a traditional metal craft using the ancient lost-wax (cire perdue) casting technique. Protected by a Geographical Indication (GI) tag, these solid bronze sculptures capture intricate iconographical details of deities and traditional motifs.",
+    tagline: "Splendour in Metal",
+    intro: {
+      paragraphs: [
+        "Bronze sculpting is an ancient and revered art form. Created by alloying zinc, copper and tin, molten bronze is poured into moulds and then carefully chiselled and polished by skilled hands. Karnataka’s bronzeware stands out for its adherence to the ornate Hoysala style, known for its elaborate ornamentation and intricate detailing. Each sculpture is a fusion of technical precision and artistic expression, radiating a luminous beauty that reflects centuries of tradition.",
+      ],
+      extra: [
+        "Care Tips: Smear some oil and rub with soft dry cloth.",
+        "GI No – 62/2006  Certificate No.: 52  Authorised User No. AU/229/GI/62/1",
+      ],
+    },
     heroImage: "/brands/karnataka-handicrafts/bronzeware/banner.png",
     products: [
       {
@@ -1215,8 +1392,16 @@ export const craftCategoryPages = {
     parentSlug: "karnataka-handicrafts",
     parentTitle: "Karnataka Handicrafts",
     title: "Bidriware",
-    tagline:
-      "The origins of the craft date back to the 13th century. Bidriware (GI tagged) is a 500-year-old Bidar craft featuring pure silver inlay work on black zinc-copper alloy. The unique soil around the Bidar Fort provides the oxidised colour to the products.",
+    tagline: "The Art of Blackened Elegance",
+    intro: {
+      paragraphs: [
+        "The magic begins with fire and metal—an alloy of copper and zinc, hand-cast with precision. This careful alchemy marks the birth of Bidriware, the striking, sooty-black metalcraft born in Bidar. Onto this dark base, artisans engrave intricate motifs using fine grooving chisels, then inlay the patterns with pure silver, creating a striking contrast. It calls for earth found only in the shadowed, silent corners of Bidar Fort, where time lingers and whispers. The artisans test the soil on their tongues, searching for the perfect mineral balance, known only by taste, passed down through generations. Only then is it worthy to give Bidri its signature hue.",
+      ],
+      extra: [
+        "Care Tips: Smear some oil on the item and polish with a soft cloth.",
+        "GI. No – 20/2005. Certificate No.: 21  Authorised User No. AU/37329/ GI/20/181.",
+      ],
+    },
     heroImage: "/brands/karnataka-handicrafts/bidriware/hero.jpeg",
     products: [
       {
@@ -1290,8 +1475,16 @@ export const craftCategoryPages = {
     parentSlug: "karnataka-handicrafts",
     parentTitle: "Karnataka Handicrafts",
     title: "Channapatna Toys & Dolls",
-    tagline:
-      "Crafted from soft ‘Hale wood’ in Kannada (ivory wood), these are lacquerware products finished with safe, non-toxic organic vegetable dyes. These eco-friendly turned-wood toys are celebrated for their vibrant colors and smooth, rounded forms.",
+    tagline: "It isn’t just a wooden toy",
+    intro: {
+      paragraphs: [
+        "Lacquerware in Karnataka traces its roots back to the early centuries, finding its true home in Channapatna—a small town in the Ramnagara district near Bengaluru. Here, Hale Mara (Ivory wood) is carefully seasoned for months before being shaped on a lathe into elegant forms. As the wood spins, slender sticks of coloured lac are pressed against it. The heat from friction melts the lac, allowing the vibrant colour to spread evenly across the surface. A final polish with a palm leaf imparts the piece with its signature glossy sheen.",
+      ],
+      extra: [
+        "Care Tips: Rub with soft dry cloths.",
+        "GI Regn. No – 23/2005. Certificate No.: 22  Authorised User No. AU/37242/ GI/23/71.",
+      ],
+    },
     heroImage: "/brands/karnataka-handicrafts/channapatna-toys/banner.png",
     products: [
       {
@@ -1299,7 +1492,7 @@ export const craftCategoryPages = {
         name: "Channapatna Couple Dolls",
         description:
           "A traditional pair of turned-wood dolls dressed in classic Karnataka attire, lacquer-finished in bright vegetable dyes — a cheerful decorative set rooted in Channapatna's toy-making heritage.",
-        material: "Ivory wood with organic vegetable dyes",
+        material: "Hale wood with organic vegetable dyes",
         images: ["/brands/karnataka-handicrafts/channapatna-toys/channapatna-1.png"],
       },
       {
@@ -1307,7 +1500,7 @@ export const craftCategoryPages = {
         name: "Channapatna Spinning Top",
         description:
           "A classic lacquered wooden spinning top in bold red and green, turned on a lathe and polished to a smooth finish — a nostalgic favourite among Channapatna's turned-wood toys.",
-        material: "Ivory wood with organic vegetable dyes",
+        material: "Hale wood with organic vegetable dyes",
         images: ["/brands/karnataka-handicrafts/channapatna-toys/channapatna-2.png"],
       },
       {
@@ -1315,7 +1508,7 @@ export const craftCategoryPages = {
         name: "Channapatna Stacking Rings Tower",
         description:
           "A colourful stacking tower of graduated wooden rings, lacquer-dyed in rainbow shades — a simple, screen-free toy that doubles as a shape-and-colour learning aid for little hands.",
-        material: "Ivory wood with organic vegetable dyes",
+        material: "Hale wood with organic vegetable dyes",
         images: ["/brands/karnataka-handicrafts/channapatna-toys/channapatna-3.png"],
       },
       {
@@ -1323,7 +1516,7 @@ export const craftCategoryPages = {
         name: "Channapatna Woman with Pot Doll",
         description:
           "A charming turned-wood figure of a woman balancing a pot, finished in rich lacquer tones — a decorative piece that reflects everyday rural life through Channapatna's signature toy-making style.",
-        material: "Ivory wood with organic vegetable dyes",
+        material: "Hale wood with organic vegetable dyes",
         images: ["/brands/karnataka-handicrafts/channapatna-toys/channapatna-4.png"],
       },
       {
@@ -1331,7 +1524,7 @@ export const craftCategoryPages = {
         name: "Channapatna Pull-Along Bear with Rings",
         description:
           "A rolling wooden bear threaded with bright spinning rings on its axle, designed as a pull-along toy that rattles and turns as it moves — a playful, eco-friendly classic for toddlers.",
-        material: "Ivory wood with organic vegetable dyes",
+        material: "Hale wood with organic vegetable dyes",
         images: ["/brands/karnataka-handicrafts/channapatna-toys/channapatna-5.png"],
       },
       {
@@ -1339,7 +1532,7 @@ export const craftCategoryPages = {
         name: "Channapatna Bear Push Toy",
         description:
           "A rounded, smiling bear figure mounted on wooden wheels, lacquered in warm browns — a sturdy little push toy shaped and finished in the traditional Channapatna turnery style.",
-        material: "Ivory wood with organic vegetable dyes",
+        material: "Hale wood with organic vegetable dyes",
         images: ["/brands/karnataka-handicrafts/channapatna-toys/channapatna-6.png"],
       },
       {
@@ -1347,7 +1540,7 @@ export const craftCategoryPages = {
         name: "Channapatna Musician Dolls Trio",
         description:
           "A set of three turned-wood figures dressed in colourful traditional outfits, each lacquer-painted with distinct patterns — a decorative trio that captures the folk-art charm of Channapatna toy-making.",
-        material: "Ivory wood with organic vegetable dyes",
+        material: "Hale wood with organic vegetable dyes",
         images: ["/brands/karnataka-handicrafts/channapatna-toys/channapatna-7.png"],
       },
       {
@@ -1355,7 +1548,7 @@ export const craftCategoryPages = {
         name: "Channapatna Pull-Along Rabbit",
         description:
           "An ivory-toned wooden rabbit on wheels with a pull-string, its smooth turned form and gentle painted features making it a soft, safe first toy in the Channapatna tradition.",
-        material: "Ivory wood with organic vegetable dyes",
+        material: "Hale wood with organic vegetable dyes",
         images: ["/brands/karnataka-handicrafts/channapatna-toys/channapatna-8.png"],
       },
       {
@@ -1363,7 +1556,7 @@ export const craftCategoryPages = {
         name: "Channapatna Pull-Along Train",
         description:
           "A segmented wooden pull-toy train in red and green lacquer, its rounded carriages linked and mounted on wheels — a bright, rattling companion for toddlers learning to walk.",
-        material: "Ivory wood with organic vegetable dyes",
+        material: "Hale wood with organic vegetable dyes",
         images: ["/brands/karnataka-handicrafts/channapatna-toys/channapatna-9.png"],
       },
       {
@@ -1371,7 +1564,7 @@ export const craftCategoryPages = {
         name: "Channapatna Pull-Along Wheel Toy",
         description:
           "A green wooden wheel toy trailing a pair of red wooden balls on a pull-string, designed to roll and bounce playfully as it's dragged along — a simple, tactile Channapatna classic.",
-        material: "Ivory wood with organic vegetable dyes",
+        material: "Hale wood with organic vegetable dyes",
         images: ["/brands/karnataka-handicrafts/channapatna-toys/channapatna-10.png"],
       },
       {
@@ -1379,7 +1572,7 @@ export const craftCategoryPages = {
         name: "Channapatna Pull-Along Spool Train",
         description:
           "A chain of lacquered wooden spools linked into a rolling pull-toy, alternating warm reds, ochres and creams — a rhythmic, rattling toy turned on the traditional Channapatna lathe.",
-        material: "Ivory wood with organic vegetable dyes",
+        material: "Hale wood with organic vegetable dyes",
         images: ["/brands/karnataka-handicrafts/channapatna-toys/channapatna-11.png"],
       },
       {
@@ -1387,15 +1580,15 @@ export const craftCategoryPages = {
         name: "Channapatna Abacus Toy",
         description:
           "A hand-turned wooden counting toy with sliding beads set between two dumbbell-shaped ends, lacquered in deep maroon and gold — a playful nod to early learning through traditional craft.",
-        material: "Ivory wood with organic vegetable dyes",
+        material: "Hale wood with organic vegetable dyes",
         images: ["/brands/karnataka-handicrafts/channapatna-toys/channapatna-12.png"],
       },
       {
         id: "cp-cat-figure",
         name: "Channapatna Cat Figure",
         description:
-          "A stylised standing cat figure turned from soft ivory wood and lacquered in deep maroon tones, its smooth, rounded silhouette typical of Channapatna's signature toy-making finish.",
-        material: "Ivory wood with organic vegetable dyes",
+          "A stylised standing cat figure turned from soft Hale wood and lacquered in deep maroon tones, its smooth, rounded silhouette typical of Channapatna's signature toy-making finish.",
+        material: "Hale wood with organic vegetable dyes",
         images: ["/brands/karnataka-handicrafts/channapatna-toys/channapatna-13.png"],
       },
       {
@@ -1403,7 +1596,7 @@ export const craftCategoryPages = {
         name: "Channapatna Rattle Toy",
         description:
           "A handheld wooden rattle with a lacquered red ball head and looped cord, designed for little hands to shake and grip — a simple, safe first toy from Channapatna's toy-making tradition.",
-        material: "Ivory wood with organic vegetable dyes",
+        material: "Hale wood with organic vegetable dyes",
         images: ["/brands/karnataka-handicrafts/channapatna-toys/channapatna-14.png"],
       },
     ],
@@ -1413,8 +1606,13 @@ export const craftCategoryPages = {
     parentSlug: "karnataka-handicrafts",
     parentTitle: "Karnataka Handicrafts",
     title: "Sandalwood Carvings",
-    tagline:
-      "Renowned for their natural aromatic fragrance, these ultra-detailed sculptures are carved from premium Karnataka sandalwood using centuries-old precision craftsmanship.",
+    tagline: "It isn’t just a carving",
+    intro: {
+      paragraphs: [
+        "Karnataka known for its finest sandalwood is also popularly known as Gandhadagudi – the land of Sandalwood. The Gudigars concentrated in Shimoga, Uttara Kannada, Mysuru and Bengaluru districts have carved the scented heartwood of the fragrant Srigandha (Sandalwood) for over a millennium and continue to use the simplest tools to do so: a saw, a plane, a hammer and chisel, or fine-grained hard stone. Inspired by nature and devotion towards the gods, generations of this artisan community have devoted themselves wholly to preserving age-old techniques and crafting this elaborate, incomparable art.",
+      ],
+      extra: ["Care Tips: Clean with soft brush or soft dry cloth."],
+    },
     heroImage: "/brands/karnataka-handicrafts/sandalwood-carvings/hero.png",
     products: [
       {
@@ -1448,6 +1646,26 @@ export const craftCategoryPages = {
           "Lord Krishna carved within an elaborately latticed temple arch, the openwork frame showcasing the sandalwood carver's skill in translating temple architecture into miniature form.",
         material: "Karnataka sandalwood",
         images: ["/brands/karnataka-handicrafts/sandalwood-carvings/sandalwood-4.png"],
+      },
+      {
+        id: "sw-ashoka-pillar",
+        name: "Sandalwood Ashoka Pillar",
+        description:
+          "A finely carved Lion Capital of Ashoka — four lions standing back-to-back above the Dharma Chakra abacus and inverted lotus, rising from a fluted column on a stepped circular base.",
+        material: "Karnataka sandalwood",
+        images: [
+          "/brands/karnataka-handicrafts/sandalwood-carvings/sandalwood-10.webp",
+        ],
+      },
+      {
+        id: "sw-venugopala",
+        name: "Sandalwood Venugopala (Krishna with Cow)",
+        description:
+          "Lord Krishna as Venugopala, standing cross-legged with flute in hand beside a devoted cow — carved in rich sandalwood detail from crown and garlands to the floral pedestal beneath.",
+        material: "Karnataka sandalwood",
+        images: [
+          "/brands/karnataka-handicrafts/sandalwood-carvings/sandalwood-11.webp",
+        ],
       },
       {
         id: "sw-temple-arch-panel",
@@ -1490,6 +1708,537 @@ export const craftCategoryPages = {
         images: ["/brands/karnataka-handicrafts/sandalwood-carvings/sandalwood-9.png"],
       },
     ],
+  },
+  "navalgund-dhurries": {
+    slug: "navalgund-dhurries",
+    parentSlug: "karnataka-handicrafts",
+    parentTitle: "Karnataka Handicrafts",
+    title: "Navalgund Dhurries",
+    tagline: "It isn’t just a dhurrie",
+    intro: {
+      paragraphs: [
+        "In the 16th century, amid the shifting power struggles between the Deccan Sultanate and the Vijayanagara Empire, the Jamkhana weavers sought sanctuary on the Hill of Peacocks—Navalgund. At the heart of their craft lies the Khaday Magga, a rare vertical loom used exclusively by women. With it, they created striking geometric patterns—designs as deliberate as they are symbolic, carried across generations with quiet devotion.",
+        "This exodus was no ordinary displacement. It was a pledge to preserve tradition, a journey of survival through artistry.",
+      ],
+      extra: [
+        "GI. No – 61/2015. Certificate No.: 51  Authorised User No. AU/228/GI/ 61/1.",
+      ],
+    },
+    heroImage: "/brands/karnataka-handicrafts/ka-handi-8.png",
+    products: [
+      {
+        id: "nd-diamond-medallion",
+        name: "Navalgund Diamond Medallion Dhurrie",
+        description:
+          "A bold geometric dhurrie woven on the Khaday Magga, with a central diamond medallion set in teal and orange against a deep burgundy field, framed by striped borders and cream fringe.",
+        material: "Handwoven cotton",
+        images: [
+          "/brands/karnataka-handicrafts/navalgund-dhurries/nava-dhur-1.webp",
+        ],
+      },
+      {
+        id: "nd-star-panel",
+        name: "Navalgund Star Panel Dhurrie",
+        description:
+          "A classic Jamkhana runner with a maroon central panel, sawtooth yellow border and a multi-coloured star motif, flanked by navy, purple and mustard stripes.",
+        material: "Handwoven cotton",
+        images: [
+          "/brands/karnataka-handicrafts/navalgund-dhurries/nava-dhur-2.webp",
+        ],
+      },
+      {
+        id: "nd-shanka-motif",
+        name: "Navalgund Shanka Motif Dhurrie",
+        description:
+          "A vibrant flatweave with a deep red field and central shanka (diamond-star) motif, edged in jagged blue borders and striped ends finished with cream tassels.",
+        material: "Handwoven cotton",
+        images: [
+          "/brands/karnataka-handicrafts/navalgund-dhurries/nava-dhur-3.webp",
+        ],
+      },
+      {
+        id: "nd-interlocking-diamonds",
+        name: "Navalgund Interlocking Diamonds Dhurrie",
+        description:
+          "A long geometric runner of interlocking stepped diamonds in purple and orange, bordered with green and terracotta stripes — a hallmark of Navalgund’s Khaday Magga weave.",
+        material: "Handwoven cotton",
+        images: [
+          "/brands/karnataka-handicrafts/navalgund-dhurries/nava-dhur-4.webp",
+        ],
+      },
+    ],
+  },
+  "mysore-rosewood-inlay": {
+    slug: "mysore-rosewood-inlay",
+    parentSlug: "karnataka-handicrafts",
+    parentTitle: "Karnataka Handicrafts",
+    title: "Mysore Rosewood Inlay",
+    tagline: "A Timeless Craft of Karnataka",
+    intro: {
+      paragraphs: [
+        "A rich traditional craft of Karnataka, Rosewood Inlay (Kundana Kale) is a meticulous art form practiced primarily in the royal city of Mysuru. Artisans skillfully carve intricate designs into the dark, lustrous surface of rosewood, scooping out shallow patterns with precision. Into these carved spaces, they inlay slivers of naturally coloured woods, piecing together vivid landscapes, historic events, and mythological scenes.",
+      ],
+      extra: [
+        "Care Tips: Apply mansion polish and rub with soft dry cloth for a shiny look. Avoid damp place and water.",
+        "GI. No – 24/2005. Certificate No.: 24  Authorised User No. AU/37244/GI/ 24/226.",
+      ],
+    },
+    heroImage: "/brands/karnataka-handicrafts/rosewood-inlay/rosewood-inlay-1.webp",
+    products: [
+      {
+        id: "ri-royal-elephant-procession",
+        name: "Rosewood Inlay — Royal Elephant Procession",
+        description:
+          "A framed Kundana Kale panel of a royal elephant procession — white elephant with ornate howdah, mahout and attendants under a ceremonial umbrella, pieced in contrasting woods on dark rosewood.",
+        material: "Mysore rosewood with multi-coloured wood inlays",
+        images: [
+          "/brands/karnataka-handicrafts/rosewood-inlay/rosewood-inlay-1.webp",
+        ],
+      },
+      {
+        id: "ri-elephant-herd-tray",
+        name: "Rosewood Inlay — Elephant Herd Oval Tray",
+        description:
+          "An oval rosewood tray with a wildlife inlay of elephants among palms and flowering trees — a functional piece that showcases Mysore’s marquetry craft.",
+        material: "Mysore rosewood with multi-coloured wood inlays",
+        images: [
+          "/brands/karnataka-handicrafts/rosewood-inlay/rosewood-inlay-2.webp",
+        ],
+      },
+      {
+        id: "ri-venkateswara-wall-art",
+        name: "Rosewood Inlay — Lord Venkateswara Wall Art",
+        description:
+          "Lord Venkateswara standing within an inlaid shrine arch, framed by carved pillars and a floral prabhavali — a fine example of Mysore rosewood inlay devotion art.",
+        material: "Mysore rosewood with multi-coloured wood inlays",
+        images: [
+          "/brands/karnataka-handicrafts/rosewood-inlay/rosewood-inlay-3.webp",
+        ],
+      },
+      {
+        id: "ri-ganesha-wall-plaque",
+        name: "Rosewood Inlay — Ganesha Wall Plaque",
+        description:
+          "Seated Lord Ganesha inlaid in cream, orange and gold-toned woods within a hand-carved arch, with his mooshika companion at the base.",
+        material: "Mysore rosewood with multi-coloured wood inlays",
+        images: [
+          "/brands/karnataka-handicrafts/rosewood-inlay/rosewood-inlay-4.webp",
+        ],
+      },
+      {
+        id: "ri-ganesha-carved-arch",
+        name: "Rosewood Ganesha with Carved Arch",
+        description:
+          "A sculpted rosewood Ganesha seated under a carved prabhavali topped with Kirtimukha — polished dark wood with contrasting white tusks and fine jewellery detail.",
+        material: "Mysore rosewood",
+        images: [
+          "/brands/karnataka-handicrafts/rosewood-inlay/rosewood-inlay-5.webp",
+        ],
+      },
+      {
+        id: "ri-elephant-landscape-plaque",
+        name: "Rosewood Inlay — Elephant Landscape Plaque",
+        description:
+          "A square rosewood panel with six white elephants moving through hills, water and flowering trees — landscape marquetry in natural wood tones.",
+        material: "Mysore rosewood with multi-coloured wood inlays",
+        images: [
+          "/brands/karnataka-handicrafts/rosewood-inlay/rosewood-inlay-6.webp",
+        ],
+      },
+      {
+        id: "ri-elephant-jewellery-box",
+        name: "Rosewood Inlay — Elephant Jewellery Box",
+        description:
+          "A polished rosewood trinket box with a lid inlay of two elephants in a landscape, metal clasp and raised feet — a classic Mysore keepsake piece.",
+        material: "Mysore rosewood with multi-coloured wood inlays",
+        images: [
+          "/brands/karnataka-handicrafts/rosewood-inlay/rosewood-inlay-7.webp",
+        ],
+      },
+      {
+        id: "ri-elephant-log-cart",
+        name: "Rosewood Elephant with Log Cart",
+        description:
+          "A carved rosewood working elephant pulling a wheeled cart of timber logs on a long oval base — a charming sculptural piece from the Mysore craft tradition.",
+        material: "Mysore rosewood",
+        images: [
+          "/brands/karnataka-handicrafts/rosewood-inlay/rosewood-inlay-8.webp",
+        ],
+      },
+    ],
+  },
+  "shivani-wood-carvings": {
+    slug: "shivani-wood-carvings",
+    parentSlug: "karnataka-handicrafts",
+    parentTitle: "Karnataka Handicrafts",
+    title: "Shivani Wood Carvings",
+    tagline: "Echoes in Timber",
+    intro: {
+      paragraphs: [
+        "Shivani wood carvings are a distinctive traditional craft known for their bold forms and intricate detailing. Made primarily from local woods, these carvings often depict religious motifs, folk tales, and scenes from epics such as the Ramayana and Mahabharata. Artisans use chisels and hand tools to carve deep reliefs, characterized by expressive figures and ornate patterns. Each piece is a blend of rustic charm and skilled workmanship, preserving both aesthetic beauty and cultural heritage. Shivani wood carving remains a lesser-known yet culturally significant tradition, kept alive by a small community of dedicated artisans.",
+      ],
+      extra: ["Care Tips: Clean with soft brush or soft dry cloth."],
+    },
+    heroImage: "/brands/karnataka-handicrafts/craft-5.png",
+    products: [],
+  },
+  "mysore-traditional-paintings": {
+    slug: "mysore-traditional-paintings",
+    parentSlug: "karnataka-handicrafts",
+    parentTitle: "Karnataka Handicrafts",
+    title: "Mysore Traditional Paintings",
+    tagline: "Gold, gesso and sacred narrative",
+    intro: {
+      paragraphs: [
+        "Mysore Traditional Painting are off-shoots of the Vijayanagara school of painting that flourished under the patronage of the Wodeyar rulers of Mysore, during the 16th and 17th centuries. Inspired by the region’s rich devotional and cultural traditions, these paintings bring to life Hindu deities, mythological stories and sacred narratives through graceful forms, delicate lines and intricate ornamentation. The distinctive use of gesso relief and gold foil adds a warm, luminous quality to each composition. Created with patience, precision and generations of artistic knowledge, Mysore Traditional paintings continue to celebrate the timeless beauty and cultural heritage of Karnataka.",
+      ],
+      extra: [
+        "GI No – 32/2005  Certificate No.: 26  Authorised User No.: AU/37245/GI/32/53",
+      ],
+    },
+    heroImage: "/brands/karnataka-handicrafts/ka-handi-7.png",
+    products: [],
+  },
+  "ganjifa-cards": {
+    slug: "ganjifa-cards",
+    parentSlug: "karnataka-handicrafts",
+    parentTitle: "Karnataka Handicrafts",
+    title: "Ganjifa Cards of Mysore",
+    tagline: "It isn’t just a deck of cards",
+    intro: {
+      paragraphs: [
+        "With a legacy spanning over 300 years, Ganjifa cards were cherished by Krishnaraja Wodeyar III of Mysuru, a skilled player himself. Often called \"God's play,\" the game is played with cards featuring divine images, each surrounded by exquisite, precious craftsmanship. This traditional art thrives in Mysuru and its neighbouring regions, where skilled artisans continue to handcraft and paint each card by hand. The cards are celebrated for their intricate miniature details, the use of natural colours, low-relief artistry, and unique brush strokes.",
+      ],
+      extra: [
+        "GI No – 60/2011. Certificate No.: 50  Authorised User No. AU/230/GI/ 60/1",
+      ],
+    },
+    heroImage: "/brands/karnataka-handicrafts/ganjifa/ganjifa-1.webp",
+    products: [
+      {
+        id: "gj-durga-on-lion",
+        name: "Mysore Painting — Goddess Durga on Lion",
+        description:
+          "A classical Mysore painting of multi-armed Goddess Durga seated on her lion mount, enclosed in an ornate gold-gesso prabhavali against a deep maroon field.",
+        material: "Natural colours with gold foil on board",
+        images: ["/brands/karnataka-handicrafts/ganjifa/ganjifa-1.webp"],
+      },
+      {
+        id: "gj-dancing-apsara",
+        name: "Mysore Painting — Dancing Apsara",
+        description:
+          "A graceful celestial dancer in an emerald green sari, framed by gold creepers and yellow blossoms — delicate linework and gold-leaf jewellery typical of the Mysore school.",
+        material: "Natural colours with gold foil on board",
+        images: ["/brands/karnataka-handicrafts/ganjifa/ganjifa-2.webp"],
+      },
+      {
+        id: "gj-animal-motif-set",
+        name: "Framed Ganjifa Set — Nandi, Elephant & Hamsa",
+        description:
+          "Three hand-painted circular Ganjifa motifs — Nandi, elephant and hamsa — each set in a dark wood frame with white matting, celebrating Mysore’s miniature card tradition.",
+        material: "Hand-painted circular cards, framed",
+        images: ["/brands/karnataka-handicrafts/ganjifa/ganjifa-3.webp"],
+      },
+      {
+        id: "gj-framed-collection",
+        name: "Framed Ganjifa Cards Collection",
+        description:
+          "A stacked collection of framed Mysore Ganjifa cards with vibrant circular motifs and decorative borders — heirloom miniatures rooted in over 300 years of craft.",
+        material: "Hand-painted circular cards, framed",
+        images: ["/brands/karnataka-handicrafts/ganjifa/ganjifa-4.webp"],
+      },
+      {
+        id: "gj-ganesha-consort",
+        name: "Framed Ganjifa — Ganesha with Consort",
+        description:
+          "Lord Ganesha seated with consort on a golden pedestal, painted in circular Ganjifa form on a vivid red ground and presented in a dark wood frame with gold inner border.",
+        material: "Hand-painted circular card, framed",
+        images: ["/brands/karnataka-handicrafts/ganjifa/ganjifa-5.webp"],
+      },
+    ],
+  },
+  "mysore-paintings-ganjifa": {
+    slug: "mysore-paintings-ganjifa",
+    parentSlug: "karnataka-handicrafts",
+    parentTitle: "Karnataka Handicrafts",
+    title: "Mysore Traditional Paintings & Ganjifa Cards of Mysore",
+    tagline: "Gold foil, gesso and God's play",
+    intro: {
+      paragraphs: [
+        "Mysore Traditional Painting are off-shoots of the Vijayanagara school of painting that flourished under the patronage of the Wodeyar rulers of Mysore, during the 16th and 17th centuries. Inspired by the region’s rich devotional and cultural traditions, these paintings bring to life Hindu deities, mythological stories and sacred narratives through graceful forms, delicate lines and intricate ornamentation. The distinctive use of gesso relief and gold foil adds a warm, luminous quality to each composition.",
+        "With a legacy spanning over 300 years, Ganjifa cards were cherished by Krishnaraja Wodeyar III of Mysuru, a skilled player himself. Often called \"God's play,\" the game is played with cards featuring divine images, each surrounded by exquisite craftsmanship. Artisans continue to handcraft and paint each card by hand, celebrated for miniature detail, natural colours, low-relief artistry and unique brush strokes.",
+      ],
+      extra: [
+        "Mysore Traditional Paintings — GI No – 32/2005  Certificate No.: 26  Authorised User No.: AU/37245/GI/32/53",
+        "Ganjifa Cards of Mysore — GI No – 60/2011. Certificate No.: 50  Authorised User No. AU/230/GI/ 60/1",
+      ],
+    },
+    heroImage: "/brands/karnataka-handicrafts/ganjifa/ganjifa-1.webp",
+    products: [
+      {
+        id: "mpg-durga-on-lion",
+        name: "Mysore Painting — Goddess Durga on Lion",
+        description:
+          "A classical Mysore painting of multi-armed Goddess Durga seated on her lion mount, enclosed in an ornate gold-gesso prabhavali against a deep maroon field.",
+        material: "Natural colours with gold foil on board",
+        images: ["/brands/karnataka-handicrafts/ganjifa/ganjifa-1.webp"],
+      },
+      {
+        id: "mpg-dancing-apsara",
+        name: "Mysore Painting — Dancing Apsara",
+        description:
+          "A graceful celestial dancer in an emerald green sari, framed by gold creepers and yellow blossoms — delicate linework and gold-leaf jewellery typical of the Mysore school.",
+        material: "Natural colours with gold foil on board",
+        images: ["/brands/karnataka-handicrafts/ganjifa/ganjifa-2.webp"],
+      },
+      {
+        id: "mpg-animal-motif-set",
+        name: "Framed Ganjifa Set — Nandi, Elephant & Hamsa",
+        description:
+          "Three hand-painted circular Ganjifa motifs — Nandi, elephant and hamsa — each set in a dark wood frame with white matting, celebrating Mysore’s miniature card tradition.",
+        material: "Hand-painted circular cards, framed",
+        images: ["/brands/karnataka-handicrafts/ganjifa/ganjifa-3.webp"],
+      },
+      {
+        id: "mpg-framed-collection",
+        name: "Framed Ganjifa Cards Collection",
+        description:
+          "A stacked collection of framed Mysore Ganjifa cards with vibrant circular motifs and decorative borders — heirloom miniatures rooted in over 300 years of craft.",
+        material: "Hand-painted circular cards, framed",
+        images: ["/brands/karnataka-handicrafts/ganjifa/ganjifa-4.webp"],
+      },
+      {
+        id: "mpg-ganesha-consort",
+        name: "Framed Ganjifa — Ganesha with Consort",
+        description:
+          "Lord Ganesha seated with consort on a golden pedestal, painted in circular Ganjifa form on a vivid red ground and presented in a dark wood frame with gold inner border.",
+        material: "Hand-painted circular card, framed",
+        images: ["/brands/karnataka-handicrafts/ganjifa/ganjifa-5.webp"],
+      },
+    ],
+  },
+  "designer-products": {
+    slug: "designer-products",
+    parentSlug: "karnataka-handicrafts",
+    parentTitle: "Karnataka Handicrafts",
+    title: "Designer Products",
+    tagline: "Tradition, remade for modern living",
+    intro: {
+      paragraphs: [
+        "Contemporary utility and decor pieces that bridge tradition and modernity by adapting classic Karnataka craft techniques into stylish, functional items for modern lifestyles.",
+      ],
+      extra: [],
+    },
+    heroImage: "/brands/karnataka-handicrafts/designer-product/designer-prod-10.webp",
+    products: [
+      {
+        id: "dp-bidri-floral-necklace",
+        name: "Bidri Floral Pendant Necklace",
+        description:
+          "A circular black Bidri pendant with silver floral inlay on a slim black cord — traditional Bidar metalcraft remade as everyday designer jewellery.",
+        material: "Bidriware (zinc-copper alloy with silver inlay)",
+        images: [
+          "/brands/karnataka-handicrafts/designer-product/designer-prod-1.webp",
+        ],
+      },
+      {
+        id: "dp-bidri-petal-necklace",
+        name: "Bidri Petal Cluster Pendant Necklace",
+        description:
+          "Matte black Bidri disc with a cluster of silver petal motifs — minimal contemporary jewellery rooted in Karnataka’s silver-inlay craft.",
+        material: "Bidriware (zinc-copper alloy with silver inlay)",
+        images: [
+          "/brands/karnataka-handicrafts/designer-product/designer-prod-2.webp",
+        ],
+      },
+      {
+        id: "dp-lotus-line-necklace",
+        name: "Lotus Line-Art Pendant Necklace",
+        description:
+          "A glossy black circular pendant with a white lotus line drawing on a black cord — a clean, modern take on a classic Indian motif.",
+        material: "Designer pendant on cord",
+        images: [
+          "/brands/karnataka-handicrafts/designer-product/designer-prod-3.webp",
+        ],
+      },
+      {
+        id: "dp-bidri-feather-necklace",
+        name: "Bidri Feather Pendant Necklace",
+        description:
+          "Black Bidri pendant with a silver feather-fletching inlay on a soft black cord — traditional inlay technique in a minimal designer silhouette.",
+        material: "Bidriware (zinc-copper alloy with silver inlay)",
+        images: [
+          "/brands/karnataka-handicrafts/designer-product/designer-prod-4.webp",
+        ],
+      },
+      {
+        id: "dp-bidri-wall-clock",
+        name: "Bidri Designer Wall Clock",
+        description:
+          "A circular Bidri wall clock with silver teardrop hour markers and a floral inlay crest — Cauvery-branded craft for the modern home.",
+        material: "Bidriware (zinc-copper alloy with silver inlay)",
+        images: [
+          "/brands/karnataka-handicrafts/designer-product/designer-prod-5.webp",
+        ],
+      },
+      {
+        id: "dp-bidri-desk-clock",
+        name: "Bidri Slanted Desk Clock",
+        description:
+          "A conical Bidri desk clock with silver floral inlay around the base — angled face for clear desk-top reading.",
+        material: "Bidriware (zinc-copper alloy with silver inlay)",
+        images: [
+          "/brands/karnataka-handicrafts/designer-product/designer-prod-6.webp",
+        ],
+      },
+      {
+        id: "dp-lacquer-red-clock",
+        name: "Lacquerware Red Table Clock",
+        description:
+          "A glossy cherry-red lacquer table clock on orange feet — Channapatna-inspired finish shaped for contemporary desks.",
+        material: "Lacquered wood",
+        images: [
+          "/brands/karnataka-handicrafts/designer-product/designer-prod-7.webp",
+        ],
+      },
+      {
+        id: "dp-wood-gold-desk-clock",
+        name: "Wood & Gold Desk Clock",
+        description:
+          "A tapered light-wood desk clock with a polished gold bezel and white dial — compact, warm and desk-ready.",
+        material: "Wood with metal bezel",
+        images: [
+          "/brands/karnataka-handicrafts/designer-product/designer-prod-8.webp",
+        ],
+      },
+      {
+        id: "dp-brass-crane-figurine",
+        name: "Brass Crane on Rosewood Base",
+        description:
+          "A polished brass crane standing on a wave-profile rosewood base — sculptural desk décor bridging metal and wood craft.",
+        material: "Brass on rosewood",
+        images: [
+          "/brands/karnataka-handicrafts/designer-product/designer-prod-9.webp",
+        ],
+      },
+      {
+        id: "dp-chrome-deer-figurine",
+        name: "Chrome Deer on Carved Wood Base",
+        description:
+          "A leaping silver-chrome deer mounted on a wave-carved rosewood block — the signature Cauvery designer desk piece.",
+        material: "Polished metal on rosewood",
+        images: [
+          "/brands/karnataka-handicrafts/designer-product/designer-prod-10.webp",
+        ],
+      },
+      {
+        id: "dp-macaque-figurine",
+        name: "Lion-Tailed Macaque Figurine",
+        description:
+          "A polished gunmetal macaque on a stepped rosewood base — a Western Ghats wildlife motif cast for modern interiors.",
+        material: "Polished metal on rosewood",
+        images: [
+          "/brands/karnataka-handicrafts/designer-product/designer-prod-11.webp",
+        ],
+      },
+      {
+        id: "dp-olive-desk-sculpture",
+        name: "Olive Lacquer Desk Sculpture",
+        description:
+          "Rosewood base with olive-green lacquer cylinders — geometric Cauvery desk décor with a quiet, contemporary silhouette.",
+        material: "Rosewood with lacquered wood",
+        images: [
+          "/brands/karnataka-handicrafts/designer-product/designer-prod-12.webp",
+        ],
+      },
+      {
+        id: "dp-orange-desk-sculpture",
+        name: "Orange Lacquer Desk Sculpture",
+        description:
+          "Dark rosewood base topped with glossy orange lacquer cylinders — Channapatna colour language for the modern desktop.",
+        material: "Rosewood with lacquered wood",
+        images: [
+          "/brands/karnataka-handicrafts/designer-product/designer-prod-13.webp",
+        ],
+      },
+      {
+        id: "dp-rosewood-leaf-necklace",
+        name: "Rosewood Inlay Leaf Pendant Necklace",
+        description:
+          "A dark rosewood disc with multi-toned leaf inlay on a warm cord — Mysore marquetry adapted as wearable design.",
+        material: "Rosewood with wood inlays",
+        images: [
+          "/brands/karnataka-handicrafts/designer-product/designer-prod-14.webp",
+        ],
+      },
+      {
+        id: "dp-paisley-trinket-box",
+        name: "Rosewood Paisley Trinket Box",
+        description:
+          "A rounded rosewood box with a bright paisley inlay on the lid — compact keepsake storage in the Kundana Kale tradition.",
+        material: "Mysore rosewood with wood inlays",
+        images: [
+          "/brands/karnataka-handicrafts/designer-product/designer-prod-15.webp",
+        ],
+      },
+      {
+        id: "dp-bird-trinket-box",
+        name: "Rosewood Bird Inlay Trinket Box",
+        description:
+          "A polished rosewood jewellery box with a minimal bird-head inlay on the lid — clean lines for everyday desk or dresser.",
+        material: "Mysore rosewood with wood inlays",
+        images: [
+          "/brands/karnataka-handicrafts/designer-product/designer-prod-16.webp",
+        ],
+      },
+      {
+        id: "dp-chrome-deer-figurine-alt",
+        name: "Chrome Deer Desk Ornament",
+        description:
+          "A dynamic silver-chrome deer on a wave-carved wood base — polished metal and rosewood for modern study or office décor.",
+        material: "Polished metal on rosewood",
+        images: [
+          "/brands/karnataka-handicrafts/designer-product/designer-prod-17.webp",
+        ],
+      },
+      {
+        id: "dp-rosewood-pen-tray",
+        name: "Rosewood Grooved Pen Tray",
+        description:
+          "A rectangular rosewood tray with four pen grooves — simple, durable desk organisation in polished hardwood.",
+        material: "Rosewood",
+        images: [
+          "/brands/karnataka-handicrafts/designer-product/designer-prod-18.webp",
+        ],
+      },
+      {
+        id: "dp-wood-pen-stand",
+        name: "Wood Pen Stand with Pen",
+        description:
+          "A light-wood pen rest with a single groove and star medallion, shown with a black-and-silver pen — understated designer stationery.",
+        material: "Wood with metal accent",
+        images: [
+          "/brands/karnataka-handicrafts/designer-product/designer-prod-19.webp",
+        ],
+      },
+    ],
+  },
+  "kasuti-embroidery": {
+    slug: "kasuti-embroidery",
+    parentSlug: "karnataka-handicrafts",
+    parentTitle: "Karnataka Handicrafts",
+    title: "Kasuthi Embroidery",
+    tagline: "Geometric stitches of Karnataka",
+    intro: {
+      paragraphs: [
+        "Kasuti is a traditional hand embroidery of Karnataka, believed to have originated in North Karnataka and practised for generations. The craft, with literary references dating back to the 15th century, has traditionally adorned in sarees and household textiles. Kasuti is valued for its intricate geometric patterns and motifs inspired by temples, chariots, flowers, birds and other elements of Karnataka’s cultural heritage. More than an embroidery technique, Kasuti represents the skill, patience and artistic heritage of Karnataka’s craft communities.",
+      ],
+      extra: [
+        "GI No – 31/2005  Certificate No.: 25  Authorised User No. AU/37241/GI/31/135",
+      ],
+    },
+    heroImage: "/brands/karnataka-handicrafts/ka-handi-5.png",
+    products: [],
   },
 };
 
