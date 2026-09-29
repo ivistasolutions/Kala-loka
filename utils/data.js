@@ -2237,8 +2237,137 @@ export const craftCategoryPages = {
         "GI No – 31/2005  Certificate No.: 25  Authorised User No. AU/37241/GI/31/135",
       ],
     },
-    heroImage: "/brands/karnataka-handicrafts/ka-handi-5.png",
-    products: [],
+    heroImage: "/brands/karnataka-handicrafts/kasuti/kasuti-prod-1.webp",
+    products: [
+      {
+        id: "kasuti-mirror-sling-bag",
+        name: "Kasuti Mirror-Work Sling Bag",
+        description:
+          "A cream quilted sling bag with a Kasuti-embroidered flap of geometric colour blocks and shisha mirrors, finished with a yellow-and-blue braided strap.",
+        material: "Hand-embroidered fabric with mirror work",
+        images: ["/brands/karnataka-handicrafts/kasuti/kasuti-prod-1.webp"],
+      },
+      {
+        id: "kasuti-banjara-framed-set",
+        name: "Banjara Kasuti Framed Mini Set",
+        description:
+          "Three dark-wood framed squares of vibrant Banjara Kasuti — sunburst mirror motif, dotted grid and star geometry — for coasters or wall décor.",
+        material: "Hand-embroidered fabric, framed",
+        images: ["/brands/karnataka-handicrafts/kasuti/kasuti-prod-2.webp"],
+      },
+      {
+        id: "kasuti-floral-coaster-set",
+        name: "Kasuti Floral Coaster Set",
+        description:
+          "Six square coasters with circular floral Kasuti motifs on blue and purple bases, each finished with a bold black border.",
+        material: "Hand-embroidered fabric",
+        images: ["/brands/karnataka-handicrafts/kasuti/kasuti-prod-3.webp"],
+      },
+      {
+        id: "kasuti-diamond-band-bag",
+        name: "Kasuti Diamond-Band Shoulder Bag",
+        description:
+          "A quilted blue-grey shoulder bag with horizontal Kasuti diamond bands in green, maroon and red, carried on a red-and-green braided strap.",
+        material: "Hand-embroidered fabric",
+        images: ["/brands/karnataka-handicrafts/kasuti/kasuti-prod-4.webp"],
+      },
+      {
+        id: "kasuti-mirror-wall-hanging",
+        name: "Framed Kasuti Mirror-Work Wall Hanging",
+        description:
+          "A long maroon panel of geometric Kasuti bands and a row of shisha-centred circles, presented in a dark wood frame.",
+        material: "Hand-embroidered fabric with mirror work, framed",
+        images: ["/brands/karnataka-handicrafts/kasuti/kasuti-prod-5.webp"],
+      },
+      {
+        id: "kasuti-star-panel-runner",
+        name: "Kasuti Star Panel Runner",
+        description:
+          "A forest-green fabric strip with five colourful star squares framed by a border of embroidered mirrors — bold folk colour for table or wall.",
+        material: "Hand-embroidered fabric with mirror work",
+        images: ["/brands/karnataka-handicrafts/kasuti/kasuti-prod-6.webp"],
+      },
+      {
+        id: "kasuti-mirror-clutch",
+        name: "Kasuti Mirror Clutch",
+        description:
+          "A dusty-pink corduroy clutch with a Kasuti band of diamond-framed mirrors and cowrie shell accents at each end.",
+        material: "Hand-embroidered fabric with mirror work",
+        images: ["/brands/karnataka-handicrafts/kasuti/kasuti-prod-7.webp"],
+      },
+      {
+        id: "kasuti-framed-motif-trio",
+        name: "Kasuti Framed Motif Trio",
+        description:
+          "Three framed Kasuti squares — star geometry, sunburst centre and dotted grid — dark wood frames for coaster or gallery display.",
+        material: "Hand-embroidered fabric, framed",
+        images: ["/brands/karnataka-handicrafts/kasuti/kasuti-prod-8.webp"],
+      },
+      {
+        id: "kasuti-crossbody-pouch",
+        name: "Kasuti Crossbody Pouch",
+        description:
+          "A navy pouch with pink quilted ends and a central Kasuti square of gold ground, turquoise cross and tiny mirrors, on a red-and-blue braided strap.",
+        material: "Hand-embroidered fabric with mirror work",
+        images: ["/brands/karnataka-handicrafts/kasuti/kasuti-prod-9.webp"],
+      },
+      {
+        id: "kasuti-geometric-framed-panel",
+        name: "Framed Kasuti Geometric Panel",
+        description:
+          "A narrow deep-red framed panel of Kasuti diamonds, zig-zags and mirror-centred circles — precise counted-thread craft for the wall.",
+        material: "Hand-embroidered fabric with mirror work, framed",
+        images: ["/brands/karnataka-handicrafts/kasuti/kasuti-prod-10.webp"],
+      },
+      {
+        id: "kasuti-temple-motif-textile",
+        name: "Kasuti Temple-Motif Textile",
+        description:
+          "Coral-red fabric with scattered buttas and a cobalt panel bearing a white-outlined temple gopuram — classic Kasuti temple and border motifs.",
+        material: "Hand-embroidered fabric",
+        images: ["/brands/karnataka-handicrafts/kasuti/kasuti-prod-11.webp"],
+      },
+      {
+        id: "kasuti-mustard-sling-pouches",
+        name: "Mustard Kasuti Sling Pouches",
+        description:
+          "A pair of mustard zip pouches with fuchsia bird-print corners edged in dark Kasuti stitch — compact everyday carry with folk colour.",
+        material: "Hand-embroidered fabric",
+        images: ["/brands/karnataka-handicrafts/kasuti/kasuti-prod-12.webp"],
+      },
+      {
+        id: "kasuti-elephant-peacock-banner",
+        name: "Kasuti Elephant & Peacock Banner",
+        description:
+          "A black Kasuti wall banner of elephants, peacocks and a central chariot motif, framed by colour blocks and dangling triangular tassels.",
+        material: "Hand-embroidered fabric",
+        images: ["/brands/karnataka-handicrafts/kasuti/kasuti-prod-13.webp"],
+      },
+      {
+        id: "kasuti-framed-home-decor-set",
+        name: "Kasuti Framed Home Décor Set",
+        description:
+          "Framed red-ground Kasuti pieces — Warli-style dance circle, bird panel and elephant key holder with metal rings — folk stitch for the home.",
+        material: "Hand-embroidered fabric, framed",
+        images: ["/brands/karnataka-handicrafts/kasuti/kasuti-prod-14.webp"],
+      },
+      {
+        id: "kasuti-peacock-toran",
+        name: "Kasuti Peacock Toran",
+        description:
+          "A black hanging toran with Kasuti peacocks, temple forms and diamond bands, finished with alternating green, yellow and red pennants.",
+        material: "Hand-embroidered fabric with mirror work",
+        images: ["/brands/karnataka-handicrafts/kasuti/kasuti-prod-15.webp"],
+      },
+      {
+        id: "kasuti-black-stole-ends",
+        name: "Black Kasuti Stole with Mirror Work",
+        description:
+          "Black fabric ends embroidered with Kasuti star and temple motifs, shisha sunbursts and neon triangular fringe — festive stole or pallu detail.",
+        material: "Hand-embroidered fabric with mirror work",
+        images: ["/brands/karnataka-handicrafts/kasuti/kasuti-prod-16.webp"],
+      },
+    ],
   },
 };
 
